@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_select_item_skin" width="144" height="292" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="down,up" >
+	<e:Group width="144" height="292" anchorOffsetY="0" left="0" top="0">
+		<e:Image id="roleFocus" source="role_box_bg_png" left="0" top="0" bottom="0" right="0" scale9Grid="5,5,64,64" includeIn="down"/>
+		<e:Label id="jobName" text="职业" size="16" fontFamily="SimHei" horizontalCenter="0" top="5"/>
+		<e:Label id="ifLocked" text="已激活" size="16" fontFamily="SimHei" horizontalCenter="0" bottom="5"/>
+		<e:Group id="roleCom" width="144" height="243" x="1" y="25" anchorOffsetY="0">
+		</e:Group>
+	</e:Group>
+</e:Skin>

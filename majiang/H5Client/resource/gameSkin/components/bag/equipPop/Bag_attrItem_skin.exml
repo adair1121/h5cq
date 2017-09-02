@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bag_attrItem_skin" width="260" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="attrTitle" text="基础属性:" textColor="0x996a02" size="14" fontFamily="SimHei" left="6" top="3"/>
+	<e:DataGroup id="itemGroup" width="260" height="0" anchorOffsetY="0" left="0" top="20" useVirtualLayout="true">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+	</e:DataGroup>
+</e:Skin>

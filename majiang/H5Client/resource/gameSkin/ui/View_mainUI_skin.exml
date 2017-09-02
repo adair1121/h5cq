@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_mainUI_skin" width="480" height="800" currentState="mainUI" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="mainUI,levelChallenge,boss" >
+	<ns1:MainUI_title id="mainUITitle" skinName="MainUI_title_skin" top="0" left="0" right="0"/>
+	<ns1:MainUI_roleInfo id="mainUIHeadBox" width="300" height="118" skinName="MainUI_roleInfo_skin" left="0" top="-1"/>
+	<e:Group width="94" height="42" x="374.33" y="584.63"  includeIn="mainUI">
+		<ns1:Btn1 id="storeBtn" skinName="Btn1_skin" left="0" top="0" right="0" bottom="0"/>
+	</e:Group>
+	<e:Image id="btn_friend" y="520.65" source="chat_ui_btn_png" horizontalCenter="-203" includeIn="mainUI" x="13"/>
+	<e:Image id="btn_chat" y="608" source="chat_ui_btn_png" horizontalCenter="-203" x="13" horizontalCenter.mainUI="-203" y.mainUI="578.65"/>
+	<e:Group id="Group_chat" x="67" y="580.65" includeIn="mainUI">
+		<e:Image source="chat_ui_bg_png" x="0" y="0"/>
+		<e:Scroller id="chat_scroller" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" height="48">
+			<e:List id="chat_list" anchorOffsetX="0" anchorOffsetY="0" x="0" scaleX="1" scaleY="1" width="282" useVirtualLayout="false">
+				<e:layout>
+					<e:VerticalLayout/>
+				</e:layout>
+			</e:List>
+		</e:Scroller>
+		
+	</e:Group>
+	<ns1:level_btn id="autoChallenge" width="111" height="151" x="359.42" y="408.65" skinName="level_btn_skin"  includeIn="mainUI"/>
+	<ns1:level_info id="levelInfo" width="170" height="87" x="307" y="32.37" skinName="level_info_skin" />
+	<e:Button id="btnExit" label="退出" includeIn="levelChallenge,boss" x="13.67" y="644.99">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="rank_btn2_up_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei" size="14"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:ProgressBar id="playerProgress" width="478" height="20" anchorOffsetX="0" skinName="MainUI_progress_skin" value="8" maximum="10" y="245.33" includeIn="boss" horizontalCenter="0"/>
+	<e:Image id="btn_mail" y="457.29" source="chat_ui_btn_png" includeIn="mainUI" x="10"/>
+	<e:Image id="bossBtn" source="nav_boss_png" includeIn="mainUI" x="68" y="638.66"/>
+	<e:Group id="group" width="480" height="644" left="0" top="37" name="group" touchEnabled="false" locked="true">
+	</e:Group>
+	<ns1:MainUI_nav id="mainNav" width="480" height="146" skinName="MainUI_nav_skin" left="0" bottom="0" height.levelChallenge="100" height.mainUI="100" height.boss="100"/>
+	<ns1:System_notice id="systemNotice" width="520" height="40" y="150.31" skinName="System_notice_skin" width.levelChallenge="520" horizontalCenter.levelChallenge="0" width.mainUI="520" horizontalCenter.mainUI="0" horizontalCenter="0"/>
+</e:Skin>

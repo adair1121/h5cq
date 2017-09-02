@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CJ_assembly_item_skin" width="370" height="95" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="reborn_normal_png" left="0" top="0" bottom="0" right="0"/>
+	<ns1:CommonItem id="item" width="66" height="82" x="14" y="8.33" skinName="ItemSkin"/>
+	<e:Label id="equipName" text="新手头盔" x="88" y="13" size="16" fontFamily="SimHei"/>
+	<e:Label text="分解获得:" x="85.98" y="49" size="16" fontFamily="SimHei"/>
+	<e:Label id="rewardLabel" text="橙装碎片 x1" x="161.31" y="49.67" size="16" fontFamily="SimHei"/>
+	<e:Button id="assemblyBtn" label="Button" skinName="Btn3_skin" horizontalCenter="136" bottom="33"/>
+</e:Skin>

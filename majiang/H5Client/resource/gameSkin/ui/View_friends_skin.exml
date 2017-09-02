@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_friends_skin" width="480" height="800" currentState="recent" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="recent,friend,chat" >
+	<e:Group x="0" y="0" anchorOffsetY="0" height="660">
+		<e:Image source="bag_baseboard_box_png" scale9Grid="154,46,178,588" x="0" y="0"/>
+		<e:Image source="friend_list_bg_png" horizontalCenter="0" top="40" anchorOffsetY.chat="0" horizontalCenter.chat="0" top.chat="40" bottom.chat="125"/>
+		<e:Image width="438" source="role_line_png" x="21.99999999999997" bottom="75" width.chat="446" horizontalCenter.chat="0"/>
+		<e:Image source="friends_title_png" horizontalCenter="0" top="8" source.chat="friends_chat_title_png"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" right="25" bottom="15"/>
+		<e:Group bottom="20" left="35">
+			<ns1:BagBtn id="btn_recently" width="94" height="42" x="0" y="0" enabled="true" skinName="BagBtn_skin"/>
+			<ns1:BagBtn id="btn_friend" width="94" height="42" x="95" y="0" enabled="true" skinName="BagBtn_skin"/>
+		</e:Group>
+		<e:Group x="23" y="40" includeIn="friend">
+			<e:Image source="firends_bg_nav_png" x="0" y="0"/>
+			<e:Label text="好友数量：" x="10" textColor="0xe6d8b3" size="16" verticalCenter="0" fontFamily="SimHei" verticalAlign="middle"/>
+			<e:Label id="txt_friendNum" text="0/25" x="90" textColor="0xE6D8B3" size="16" verticalCenter="0" fontFamily="SimHei" textAlign="left" verticalAlign="middle"/>
+			<e:Group right="2" verticalCenter="0">
+				<ns1:Btn1 id="btn_add" width="100" height="40" x="0" skinName="Btn1_skin" anchorOffsetX="0" y="0"/>
+				<ns1:Btn1 id="btn_blackList" width="100" height="40" x="205" skinName="Btn1_skin" anchorOffsetX="0" y="0"/>
+				<e:layout>
+					<e:HorizontalLayout gap="1"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+		
+		<e:Scroller id="scroller" width="434" horizontalCenter="0" top="40" bottom="80" top.friend="85" anchorOffsetY.chat="0" horizontalCenter.chat="0.5" top.chat="40" bottom.chat="125">
+			<e:List id="list"  anchorOffsetY.friend="0" height.friend="492" anchorOffsetY.chat="0" height.chat="487" useVirtualLayout.chat="false"/>
+		</e:Scroller>
+		<e:Group includeIn="chat" horizontalCenter="0" bottom="80">
+			<e:Image source="firends_bg_nav_png" includeIn="chat" rotation="180" x="434" verticalCenter="0"/>
+			<e:Image id="btn_send" source="chat_btn_send_png" includeIn="chat" verticalCenter="0" right="8"/>
+			<e:Image source="chat_input_bg_png" includeIn="chat" verticalCenter="0" left="8"/>
+			<e:EditableText id="txt_input" height="30" text="" anchorOffsetX="0" anchorOffsetY="0" fontFamily="SimHei" size="16" textColor="0xe6d8b3" verticalCenter="0" verticalAlign="middle" textAlign="left" left="15" right="100" prompt="请输入" promptColor="0xe6d8b3"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

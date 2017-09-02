@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_xwExchange_item_skin" width="420" height="100" currentState="exchangeXw" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="buyXw,exchangeXw"  width.buyXw="400" width.exchangeXw="400">
+	<e:Image source="bag_btn2_png" scale9Grid="11,5,72,32" anchorOffsetX="0" anchorOffsetY="0" right="0" left="0" top="0" bottom="0" source.exchangeXw="reborn_normal_png" source.buyXw="reborn_normal_png"/>
+	<e:Label id="txt1" text="增加50000修为" x="112" y="19" size="15" textColor="0xc69139" fontFamily="SimHei" x.buyXw="97.31" x.exchangeXw="97.33" y.buyXw="23.69" y.exchangeXw="23.69"/>
+	<e:Label text="等级兑换：降一级" size="15" textColor="0xC69139" fontFamily="SimHei" includeIn="exchangeXw" left="97" top="57"/>
+	<e:Label id="txt_count" text="今天还可兑换22次" y="19" size="15" textColor="0xC69139" fontFamily="SimHei" right.exchangeXw="12" top.exchangeXw="19" right.buyXw="12" top.buyXw="19" text.buyXw="今天还可使用22次"/>
+	<e:Image width="20" height="20" includeIn="buyXw" x="180.65" y="55.37" source="title_yuanbao_png"/>
+	<e:Label id="text2" text="高级转生丹:" includeIn="buyXw" fontFamily="SimHei" size="15" textColor="0xc69139" left="97" top="57"/>
+	<e:Label id="cost" text="100" includeIn="buyXw" x="202.65" y="57.37" fontFamily="SimHei" size="15" textColor="0xc69139"/>
+	<e:Button id="commonBtn" label="兑换" skinName="Btn3_skin" width="94" height="42" right="28" top="39" skinName.buyXw="Btn3_skin" skinName.exchangeXw="Btn3_skin"/>
+	<ns1:CommonItem id="icon" width="66" height="66" skinName="ItemSkin" left="20" top="16"/>
+</e:Skin>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_reborn_skin" width="434" height="578" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="30" height="36" source="arrow_png" horizontalCenter="2" verticalCenter="25"/>
+	<e:Image source="role_title_png" width="70" scaleX="1" scaleY="1" horizontalCenter="2" top="7"/>
+	<e:Group x="106" y="432.01">
+		<e:Image width="127" height="26" anchorOffsetX="0" x="94" y="0" source="xw_box_png"/>
+		<e:Label text="消耗修为：" size="20" anchorOffsetY="0" height="-35" fontFamily="SimHei" x="0" y="1" textColor="0xe6d8b3"/>
+		<e:Label id="txt_needXw" text="9699999" x="103.5" y="3" size="20" anchorOffsetY="0" height="-35" fontFamily="SimHei" textColor="0xe6d8b3" anchorOffsetX="0" width="109"/>
+	</e:Group>
+	<e:Group x="106" y="465.33">
+		<e:Image width="127" height="26" anchorOffsetX="0" x="94" y="0" source="xw_box_png"/>
+		<e:Label text="拥有修为：" size="20" fontFamily="SimHei" x="0" y="3.009999999999991" textColor="0xfeb71d"/>
+		<e:Label id="txt_hadXw" text="84615131" x="103.5" y="3.67999999999995" size="20" fontFamily="SimHei" textColor="0xfeb71d" anchorOffsetX="0" width="108"/>
+	</e:Group>
+	<ns1:UI_ConnectWord id="getXW" text="获取修为" size="20" fontFamily="SimHei" bottom="25" right="75" textColor="0x00ff4b"/>
+	<e:Group horizontalCenter="11" top="71">
+		<e:Image width="248" height="55" x="0" y="0" source="fight_bottom_png"/>
+		<e:BitmapLabel id="fightValue" width="100.33" height="21" y="16.669999999999987" text="54185" anchorOffsetX="0" anchorOffsetY="0" font="fightValue_fnt" horizontalCenter="43"/>
+		<e:BitmapLabel width="68.67" height="32" x="42" y="9" font="fightValue_fnt" text="z" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group x="97" y="124">
+		<e:Label text="当前转生等级:" x="24" y="33" size="22" fontFamily="SimHei" textColor="0xfbe709"/>
+		<e:Label id="rebornLev" text="5转" x="180" y="33" fontFamily="SimHei" size="22" textColor="0xfbe709"/>
+		<e:Image width="239" height="63" x="0" y="5" source="reborn_c_lev_png"/>
+	</e:Group>
+	<e:Image width="102" height="31" source="reborn_c_attr_png" left="51" top="221"/>
+	<e:Image width="102" height="31" source="reborn_n_attr_png" right="56" top="221"/>
+	<e:Image width="234" height="27" y="384.36" source="font_desc_png" horizontalCenter="0"/>
+	<ns1:Btn1 id="btn_upgrade" width="94" height="42" skinName="Btn1_skin" horizontalCenter="0" bottom="16"/>
+	<e:List id="cAttrList" width="142" height="82" x="39" y="276">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" verticalAlign="top" gap="2"/>
+		</e:layout>
+	</e:List>
+	<e:List id="nextAttrList" width="142" height="82" x="265" y="276"/>
+</e:Skin>

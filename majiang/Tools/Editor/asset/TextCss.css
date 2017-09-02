@@ -1,0 +1,192 @@
+﻿top {
+  font-family: 標楷體;
+  color: #ffFF00;
+  font-size:26;
+  display:inline;
+}
+space{
+	font-size:26;
+	letter-spacing:15;
+	display:inline;
+}
+headtext{
+	font-family: 標楷體;
+	color: #ffffff;
+	font-size:32;
+	text-align:center;
+	display:block;
+	text-align:center;
+}
+root {
+	font-family: 標楷體;
+	color: #ffFFFF;
+	font-size:30;
+	display:inline;
+}
+white {
+	font-family: 標楷體;
+	color: #ffffff;
+	font-size:26;
+	display:inline;
+}
+green {
+	font-family: 標楷體;
+	color: #6CDC4D;
+	font-size:26;
+	display:inline;
+}
+blue{
+	font-family: 標楷體;
+	color: #0099FF;
+	font-size:26;
+	display:inline;
+}
+purple{
+	font-family: 標楷體;
+	color: #FF33FF;
+	font-size:26;
+	display:inline;
+}
+yellow{
+	font-family: 標楷體;
+	color: #FEF043;
+	font-size:26;
+	display:inline;
+}
+gold{
+	font-family: 標楷體;
+	color: #F6CF00;
+	font-size:26;
+	display:inline;
+}
+orange{
+	font-family: 標楷體;
+	color: #E9A954;
+	font-size:26;
+	display:inline;
+}
+red{
+	font-family: 標楷體;
+	color: #FC2200;
+	font-size:26;
+	display:inline;
+}
+.white {
+	font-family: 標楷體;
+	color: #ffffff;
+	font-size:26;
+	display:inline;
+}
+.green {
+	font-family: 標楷體;
+	color: #6CDC4D;
+	font-size:26;
+	display:inline;
+}
+.blue{
+	font-family: 標楷體;
+	color: #0099FF;
+	font-size:26;
+	display:inline;
+}
+.purple{
+	font-family: 標楷體;
+	color: #FF33FF;
+	font-size:26;
+	display:inline;
+}
+.yellow{
+	font-family: 標楷體;
+	color: #FEF043;
+	font-size:26;
+	display:inline;
+}
+.gold{
+	font-family: 標楷體;
+	color: #F6CF00;
+	font-size:26;
+	display:inline;
+}
+.orange{
+	font-family: 標楷體;
+	color: #E9A954;
+	font-size:26;
+	display:inline;
+}
+.red{
+	font-family: 標楷體;
+	color: #FC2200;
+	font-size:26;
+	display:inline;
+}
+.bold {
+	font-family: 標楷體;
+	color: #00ff00;
+	display:inline;
+	font-weight: bold;
+}
+.rightText{
+	font-family: 標楷體;
+	align:right;
+}
+.emphasis {
+	font-weight: bold;
+	font-style: italic;
+}
+a {
+	font-family: 標楷體;
+	color: #ffcccc;
+	text-decoration: underline;
+	font-size:26;
+	display:inline;
+}
+xiahuaxian {
+	font-family: 標楷體;
+	color: #ffffff;
+	text-decoration: underline;
+	font-size:26;
+	display:inline;
+}
+.e_white{
+	font-family: 標楷體;
+	color: #ffffff;
+	font-size:26;
+	display:inline;
+}
+.e_green{
+	font-family: 標楷體;
+	color: #00cc00;
+	font-size:26;
+	display:inline;
+}
+.e_blue{
+	font-family: 標楷體;
+	color: #319ACE;
+	font-size:26;
+	display:inline;
+}
+.e_purole{
+	font-family: 標楷體;
+	color: #660099;
+	font-size:26;
+	display:inline;
+}
+.e_orange{
+	font-family: 標楷體;
+	color: #FF9900;
+	font-size:26;
+	display:inline;
+}
+.e_red{
+	font-family: 標楷體;
+	color: #ff0000;
+	font-size:26;
+	display:inline;
+}
+.xhx {
+	font-family: 標楷體;
+	color: #e1dcb6;
+	text-decoration: underline;
+	font-size:26;
+	display:inline;
+}

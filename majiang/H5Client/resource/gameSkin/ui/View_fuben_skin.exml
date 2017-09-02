@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0">
+		<e:Image anchorOffsetY="0" scale9Grid="15,49,316,166" source="bag_baseboard_box_png" width="480" x="0" height="660" y="0"/>
+		<e:Image source="bag_title_png" x="212.32000000000005" y="9.990000000000004"/>
+		<e:Image width="446" height="5" source="role_line_png" bottom="71" horizontalCenter="1"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="23" bottom="13"/>
+		<e:Image source="bag_bottom_png" height="531.5" left="25" top="46" anchorOffsetY="0"/>
+		<e:Scroller id="scroller" height="523.23" skinName="skins.ScrollerSkin" throwSpeed="0.2" anchorOffsetX="0" anchorOffsetY="0" width="422" x="29" y="49.73">
+		<e:List id="itemList" height="406.83" width="408" x="1.33" y="1.33" scrollEnabled="true" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="fuben_material_item_skin" itemRenderer="fuben_material_item" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="left" verticalAlign="top" paddingLeft="1"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object itemName="宝石副本" quality="4" imS="resource/assets/picicon/images/item/goods/23000001.png"/>
+					<e:Object itemName="经脉副本" quality="4" imS="resource/assets/picicon/images/item/goods/23110003.png"/>
+					<e:Object itemName="龙魂副本" quality="4" imS="resource/assets/picicon/images/item/goods/23020001.png"/>
+					<e:Object itemName="护盾副本" quality="4" imS="resource/assets/picicon/images/item/goods/23010003.png"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		</e:Scroller>
+		<e:Group left="26" bottom="21" anchorOffsetX="0" width="278">
+		<ns1:BagBtn id="materialBtn" xmlns:ns1="*" width="92" height="41" y="0" skinName="BagBtn_skin" enabled="true" name="equip" touchEnabled="true" left="0"/>
+		<ns1:BagBtn id="challengeBtn" xmlns:ns1="*" width="92" height="41" y="0" skinName="BagBtn_skin" enabled="true" name="prop" touchEnabled="true" left="93"/>
+			<ns1:BagBtn id="xuWuBtn" width="92" height="41" y="-0.64" skinName="BagBtn_skin" enabled="true" name="prop" touchEnabled="true" left="186" x="10"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

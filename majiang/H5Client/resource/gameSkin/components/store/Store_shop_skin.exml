@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Store_shop_skin" width="346" height="279" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="cmmon_box_png" left="0" right="0" top="0" bottom="0" anchorOffsetY="0" scale9Grid="14,46,317,166"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="8" bottom="8"/>
+	<ns1:Way_shop_item id="shopItem" width="346" height="154" x="2" y="55" skinName="Way_shop_item_skin"/>
+	<ns1:Btn1 id="buyBtn" width="94" height="42" skinName="Btn1_skin" bottom="15" horizontalCenter="0"/>
+	<e:Image source="reborn_title_buy_png" horizontalCenter="0" top="4"/>
+</e:Skin>

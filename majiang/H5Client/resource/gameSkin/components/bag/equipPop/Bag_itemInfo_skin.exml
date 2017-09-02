@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bag_itemInfo_skin" width="260" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" height="160">
+	<e:Image left="0" right="0" top="0" bottom="0" source="role_attr_bg_png" scale9Grid="24,24,335,301"/>
+	<e:Label id="itemName" text="广法手镯" size="16" fontFamily="SimHei" x="10" y="17"/>
+	<e:Label text="评分:" size="16" fontFamily="SimHei" top="11" left="159" textColor="0xad8b00"/>
+	<e:Label text="部位:" size="14" fontFamily="SimHei" left="88" top="40" textColor="0xcebc44"/>
+	<e:Label text="等级:" size="14" fontFamily="SimHei" left="88" top="68" textColor="0xcebc44"/>
+	<e:Label text="职业:" size="14" fontFamily="SimHei" left="88" top="94" textColor="0xcebc44"/>
+	<e:Label id="position" text="手镯" size="14" fontFamily="SimHei" top="40" left="129"/>
+	<e:Label id="level" text="lv.50" size="14" fontFamily="SimHei" top="68" left="129"/>
+	<e:Label id="job" text="通用" size="14" fontFamily="SimHei" top="94" left="129"/>
+	<e:Label id="score" text="36513" x="200" size="16" top="11" verticalAlign="middle" fontFamily="SimHei" textColor="0xad8b00"/>
+	<e:BitmapLabel id="power" width="127.6" height="20" x="85.7" anchorOffsetX="0" text="36513" font="orangeFont_fnt" y="114.4"/>
+	<e:Image source="chat_item_line_png" width="180" horizontalCenter="0" top="140"/>
+	<e:DataGroup id="attrGroup" width="240" height="0" anchorOffsetY="0" top="151" useVirtualLayout="false" horizontalCenter="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+	</e:DataGroup>
+	<ns1:CommonItem id="commonItem" width="66" height="66" x="9" y="40" skinName="ItemSkin"/>
+	<e:BitmapLabel width="69.5" height="29" x="10.5" y="109" font="fightValue_fnt" text="z" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

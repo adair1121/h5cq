@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_getXw_skin" width="440" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" right="0" bottom="0" source="cmmon_box_png" scale9Grid="17,48,317,166"/>
+	<e:Image source="reborn_pop_bottom_png" x="9.67" y="39.01" height="300" width="420"/>
+	<e:Group width="422" height="300.66" anchorOffsetY="0" horizontalCenter="0" top="38" anchorOffsetX="0">
+		<ns1:Role_xwExchange_item id="item1" width="410" height="92" x="4.67" y="9.33" anchorOffsetX="0" anchorOffsetY="0" skinName="Role_xwExchange_item_skin"/>
+		<ns1:Role_xwExchange_item id="item2" width="410" height="92" x="10" y="10" anchorOffsetX="0" anchorOffsetY="0" skinName="Role_xwExchange_item_skin"/>
+		<ns1:Role_xwExchange_item id="item3" width="410" height="92" x="20" y="237" anchorOffsetX="0" anchorOffsetY="0" skinName="Role_xwExchange_item_skin"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Image width="126" height="25" horizontalCenter="4" top="4" source="reborn_title_png"/>
+</e:Skin>

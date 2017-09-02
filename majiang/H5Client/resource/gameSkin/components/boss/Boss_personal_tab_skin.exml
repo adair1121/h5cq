@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Boss_personal_skin" width="434" height="578" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="scroller" width="434" height="539" horizontalCenter="0" bottom="0">
+        <e:List id="list" width="434" height="539" horizontalCenter="0" anchorOffsetY="0" bottom="0" itemRendererSkinName="Boss_personal_item_skin" useVirtualLayout="false">
+					<e:layout>
+						<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+	</e:Scroller>
+</e:Skin>

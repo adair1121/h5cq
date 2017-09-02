@@ -1,0 +1,1 @@
+module data{	export interface GlobalDefineTemple{		/**		* ID		*/		ID:number;		/**		* 说明		*/		information:string;		/**		* 对应参数		*/		argument:number;	}}

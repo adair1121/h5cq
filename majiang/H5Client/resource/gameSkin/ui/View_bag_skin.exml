@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_bag_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group x="0" y="0">
+		<e:Image anchorOffsetY="0" scale9Grid="15,49,316,166" source="bag_baseboard_box_png" width="480" x="0" height="660" y="0"/>
+		<e:Image width="446" height="5" source="role_line_png" bottom="71" horizontalCenter="1"/>
+		<e:Image source="bag_title_png" x="212" y="10"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="23" bottom="13"/>
+		<e:Image source="bag_bottom_png" height="472" left="25" top="46"/>
+		<e:Scroller id="scroller" height="460.83" skinName="skins.ScrollerSkin" throwSpeed="0.2" anchorOffsetX="0" anchorOffsetY="0" width="422" x="29" y="53.83">
+			<e:List id="itemList" height="459.33" width="408" x="0" y="5" scrollEnabled="true" anchorOffsetX="0" anchorOffsetY="0">
+			<e:layout>
+				<e:TileLayout requestedColumnCount="5" verticalGap="6" paddingLeft="14" horizontalGap="16" orientation="rows"/>
+			</e:layout>
+			</e:List>
+		</e:Scroller>
+		<e:Group left="26" bottom="21">
+			<ns1:BagBtn id="equipBtn" width="92" height="41" x="0" y="0" skinName="BagBtn_skin" enabled="true" name="equip" touchEnabled="true"/>
+			<ns1:BagBtn id="propBtn" width="92" height="41" y="0" skinName="BagBtn_skin" enabled="true" name="prop" touchEnabled="true" left="93"/>
+		</e:Group>
+		<e:Group id="bagCapacity" y="530.61" anchorOffsetX="0" width="407.67" x="35.999999999999986">
+			<e:Image width="94" source="bag_capacity_box_png" height="23" x="54" y="15"/>
+			<e:Image id="addBtn" width="30" height="30" x="158.0000000000001" y="11" source="jia_png"/>
+			<e:Label text="容量" textColor="0xeaddbf" fontFamily="SimHei" size="20" textAlign="center" x="6" y="16"/>
+			<e:Label id="equipNum" text="200" textColor="0xEADDBF" fontFamily="SimHei" size="20" textAlign="center" width="90" y="16" horizontalCenter="-102.83500000000001"/>
+			<ns1:Btn1 id="smeltBtn" width="94" height="42" skinName="Btn1_skin" right="23" bottom="0" enabled="true"/>
+		</e:Group>
+	</e:Group>
+	<!--<e:Image source="beijing1_png" bottom="0" right="0" width="480"/>-->
+</e:Skin>

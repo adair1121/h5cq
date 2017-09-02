@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_skill_skin" width="480" height="800" currentState="skillPanel" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="skillPanel,secretPanel" >
+	<e:Image source="bag_bg_png" x="0" y="-0.25" includeIn="secretPanel"/>
+	<e:Image source="bag_baseboard_box_png" height="644" width="466" x="7" y="0" width.skillPanel="480" x.skillPanel="0" height.skillPanel="660" y.skillPanel="0"/>
+	<e:Image source="role_bg_png" x="14" y="37" x.skillPanel="23.33" y.skillPanel="40.55" source.skillPanel="skill_bg_png" anchorOffsetY.skillPanel="0" height.skillPanel="544.34" includeIn="skillPanel"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" x.secretPanel="404" y.secretPanel="580" right.skillPanel="23" bottom.skillPanel="153"/>
+	<e:Image id="secretBookBtn" source="bag_returnBtn_png" width="54" height="54" x="394.31" y="70.3" includeIn="secretPanel"/>
+	<e:Image id="closeBtn" source="bag_closeBtn_png" width="38" height="38" x="439" y="2" includeIn="secretPanel"/>
+	<e:Group left="62" top="511" includeIn="skillPanel">
+		<e:Label text="消耗:" x="0" y="2" size="16" textColor="0xedc589" fontFamily="SimHei"/>
+		<e:Image width="20" height="20" x="35" y="0" source="title_jinbi_png"/>
+		<e:Label id="singleCost" text="69500" x="55" y="1" size="16" textColor="0xedc589" fontFamily="SimHei" textAlign="left" verticalAlign="middle"/>
+	</e:Group>
+	<e:Group x="311" top="510" includeIn="skillPanel">
+		<e:Label text="消耗:" x="0" y="2" size="16" textColor="0xEDC589" fontFamily="SimHei" includeIn="skillPanel"/>
+		<e:Image width="20" height="20" x="35" y="0" source="title_jinbi_png" includeIn="skillPanel"/>
+		<e:Label id="allCost" text="69500" x="55" y="1" size="16" textColor="0xEDC589" fontFamily="SimHei" textAlign="left" verticalAlign="middle" includeIn="skillPanel"/>
+	</e:Group>
+	<e:Group x="37" y="581.99" y.skillPanel="599.32" x.skillPanel="26">
+		<ns1:BagBtn id="skillBtn" width="94" height="42" enabled="true" skinName="BagBtn_skin" x="0" y="0" width.skillPanel="92" height.skillPanel="41"/>
+		<ns1:BagBtn id="secretBtn" width="94" height="42" enabled="true" skinName="BagBtn_skin" x="103" y="0" width.skillPanel="92" height.skillPanel="41" x.skillPanel="93"/>
+		<ns1:BagBtn id="tupoBtn" width="94" height="42" enabled="true" skinName="BagBtn_skin" x="205" y="0" width.skillPanel="92" height.skillPanel="41" x.skillPanel="186"/>
+	</e:Group>
+	<e:List id="skillList" width="418" height="372.67" anchorOffsetX="0" anchorOffsetY="0" top="124" horizontalCenter="0" includeIn="skillPanel">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" verticalAlign="top" gap="1"/>
+		</e:layout>
+	</e:List>
+	<e:Label text="技能" size="18" textColor="0xc7a66d" fontFamily="SimHei" horizontalCenter="0" top="10" text.secretPanel="秘籍" includeIn="secretPanel"/>
+	<ns1:Role_headCom id="roleHeadCom" width="260" height="72" skinName="Role_headCom_skin" horizontalCenter.secretPanel="0" top.secretPanel="38" x.skillPanel="110" y.skillPanel="40.62"/>
+	<e:Image width="65" height="26" includeIn="skillPanel" x="217" y="9" source="skill_title_png"/>
+	<ns1:Btn1 id="upGradeBtn" width="94" height="42" includeIn="skillPanel" x="73" y="533" skinName="Btn1_skin"/>
+	<ns1:Btn1 id="allUpGradeBtn" width="94" height="42" includeIn="skillPanel" x="319" y="532" skinName="Btn1_skin"/>
+	<e:Group id="secretGroup" width="450.01" height="357.88" includeIn="secretPanel" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-98">
+		<ns1:CommonItem id="secret_1" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" scaleX="1" scaleY="1" x="187" y="7"/>
+		<ns1:CommonItem id="secret_8" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="89.67" y="47.329999999999984" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_7" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="49.67" y="143.32999999999998" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_5" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="186.67" y="279.33" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_4" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="282.67" y="239.32999999999998" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_3" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="322.67" y="143.32999999999998" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_2" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="282.67" y="47.329999999999984" scaleX="1" scaleY="1"/>
+		<ns1:CommonItem id="secret_6" width="76" height="76" includeIn="secretPanel" skinName="ItemSkin" x="90" y="239" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label text="8转或VIP8开启第8个秘籍格" includeIn="secretPanel" y="484" size="14" fontFamily="SimHei" horizontalCenter="0" textColor="0xf6cf5e"/>
+	<e:Label text="学习有可能替换已学秘籍" includeIn="secretPanel" y="507" size="14" fontFamily="SimHei" horizontalCenter="0" textColor="0xd50000"/>
+	<ns1:BagBtn id="startBtn" width="94" height="42" enabled="true" skinName="BagBtn_skin" y="529" includeIn="secretPanel" horizontalCenter="0"/>
+	<e:Label id="secretReplaceLink" text="秘籍置换" includeIn="secretPanel" x="297" y="544" size="14" fontFamily="SimHei" textColor="0x20ff00"/>
+</e:Skin>

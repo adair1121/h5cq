@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_level_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+	<e:Group x="0" y="0">
+		<e:Image anchorOffsetY="0" scale9Grid="15,49,316,166" source="bag_baseboard_box_png" width="480" x="0" height="660" y="0"/>
+		<e:Image source="level_panel_title_png" x="197" y="10"/>
+		<e:Image source="level_panel_bottom_png" x="22" y="39"/>
+		<e:Group id="bossGroup" width="428" height="315" x="26" y="129" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="level_panel_rank_bottom_png" x="23.34" y="125.01"/>
+		<e:Label text="下一关卡收益统计" y="50.34" size="16" fontFamily="SimHei" horizontalCenter="0" textColor="0xfca304"/>
+		<e:Group x="62" y="74">
+			<e:Label text="经验值:" size="16" fontFamily="SimHei" textColor="0xe6d8b3" x="0" y="0"/>
+			<e:Label id="expLab" text="999999/小时" size="16" fontFamily="SimHei" textColor="0xE6D8B3" x="60.34000000000003" y="0"/>
+		</e:Group>
+		<e:Group id="zhenqiGroup" x="62" y="100">
+			<e:Label id="makiLab" text="999999/小时" size="16" fontFamily="SimHei" textColor="0xE6D8B3" x="61.00999999999999" y="0"/>
+			<e:Label text="真气值:" size="16" fontFamily="SimHei" textColor="0xE6D8B3" x="0" y="0"/>
+		</e:Group>
+		<e:Group x="265" y="73.67">
+			<e:Label id="moneyLab" text="999999/小时" size="16" fontFamily="SimHei" textColor="0xE6D8B3" x="45.32999999999993" y="0.3299999999999983"/>
+			<e:Label text="金币:" y="0" size="16" fontFamily="SimHei" textColor="0xE6D8B3" x="0"/>
+		</e:Group>
+		<ns1:UI_ConnectWord id="checkRank" text="查看排行" x="156.33" y="142" size="16" fontFamily="SimHei" textColor="0x04fe10"/>
+		<e:ProgressBar id="bossProgress" width="23" height="242" x="415" y="195" skinName="level_veitical_progress_skin" maximum="10" value="0" enabled="true" direction="btt" minimum="0" slideDuration="0.2"/>
+		<e:Image source="level_panel_reward_png" x="399" y="179"/>
+		<e:Label id="bossName" text="触龙神" y="448.32" textColor="0xfca304" size="16" fontFamily="SimHei" x="213"/>
+		<e:List id="rankList" width="196.5" height="76" x="30.5" y="164" anchorOffsetX="0" anchorOffsetY="0">
+		</e:List>
+		<e:List id="dropList" width="341" height="82" x="69" y="496.41" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="level_drop_item_skin">
+			<e:layout>
+				<e:HorizontalLayout gap="4" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object itemName="元宝" boxS="bag_1_box_png" imS="resource/assets/picicon/images/item/goods/40000005.png" color="0xeae2d1"/>
+					<e:Object itemName="金币" boxS="bag_1_box_png" imS="resource/assets/picicon/images/item/goods/40000003.png" color="0xeae2d1"/>
+					<e:Object itemName="紫色装备" boxS="bag_4_box_png" imS="resource/assets/picicon/images/item/equip/12109091.png" color="0xd21eff"/>
+					<e:Object itemName="蓝色装备" boxS="bag_3_box_png" imS="resource/assets/picicon/images/item/equip/12109091.png" color="0x0fb8ff"/>
+					<e:Object itemName="材料" boxS="bag_5_box_png" imS="resource/assets/picicon/images/item/goods/23110003.png" color="0xfca304"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+		<e:Label id="prompt" text="在击杀3波怪可挑战" y="603" size="18" fontFamily="SimHei" horizontalCenter="0" textColor="0xfc3434" touchEnabled="false"/>
+		<e:Group id="challengeBtnGroup" y="590" horizontalCenter="0.5">
+			<e:Image source="level_panel_btn_png" x="1" y="0"/>
+			<e:Image id="challengeBtn" source="level_panel_btnLabel_png" horizontalCenter="0" top="0"/>
+		</e:Group>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="52" height="51" x="393" y="589"/>
+	</e:Group>
+</e:Skin>

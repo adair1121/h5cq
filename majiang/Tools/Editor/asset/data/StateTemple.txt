@@ -1,0 +1,114 @@
+状态ID	状态名称	图标	等级	类型	滤镜	光效	附属点	描述	受攻击解除状态	持续时间	作用间隔时间	合法对象	影响范围	功能ID	功能参数	功能数据	变身为	是否隐藏	编辑器目录
+ID	name	icon	lev	stateType	filter	effect	RallyPoint 	desc	removeOnAtked	duration	interval	validTarget	range	funcid	funcparams	funcdatas	model	ishide	editdir
+string	string	string	int	int	string	string	string	string	bool	int	int	int	int	int	string[]	int[]	string	bool	string
+lx01	流血1级	buf/lx	1	1			head	轻度流血,一秒5滴	0	6000	2000	1	0	1	HP	-5		0	流血
+lx02	流血2级	buf/lx	2	1			head	轻度流血,一秒10滴	0	8000	2000	1	0	1	HP	-10		0	流血
+lx03	流血3级	buf/lx	3	1			head	轻度流血,一秒15滴	0	10000	2000	1	0	1	HP	-15		0	流血
+lx04	流血4级	buf/lx	4	1			head	轻度流血,一秒20滴	0	12000	2000	1	0	1	HP	-20		0	流血
+lx05	流血5级	buf/lx	5	1			head	轻度流血,一秒25滴	0	14000	2000	1	0	1	HP	-25		0	流血
+zd01	中毒1级	buf/zd	1	1			head	轻度中毒,一秒5滴	0	20000	1000	1	0	1	HP	-5		0	中毒
+zd02	中毒2级	buf/zd	2	1			head	轻度中毒,一秒10滴	0	25000	1000	1	0	1	HP	-10		0	中毒
+zd03	中毒3级	buf/zd	3	1			head	轻度中毒,一秒15滴	0	30000	1000	1	0	1	HP	-15		0	中毒
+zd04	中毒4级	buf/zd	4	1			head	轻度中毒,一秒20滴	0	35000	1000	1	0	1	HP	-20		0	中毒
+zd05	中毒5级	buf/zd	5	1			head	轻度中毒,一秒25滴	0	40000	1000	1	0	1	HP	-25		0	中毒
+xr01	虚弱1级	buf/xr	1	1			leg		0	1000	0	1	0	1	CRI,ATK,DEF,Itd	0,-10,-10,-10		0	虚弱
+xr02	虚弱2级	buf/xr	2	1			leg		0	1000	0	1	0	1	CRI,ATK,DEF,Itd	0,-15,-15,-15		0	虚弱
+xr03	虚弱3级	buf/xr	3	1			leg		0	1000	0	1	0	1	CRI,ATK,DEF,Itd	0,-20,-20,-20		0	虚弱
+xr04	虚弱4级	buf/xr	4	1			leg		0	1000	0	1	0	1	CRI,ATK,DEF,Itd	0,-25,-25,-25		0	虚弱
+xr05	虚弱5级	buf/xr	5	1			leg		0	1000	0	1	0	1	CRI,ATK,DEF,Itd	0,-30,-30,-30		0	虚弱
+ch01	迟缓1级	buf/ch	1	1	ice		body		0	3000	0	1	0	1	SpeedRate	60		0	迟缓
+ch02	迟缓2级	buf/ch	2	1	ice		body		0	5000	0	1	0	1	SpeedRate	55		0	迟缓
+ch03	迟缓3级	buf/ch	3	1	ice		body		0	7000	0	1	0	1	SpeedRate	50		0	迟缓
+ch04	迟缓4级	buf/ch	4	1	ice		body		0	9000	0	1	0	1	SpeedRate	45		0	迟缓
+ch05	迟缓5级	buf/ch	5	1	ice		body		0	11000	0	1	0	1	SpeedRate	40		0	迟缓
+ds01	定身1级	buf/ds	1	1			body	定住人,不让移动	1	3000	0	1	0	1	CantMove	1		0	定身
+ds02	定身2级	buf/ds	2	1			body	定住人,不让移动	1	4000	0	1	0	1	CantMove	1		0	定身
+ds03	定身3级	buf/ds	3	1			body	定住人,不让移动	1	5000	0	1	0	1	CantMove	1		0	定身
+ds04	定身4级	buf/ds	4	1			body	定住人,不让移动	1	6000	0	1	0	1	CantMove	1		0	定身
+ds05	定身5级	buf/ds	5	1			body	定住人,不让移动	1	7000	0	1	0	1	CantMove	1		0	定身
+cm01	沉默1级	buf/cm	1	1			body	无法使用技能	1	3000	0	1	0	1	CantUseSkill	1		0	沉默
+cm02	沉默2级	buf/cm	2	1			body	无法使用技能	1	4000	0	1	0	1	CantUseSkill	1		0	沉默
+cm03	沉默3级	buf/cm	3	1			body	无法使用技能	1	5000	0	1	0	1	CantUseSkill	1		0	沉默
+cm04	沉默4级	buf/cm	4	1			body	无法使用技能	1	6000	0	1	0	1	CantUseSkill	1		0	沉默
+cm05	沉默5级	buf/cm	5	1			body	无法使用技能	1	7000	0	1	0	1	CantUseSkill	1		0	沉默
+bx01	变形1级	buf/bx	1	1			body	无法使用技能	1	3000	0	1	0	1	CantUseSkill	1	53	0	变形
+bx02	变形2级	buf/bx	2	1			body	无法使用技能	1	4000	0	1	0	1	CantUseSkill	1	53	0	变形
+bx03	变形3级	buf/bx	3	1			body	无法使用技能	1	5000	0	1	0	1	CantUseSkill	1	53	0	变形
+bx04	变形4级	buf/bx	4	1			body	无法使用技能	1	6000	0	1	0	1	CantUseSkill	1	53	0	变形
+bx05	变形5级	buf/bx	5	1			body	无法使用技能	1	7000	0	1	0	1	CantUseSkill	1	53	0	变形
+xy01	眩晕1级	buf/xy	1	1			head		1	3000	0	1	0	1	CantMove,CantUseSkill	1,1		0	眩晕
+xy02	眩晕2级	buf/xy	2	1			head		1	5000	0	1	0	1	CantMove,CantUseSkill	1,1		0	眩晕
+xy03	眩晕3级	buf/xy	3	1			head		1	7000	0	1	0	1	CantMove,CantUseSkill	1,1		0	眩晕
+xy04	眩晕4级	buf/xy	4	1			head		1	9000	0	1	0	1	CantMove,CantUseSkill	1,1		0	眩晕
+xy05	眩晕5级	buf/xy	5	1			head		1	11000	0	1	0	1	CantMove,CantUseSkill	1,1		0	眩晕
+sh01	石化1级	buf/sh	1	1			body	定住人,不让移动	1	3000	0	1	0	1	CantMove,CantUseSkill	1,1		0	石化
+sh02	石化2级	buf/sh	2	1			body	定住人,不让移动	1	4000	0	1	0	1	CantMove,CantUseSkill	1,1		0	石化
+sh03	石化3级	buf/sh	3	1			body	定住人,不让移动	1	5000	0	1	0	1	CantMove,CantUseSkill	1,1		0	石化
+sh04	石化4级	buf/sh	4	1			body	定住人,不让移动	1	6000	0	1	0	1	CantMove,CantUseSkill	1,1		0	石化
+sh05	石化5级	buf/sh	5	1			body	定住人,不让移动	1	7000	0	1	0	1	CantMove,CantUseSkill	1,1		0	石化
+sxgh01	嗜血光环1级	buf/shgh	1	1			body		0	24000	2000	2	150	1	sx01	0		0	嗜血光环
+sxgh02	嗜血光环2级	buf/shgh	2	1			body		0	26000	2000	2	160	1	sx02	0		0	嗜血光环
+sxgh03	嗜血光环3级	buf/shgh	3	1			body		0	28000	2000	2	170	1	sx03	0		0	嗜血光环
+sxgh04	嗜血光环4级	buf/shgh	4	1			body		0	30000	2000	2	180	1	sx04	0		0	嗜血光环
+sxgh05	嗜血光环5级	buf/shgh	5	1			body		0	32000	2000	2	190	1	sx05	0		0	嗜血光环
+sx01	嗜血1级	buf/sx	1	1			leg		0	1000	0	1	0	1	ATK,CRI,DEF	20,10,-10		0	嗜血
+sx02	嗜血2级	buf/sx	2	1			leg		0	1000	0	1	0	1	ATK,CRI,DEF	30,15,-20		0	嗜血
+sx03	嗜血3级	buf/sx	3	1			leg		0	1000	0	1	0	1	ATK,CRI,DEF	40,20,-30		0	嗜血
+sx04	嗜血4级	buf/sx	4	1			leg		0	1000	0	1	0	1	ATK,CRI,DEF	50,25,-40		0	嗜血
+sx05	嗜血5级	buf/sx	5	1			leg		0	1000	0	1	0	1	ATK,CRI,DEF	60,30,-50		0	嗜血
+qjgh01	强击光环1级	buf/qjgh	1	1			leg		0	24000	1000	2	150	2	qj01	0		0	强击光环
+qjgh02	强击光环2级	buf/qjgh	2	1			leg		0	26000	1000	2	160	2	qj02	0		0	强击光环
+qjgh03	强击光环3级	buf/qjgh	3	1			leg		0	28000	1000	2	170	2	qj03	0		0	强击光环
+qjgh04	强击光环4级	buf/qjgh	4	1			leg		0	30000	1000	2	180	2	qj04	0		0	强击光环
+qjgh05	强击光环5级	buf/qjgh	5	1			leg		0	32000	1000	2	190	2	qj05	0		0	强击光环
+qj01	强击1级	buf/qj	1	1			leg		0	2000	0	1	0	1	MHP,ATK	100100		0	强击
+qj02	强击2级	buf/qj	2	1			leg		0	2000	0	1	0	1	MHP,ATK	100100		0	强击
+qj03	强击3级	buf/qj	3	1			leg		0	2000	0	1	0	1	MHP,ATK	100100		0	强击
+qj04	强击4级	buf/qj	4	1			leg		0	2000	0	1	0	1	MHP,ATK	100100		0	强击
+qj05	强击5级	buf/qj	5	1			leg		0	2000	0	1	0	1	MHP,ATK	100100		0	强击
+jx01	加血01	buf/jx	1	1			leg		0	6000	1000	1	0	1	HP	20		0	加血
+jx02	加血02	buf/jx	2	1			leg		0	6000	1000	1	0	1	HP	100		0	加血
+jx03	加血03	buf/jx	3	1			leg		0	6000	1000	1	0	1	HP	200		0	加血
+jx04	加血04	buf/jx	4	1			leg		0	6000	1000	1	0	1	HP	300		0	加血
+jx05	加血05	buf/jx	5	1			leg		0	6000	1000	1	0	1	HP	90		0	加血
+jm01	加魔01	buf/jm	1	1			leg		0	6000	1000	1	0	1	MP	20		0	加魔
+jm02	加魔02	buf/jm	2	1			leg		0	6000	1000	1	0	1	MP	100		0	加魔
+jm03	加魔03	buf/jm	3	1			leg		0	6000	1000	1	0	1	MP	200		0	加魔
+jm04	加魔04	buf/jm	4	1			leg		0	6000	1000	1	0	1	MP	300		0	加魔
+jm05	加魔05	buf/jm	5	1			leg		0	6000	1000	1	0	1	MP	50		0	加魔
+js01	加速1级	buf/js	1	1	ice		body		0	5000	0	1	0	1	SpeedRate	160		0	加速
+js02	加速2级	buf/js	2	1	ice		body		0	6000	0	1	0	1	SpeedRate	170		0	加速
+js03	加速3级	buf/js	3	1	ice		body		0	7000	0	1	0	1	SpeedRate	180		0	加速
+js04	加速4级	buf/js	4	1	ice		body		0	8000	0	1	0	1	SpeedRate	190		0	加速
+js05	加速5级	buf/js	5	1	ice		body		0	9000	0	1	0	1	SpeedRate	200		0	加速
+mm01	魔免1级	buf/mm	1	1			body		1	10000	0	1	0	1	CantHited	1		0	魔免
+mm02	魔免2级	buf/mm	2	1			body		1	15000	0	1	0	1	CantHited	1		0	魔免
+mm03	魔免3级	buf/mm	3	1			body		1	20000	0	1	0	1	CantHited	1		0	魔免
+mm04	魔免4级	buf/mm	4	1			body		1	25000	0	1	0	1	CantHited	1		0	魔免
+mm05	魔免5级	buf/mm	5	1			body		1	30000	0	1	0	1	CantHited	1		0	魔免
+wd01	无敌1级	buf/wd	1	1			body		1	3000	0	1	0	1	CantHited	1		0	无敌
+wd02	无敌2级	buf/wd	2	1			body		1	5000	0	1	0	1	CantHited	1		0	无敌
+wd03	无敌3级	buf/wd	3	1			body		1	7000	0	1	0	1	CantHited	1		0	无敌
+wd04	无敌4级	buf/wd	4	1			body		1	9000	0	1	0	1	CantHited	1		0	无敌
+wd05	无敌5级	buf/wd	5	1			body		1	99999999	0	1	0	1	CantHited	1		0	无敌
+tk01	腾空	buf/tk	1	1			body		0	15000	0	1	0	1	CantMove	1		0	腾空
+hl01	小活力	buf/hl	1	1			body		0	0	0	1	0	1	MP,HP	100100		0	活力
+nlhd01	能量护盾	buf/hl	1	1			leg		0	15000	0	1	0	1	DEF,MHP	10,50		0	能量护盾
+nlhd02	能量护盾	buf/hl	2	1			leg		0	20000	0	1	0	1	DEF,MHP	20100		0	能量护盾
+nlhd03	能量护盾	buf/hl	3	1			leg		0	25000	0	1	0	1	DEF,MHP	30200		0	能量护盾
+nlhd04	能量护盾	buf/hl	4	1			leg		0	30000	0	1	0	1	DEF,MHP	40400		0	能量护盾
+nlhd05	能量护盾	buf/hl	5	1			leg		0	35000	0	1	0	1	DEF,MHP	50800		0	能量护盾
+sszjs01	神圣战甲	buf/sszjs	1	1			leg		0	10000	0	2	144	1	DEF,MDEF	10,10		0	神圣战甲
+sszjs02	神圣战甲	buf/sszjs	2	1			leg		0	20000	0	2	144	1	DEF,MDEF	20,20		0	神圣战甲
+sszjs03	神圣战甲	buf/sszjs	3	1			leg		0	30000	0	2	144	1	DEF,MDEF	30,30		0	神圣战甲
+mfd01	魔法盾	buf/mfd	1	1		mofadun_fx	leg		0	10000	0	1	0	1	DRD	10		0	魔法盾
+mfd02	魔法盾	buf/mfd	2	1		mofadun_fx	leg		0	20000	0	1	0	1	DRD	20		0	魔法盾
+mfd03	魔法盾	buf/mfd	3	1		mofadun_fx	leg		0	30000	0	1	0	1	DRD	30		0	魔法盾
+mfd04	魔法盾	buf/mfd	4	1		mofadun_fx	leg		0	40000	0	1	0	1	DRD	40		0	魔法盾
+wjzq01	无极真气	buf/wjzq	1	1			body		0	20000	0	1	0	1	SATK2	20		0	无极真气
+wjzq02	无极真气	buf/wjzq	2	1			body		0	30000	0	1	0	1	SATK2	30		0	无极真气
+wjzq03	无极真气	buf/wjzq	3	1			body		0	40000	0	1	0	1	SATK2	30		0	无极真气
+yss01	隐身术	buf/yss	1	1			body		0	20000	0	1	0	1	CantVisible	20		0	隐身术
+yss02	隐身术	buf/yss	2	1			body		0	30000	0	1	0	1	CantVisible	30		0	隐身术
+yss03	隐身术	buf/yss	3	1			body		0	40000	0	1	0	1	CantVisible	40		0	隐身术
+cjy	加血加蓝	buf/cjy	5	1			leg		0	0	1000	1	0	1	HP,MP	10000,10000		0	加血加蓝

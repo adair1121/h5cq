@@ -1,0 +1,18 @@
+ID	模型名字	游戏里名字	shape	起始帧	资源包	说明	游戏内图	items_looks	rides
+ID	name	GameName	shape	startframe	res	desc	looks	items_looks	rides
+string	string	string	int	int	string	string	string	int	int
+0	枣红马		0	0	ride1			1294	0
+1	乌骓马		1	1060	ride1			1295	1
+2	惊帆马		2	2120	ride1			1296	2
+3	赤骥马		3	3180	ride1			1297	3
+4	逆刃犬		4	4240	ride1			1298	4
+5	霸天熊		5	5300	ride1			1299	5
+6	火灵狐		6	6360	ride1			1300	6
+7	威震虎		7	7420	ride1			1301	7
+8	炎龙兽		8	8480	ride1			1302	8
+9	独角兽		9	9540	ride1			1303	9
+10	灵异兽[震]		10	10600	ride1			1304	10
+11	灵异兽[坎]		11	11660	ride1			1305	11
+12	灵异兽[离]		12	12720	ride1			1306	12
+13	灵异兽[坤]		13	13780	ride1			1307	13
+14	灵异兽[乾]		14	14840	ride1			1308	14

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Attr_goodsItem_skin" width="260" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="descItem" text="通过活动获得。" size="16" textColor="0xb4b46c" fontFamily="SimHei" wordWrap="true" width="220" horizontalCenter="0" multiline="true" top="6"/>
+</e:Skin>

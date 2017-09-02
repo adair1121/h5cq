@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUI_nav_skin" width="480" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	
+	
+	
+	
+	
+	<!--<e:Image source="Backpack Icon_png" bottom="18" right="18" visible="false"/>-->
+	<!--<e:Image source="nav_bag_png" bottom="18" right="96"/>-->
+	<e:Group x="0" y="3.35" height="100">
+		<e:Image source="nav_bgInfo_png" x="0" bottom="0"/>
+		<e:Image source="nav_hpBg_png" x="193" y="3.2"/>
+		<e:Image id="mpMask" source="mp_mask_png" x="237" y="6.2"/>
+		<e:Image id="hpMask" source="hp_mask_png" x="202" y="10.2"/>
+		<e:Group id="ballGroup" width="90" height="116" x="196" y="-16.8"/>
+		<e:ProgressBar id="playerProgress" width="478" height="20" anchorOffsetX="0" skinName="MainUI_progress_skin" value="8" maximum="10" x="1" bottom="0"/>
+		<e:Image width="184" height="85" source="ball_box_png" x="148" y="4.2"/>
+		<e:Button id="role" anchorOffsetX="0" width="61" height="67" skinName="MainUI_button_skin" x="301" y="11.2"/>
+		<e:Button id="skill" anchorOffsetX="0" width="72" height="72" skinName="MainUI_button_skin" x="113.32999999999998" y="11.2"/>
+		<e:Button id="boss" anchorOffsetX="0" width="72" height="72" skinName="MainUI_button_skin" x="55.33" y="30" visible="false"/>
+		<e:Button id="forging" anchorOffsetX="0" width="61" height="67" skinName="MainUI_button_skin" x="360" y="11.2"/>
+		<e:Button id="bag" anchorOffsetX="0" width="61" height="67" skinName="MainUI_button_skin" x="418.3399999999999" y="11.2"/>
+	</e:Group>
+	
+	
+	
+</e:Skin>

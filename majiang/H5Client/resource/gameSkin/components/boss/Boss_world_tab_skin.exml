@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Boss_world_tab_skin" width="434" height="578" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group top="39" horizontalCenter="0">
+		<e:Image source="font_bg_png" anchorOffsetX="0" width="287" x="0" top="0"/>
+		<e:Label text="参与挑战全民boss即可获得灵魄奖励" y="8.180000000000007" size="16" fontFamily="SimHei" x="15"/>
+	</e:Group>
+	<e:Label text="挑战次数:" x="24" size="16" fontFamily="SimHei" y="94"/>
+	<e:Group id="timeGroup" x="152.66999999999996" y="93.47">
+		<e:Label text="恢复计时:" x="0" size="16" fontFamily="SimHei" y="0"/>
+		<e:Label id="time" text="00:00" size="16" fontFamily="SimHei" x="72.33000000000004" y="0.5300000000000011"/>
+	</e:Group>
+	<e:Image source="title_box_png" x="99" y="90" anchorOffsetX="0" width="47"/>
+	<e:Label id="challengeNum" text="0/10" x="99.4" y="91" size="16" fontFamily="SimHei" anchorOffsetY="0" height="22" anchorOffsetX="0" width="45.6" textAlign="center" verticalAlign="middle"/>
+	<ns1:UI_ConnectWord id="bossPrompt" text="BOSS提醒设置" x="320" size="16" fontFamily="SimHei" textColor="0x00ff4b" top="94" visible="false"/>
+	<e:Scroller id="scroller" width="434" height="441.34" anchorOffsetY="0" bottom="0" x="0">
+		<e:List id="list" itemRendererSkinName="Boss_personal_item_skin" useVirtualLayout="false">
+			<e:layout>
+				<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object test="null"/>
+					<e:Object test="null"/>
+					<e:Object test="null"/>
+					<e:Object test="null"/>
+					<e:Object test="null"/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_specialItem_skin" width="111" height="16" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="attrTitle" text="生命:" x="0.5" y="0.75" size="16" fontFamily="SimHei" textColor="0xe6d8b3"/>
+	<e:Label id="attrNum" text="88888" x="45.33" y="1" size="16" fontFamily="SimHei" textColor="0x00ff4b" anchorOffsetX="0" width="51.67"/>
+</e:Skin>

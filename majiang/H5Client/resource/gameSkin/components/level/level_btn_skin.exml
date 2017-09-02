@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="level_btn_skin" width="111" height="151" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" top="0">
+		<e:Image id="levelIcon" source="level_icon_png" x="11.650000000000034" y="0"/>
+		<e:Image source="level_title_png" x="0" y="101"/>
+		<e:Button id="autoBtn" label="自动挑战" x="33" y="123.5" skinName="Btn4_skin" enabled="true" currentState="disabled"/>
+		<e:ProgressBar id="progress" width="71" height="15" x="39.650000000000034" y="105" skinName="level_progress_skin" maximum="3" minimum="0" value="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bag_Item_skin" width="66" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="equipBox" source="bag_1_box_png" width="66" height="66" left="0" top="0" scale9Grid="8,8,60,60"/>
+	<e:Image id="equipImg" width="56" height="56" left="5" top="5" source="bag_bg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="labelDisplay" text="" size="14" verticalCenter="33" horizontalCenter="0.5" textColor="0xeaddbf" fontFamily="SimHei"/>
+	<e:Label id="equipIntensify" text="" anchorOffsetX="0" width="27" anchorOffsetY="0" height="12.4" fontFamily="SimHei" size="12" left="32" verticalCenter="13" verticalAlign="justify" textAlign="right" backgroundColor="0x000000" textColor="0xffffff"/>
+	<e:Label id="equipLv" text="" size="12" anchorOffsetX="0" width="13" fontFamily="SimHei" textColor="0x0ba7ea" height="12.4" bottom="20" left="7"/>
+</e:Skin>

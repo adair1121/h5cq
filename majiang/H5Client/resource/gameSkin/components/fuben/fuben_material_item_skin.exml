@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="fuben_material_item_skin" width="420" height="127" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="bag_bg_png" scale9Grid="60,100,360,600"/>
+	<e:Group x="36" y="40">
+		<e:Image id="equipBox" source="bag_4_box_png" width="66" height="66" scale9Grid="8,8,60,60" x="0" y="0"/>
+		<e:Image id="equipImg" width="56" height="56" source="{data.imS}" x="5" y="4.8799999999999955" anchorOffsetX="0"/>
+	</e:Group>
+	<e:Label text="额外扫荡次数:" x="282" y="13" size="14" fontFamily="SimHei"/>
+	<e:Label id="count" text="4次" x="379" y="14" size="14" fontFamily="SimHei"/>
+	<e:Label id="fubenName" text="{data.itemName}" x="34" y="14" size="18" fontFamily="SimHei"/>
+	<e:Label id="cost" text="50" x="270" y="55" size="18" fontFamily="SimHei"/>
+	<e:Image source="title_yuanbao_png" x="230" y="45"/>
+	<e:Button id="challengeBtn" label="挑战" x="308" y="46" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="rank_btn2_up_png" source.disabled="rank_btn2_dis_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" textColor="0xfff9d2" size="18" fontFamily="SimHei"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

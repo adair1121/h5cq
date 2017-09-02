@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_store_skin" width="480" height="800" currentState="myStery" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="myStery,prop,gongxun,jifen" >
+	<e:Group includeIn="myStery,prop,gongxun,jifen" x="0" y="0">
+		<e:Image source="store_bg_png" left="0" top="0" x="0" y="0" includeIn="myStery,prop,gongxun,jifen"/>
+		<e:Label text="我的积分:" includeIn="myStery" x="47.68" size="18" fontFamily="SimHei" textColor="0xEADDBF" top="561"/>
+		<e:Image width="407.2" height="5" source="role_line_png" anchorOffsetX="0" x="37" bottom="98" bottom.myStery="78" bottom.prop="78" bottom.gongxun="78" bottom.jifen="78"/>
+		<e:Image id="refreshBtn" source="store_btn_png" top="508" right="41" includeIn="myStery"/>
+		<e:Image source="store_btn_title2_png" x="335.31" y="516.66" touchEnabled="false" includeIn="myStery"/>
+		<e:Image source="store_title_png" horizontalCenter="0" top="16"/>
+		<e:Label text="我的功勋:" includeIn="gongxun,jifen" x="50" y="558" size="18" fontFamily="SimHei" textColor="0xeaddbf" text.jifen="我的积分:"/>
+		<e:Label id="jifen" text="0" includeIn="jifen" x="131.6" y="558" size="18" textColor="0xeaddbf" fontFamily="SimHei"/>
+		<e:Label id="prompt" text="(在神秘商店购买或刷新获得)" includeIn="jifen" x="154" y="558.34" size="18" fontFamily="SimHei" textColor="0xeaddbf"/>
+		<e:Image source="king_title_png" includeIn="gongxun" x="130" y="544"/>
+		<e:Image source="bag_capacity_box_png" includeIn="gongxun" x="180" y="556"/>
+		<ns1:UI_ConnectWord id="getGongxun" text="获取功勋" includeIn="gongxun" x="287" y="558" size="18" fontFamily="SimHei" textColor="0x00ff4b"/>
+		<e:Label id="gongxunValue" text="0" includeIn="gongxun" x="181" y="557.5" size="18" fontFamily="SimHei" textColor="0xeaddbf" anchorOffsetX="0" width="91.5" textAlign="center" anchorOffsetY="0" height="19.25" verticalAlign="middle" y.jifen="556.5" x.jifen="136" textAlign.jifen="left" width.jifen="48.83" text.jifen="0"/>
+		<ns1:UI_ConnectWord id="exchangeWord" text="前往兑换" includeIn="myStery" x="355" y="560.02" size="18" fontFamily="SimHei" textColor="0x00ff4b"/>
+	</e:Group>
+	<e:Scroller id="scroller" width="425.66" height="394.33" anchorOffsetX="0" anchorOffsetY="0" width.myStery="397" height.myStery="413.5" touchEnabled.myStery="false" includeIn="myStery,prop,gongxun,jifen" width.prop="397" height.prop="508.5" touchEnabled.prop="false" horizontalCenter.myStery="0.5" top.myStery="77" horizontalCenter.prop="0.5" top.prop="77" width.gongxun="397" height.gongxun="468.5" touchEnabled.gongxun="false" horizontalCenter.gongxun="0.5" top.gongxun="77" width.jifen="397" height.jifen="468.5" touchEnabled.jifen="false" horizontalCenter.jifen="0.5" top.jifen="77">
+		<e:List id="itemList" width="318" height="262" x="1.52" y="-24.24" anchorOffsetY="0" useVirtualLayout="false" height.myStery="398.33" width.myStery="392.5" touchEnabled.myStery="false" x.myStery="0.33" y.myStery="-0.4" height.prop="453.5" width.prop="425" touchEnabled.prop="false" x.prop="0.33" y.prop="43" anchorOffsetX.myStery="0" height.gongxun="471.5" width.gongxun="425" touchEnabled.gongxun="false" x.gongxun="0.33" y.gongxun="43" height.jifen="471.5" width.jifen="425" touchEnabled.jifen="false" x.jifen="0.33" y.jifen="43">
+		<e:layout>
+			<e:VerticalLayout gap="0" horizontalAlign="left" verticalAlign="top" gap.myStery="4" gap.prop="4" gap.gongxun="4" gap.jifen="4"/>
+		</e:layout>
+			<e:layout.jifen>
+				<e:TileLayout orientation="rows" horizontalGap="2" verticalGap="2" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout.jifen>
+			<e:layout.gongxun>
+				<e:TileLayout orientation="rows" horizontalGap="2" verticalGap="2" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout.gongxun>
+			<e:layout.prop>
+				<e:TileLayout orientation="rows" horizontalGap="2" verticalGap="2" horizontalAlign="left" verticalAlign="top" requestedColumnCount="3"/>
+			</e:layout.prop>
+			<e:layout.myStery>
+				<e:TileLayout horizontalGap="2" verticalGap="2" requestedColumnCount="3" horizontalAlign="left" verticalAlign="top" orientation="rows"/>
+			</e:layout.myStery>
+		</e:List>
+	</e:Scroller>
+	<e:Group includeIn="myStery,prop,gongxun" left.myStery="44" bottom.myStery="156" left.prop="44" bottom.prop="156" anchorOffsetX.myStery="0" width.myStery="278.33" left.gongxun="44" bottom.gongxun="156" left.jifen="44" bottom.jifen="156">
+		<ns1:BagBtn id="mySteryBtn" width="94" skinName="BagBtn_skin" height="42" x="0" y="0" width.myStery="88" width.prop="88" width.gongxun="88" width.jifen="88"/>
+		<ns1:BagBtn id="propBtn" width="94" height="42" skinName="BagBtn_skin" x="189" y="0" x.myStery="93" width.myStery="88" x.prop="93" width.prop="88" x.gongxun="93" width.gongxun="88" x.jifen="93" width.jifen="88"/>
+		<ns1:BagBtn id="gongxunBtn" width="88" height="42" skinName="BagBtn_skin" x="186" y="0"/>
+	</e:Group>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" includeIn="myStery,prop,gongxun,jifen" right.myStery="44" bottom.myStery="151" right.prop="44" bottom.prop="151" width.myStery="52" height.myStery="51" right.gongxun="44" bottom.gongxun="151" width.prop="52" height.prop="51" width.gongxun="52" height.gongxun="51" right.jifen="44" bottom.jifen="151" width.jifen="52" height.jifen="51"/>
+	<e:Label text="刷新时间:" includeIn="myStery" x="48" y="521.24" size="18" fontFamily="SimHei" textColor="0xeaddbf"/>
+	<e:Label text="(刷新或购买商品获得)" includeIn="myStery" x="173.65" size="18" fontFamily="SimHei" textColor="0xeaddbf" top="561"/>
+	<e:Label id="myScroe" text="50" includeIn="myStery" size="18" fontFamily="SimHei" textColor="0xeaddbf" x="131.01" top="561"/>
+	<e:Label text="20" includeIn="myStery" size="18" fontFamily="SimHei" textColor="0xeaddbf" x="270.27" top="522"/>
+	<e:Label id="refreshTime" text="01:42:11" includeIn="myStery" x="133.99" y="521.56" size="18" fontFamily="SimHei" textColor="0xeaddbf"/>
+	<e:Image source="title_yuanbao_png" includeIn="myStery" x="232.56" width="36" height="36" top="513"/>
+</e:Skin>

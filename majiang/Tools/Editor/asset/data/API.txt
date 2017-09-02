@@ -1,0 +1,116 @@
+﻿"event","Map_Init","","地图初始化","def"
+"event","enterWorld","Player _subpl","进入游戏世界","def"
+"event","entermap","Player _subpl","进入地图","def"
+"event","leavemap","Player _subpl","离开地图","def"
+"event","enterarea","Player _subpl,string _area","进入区域","def"
+"event","leavearea","Player _subpl,string _area","离开区域","def"
+"event","success","Player _subpl","玩家胜利","def"
+"event","fail","Player _subpl","玩家失败","def"
+"event","SbkStart","","沙巴克开始","def"
+
+"event","onSelBtn","Player _subpl,int _uiID,string _btnID","玩家选择某个菜单功能入口","def" 
+
+"event","onUseItem","Player _subpl,string _itemid","使用物品","def"
+"event","playerattrs","Player _subpl,string _attr","玩家属性改变","def"
+"event","playerdie","Player _subpl,Unit _killer","玩家死亡","def"
+"event","mobattrs","Mob _submob,string","怪物属性改变","def"
+"event","mobdie","Mob _submob,Unit _killer","怪物死亡","def"
+"event","heart","","心跳事件","def"
+
+
+"void","Triger.ClearTriger","","清除本地图的所有的已经触发的动作","def" 
+"void","Triger.Triger","string","执行一个触发器","def"
+"void","Triger.openTriger","string","打开某一个触发器,(,触发器名)","def"
+"void","Triger.closeTriger","string","关闭某一个触发器,(,触发器名)","def" 
+"void","Triger.waitTriger","number , string","等待N秒后，执行一个触发器,(时间,触发器名)","waitTriger" 
+
+"void","Map.AddMob","MonsterID:string , areaname:string , number","在指定区域增加一个怪物,参数为[怪物ID,区域名,数量)","def"
+"void","Map.setpause","bool","设置pause为参数","def"
+"void","Map.AddItem","ItemID:string , number , areaname:string","在指定区域放置物品,参数为,(物品ID,数量,区域名)","def"
+"void","Map.AddRandomItem","string , areaname:string","在指定区域放置随机物品,参数为,(随机的物品ID列表,区域名)","def"
+"void","Map.AddNpc","NPCID:string , areaname:string","在指定区域增加一个npc,参数为(NPC名,区域名)","def"
+"void","Map.removeNpc","NPCID:string","移除一个Npc,参数为(NPCID)","def"
+"void","Map.removeMobByCamp","number","移除一个阵营的Mob,参数为(阵营ID)","def"
+
+"void","Map.ClearMob","","清除本地图的怪物","def"
+"void","Map.ClearPlayer","","清除本地图的所有玩家","def"
+"void","Map.CloseMap","","关闭本地图,不允许玩家进入","def"
+"void","Map.OpenMap","","开启地图，允许玩家进入","def"
+"void","Map.addArea","string , number , number , number , number","给地图添加一个区域,(区域名,x,y,w,h)","user2" 
+
+"void","Map.isZhanlin","","查看是否被占领（仅限沙巴克地图使用）","rss (2)"
+"void","Map.stopShabake","","沙巴克结束","def"
+"number","Map.getmobcount","all","获取某阵营怪物的数量,(指定阵营（或者ID))","def"
+"number","Map.getplayercount","number","获取某阵营玩家的数量,(指定阵营)","def"
+"void","Unit.SetAttr","Unit , PAttr:string , number","设置单位的属性,(指定单位，属性名，属性值)","user2"
+"void","Unit.AddAttr","Unit , PAttr:string , number","增加单位的某个属性(指定单位，属性名，增加的属性值)","user2"
+"number","Unit.getAttrF","Unit , PAttr:string","取某个单位(玩家或者怪物)数值属性值,(单位,属性名)","user2"
+"string","Unit.getAttrS","Unit , PAttr:string","取某个单位（玩家或者怪物)属性值，(单位,属性名)","user2"
+
+"bool","string.IsNullOrEmpty","string","判断一个字符串是否为空或者null","user2"
+
+"void","VAR.setNumber","string , number","设置一个数字类型的自定义变量，参数形式:(变量名,数值)","setNumber"
+"void","VAR.addNumber","string , number","增加一个变量的值","addNumber"
+"number","VAR.getNumber","string","获取一个自定义的数字类型变量，如果没有返回0(变量名)","setNumber"
+"void","VAR.setString","string , string","设置一个字串类型的自定义变量，参数形式:(变量名,字符串)","setNumber"
+"string","VAR.getString","string","获取一个自定义的字符串变量,如果没有返回空的。参数形式:(变量名)","setNumber"
+"void","VAR.ClearString","","清空自定义字符串变量","setNumber"
+"void","VAR.ClearNumber","","清空自定义数字变量","setNumber"
+"number","VAR.getSaveData","string","获取保存的变量，如果没设置过为0","getSaveData"
+"void","VAR.setSaveData","string , number","设置保存的变量","setSaveData"
+"void","VAR.saveso","","保存设置的所有","saveso"
+
+
+
+
+"number","Rand","number , number","get random,(minnum,maxnum)","def"
+
+"void","Unit.MoveTo","Unit , string","移动单位到目标区域：(单位,目标区域)","user2"
+"void","Unit.setPath","Unit , string","移动单位到目标区域：(单位,路径ID)","user2"
+
+"void","executScript","string","调用客户端的脚本,开发者才能用","def"
+"bool","Unit.isPlayer","Unit","判断目标是否是玩家","def"
+"bool","Unit.isThatMonster","Unit , string","判断目标是否是目标ID","def"
+//
+"void","Unit.AddBuf","all , string","给指定玩家，怪物,阵营,增加一个buf：(玩家(怪物,阵营),BUFID)","user2"
+"void","Unit.RemoveBuf","all , string","给指定玩家移除一个buf,参数：(玩家,BUFID)","user2"
+"void","Player.addQuest","Player , string","给指定玩家增加一个隐藏任务,参数：(玩家,任务ID)","user2"
+"void","Player.FinishQuest","Player , string","使得指定玩家的指定任务进程变为达成,参数：(玩家,任务ID)","def"
+"void","Player.FailQuest","Player , string","使得指定玩家的指定任务进程变为失败,参数：(玩家,任务ID)","def"
+
+
+"number","Player.getGuildAttr","Player , string","获取玩家所在帮会的属性(可以为exp,lev,count)：(玩家,获取的属性)","user2"
+"void","Player.addGuildExp","Player , number","修改玩家所在帮会的发展度：(玩家,修改的值)","user2"
+"void","Player.sendTip","Player , string","给指定玩家发送提示：(玩家,提示内容)","rss (2)"
+"bool","Player.hasItem","Player , string , number","查看玩家是否拥有某物品","rss (2)"
+"bool","Player.isShabake","Player","查看玩家是否是沙巴克成员","rss (2)"
+"void","Player.removeItems","Player , string , number","查看玩家是否拥有某物品","rss (2)"
+"void","Player.removePlayer","Player","使得指定玩家回城：(玩家)","def"
+"void","Player.comeback","Player","让玩家原地复活","rss (2)"
+"void","Player.tryenterMap","Player , string , string","让玩家进入某个地图的某个区域","rss (2)"
+
+"void","Success","number","使得这个阵营的玩家获胜,参数：(阵营ID)","def"
+"void","Fail","number","使得这个阵营的玩家失败,参数：(阵营ID)","def"
+"void","return","","返回，不做任何事","def"
+
+//
+
+
+
+
+"void","UI.setHead","Player , string","设置玩家头衔：(玩家,头衔ID)","def"
+"void","UI.showUI","Player , number , string , string , string , string , number","给玩家弹出一个界面,参数：(玩家,uiID,title,content,bt1,bt2,showtime)","def"
+"void","UI.hideUI","Player , number","关闭某个界面,参数：(玩家,uiID)","def"
+
+"void","UI.PlayEffect","Player , string , number , number","让玩家播放某动画：(玩家,动画文件名,x,y)","def"
+
+"void","CD.addCD","Player , string , number , string","增加一个cd条,(玩家,cd名,倒计时秒数,labels)","user2"
+"void","CD.removeCD","Player , string","移除一个cd条,(玩家,cd名)","user2"
+"number","CD.getCD","Player , string","获得一个cd的剩余时间,不存在返回0","user2"
+
+"void","UI.SetTimerTitle","string , number","设置倒计时标题和时间(标题,倒计时间)","SetTimerTitle"
+
+"void","UI.pub","number , string , number","向特定的玩家发消息,3个参数(频道,内容,消息位置)频道编码0本图1全服,消息位置编码:0,系统，1，GM公告，3中央，4,聊天文字","def"
+
+"void","VAR.自定义语句","all","比较危险，没有真正明白每个变量的意义的话，不要随意使用","def"
+"void","VAR.赋值语句","number = number","比较危险，没有真正明白每个变量的意义的话，不要随意使用","def"

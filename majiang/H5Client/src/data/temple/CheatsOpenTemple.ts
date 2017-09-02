@@ -1,0 +1,1 @@
+module data{	export interface CheatsOpenTemple{		/**		* ID		*/		id:number;		/**		* 开启转生限制		*/		beginReborn:number;		/**		* 开启VIP等级		*/		beginVip:number;	}}

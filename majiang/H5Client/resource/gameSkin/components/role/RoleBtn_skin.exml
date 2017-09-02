@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleBtn_skin" width="122" height="42" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bag_btn4_png" left="0" top="0" bottom="0" right="0"/>
+	<e:Label id="labelTxt" text="一键穿戴" textColor="0xeaddbf" fontFamily="SimHei" size="22" stroke="1" strokeColor="0x0e0600" verticalCenter="0" horizontalCenter="0"/>
+</e:Skin>

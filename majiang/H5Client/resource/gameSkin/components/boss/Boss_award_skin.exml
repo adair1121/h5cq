@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Boss_award_skin" width="300" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bag_baseboard_box_png" scale9Grid="154,46,178,588" x="0" y="0" width="300" height="400"/>
+	<e:Button id="sureBtn" label="确定(5)" y="346" skinName="Btn3_skin" anchorOffsetX="0" width="85" horizontalCenter="0.5"/>
+	<e:Scroller id="scroller" width="271" height="283" x="15" y="25" anchorOffsetX="0">
+        <e:List id="list" width="265" height="283" x="24" y="40" anchorOffsetX="0" anchorOffsetY="0" itemRendererSkinName="ItemSkin">
+					<e:layout>
+						<e:TileLayout horizontalAlign="left" orientation="rows" verticalAlign="top" rowAlign="top" columnAlign="left" paddingLeft="16" requestedColumnCount="3" columnWidth="80"/>
+					</e:layout>
+					<e:ArrayCollection>
+						<e:Array>
+							<e:Object/>
+							<e:Object/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+							<e:Object test="null"/>
+						</e:Array>
+					</e:ArrayCollection>
+				</e:List>
+	</e:Scroller>
+</e:Skin>

@@ -1,0 +1,1 @@
+module data{	export interface RankTemple{		/**		* 编号		*/		ID:number;		/**		* 名称		*/		name:string;		/**		* 序列		*/		order:number;		/**		* 描述		*/		information:string;		/**		* 所属职业		*/		profess:number;		/**		* 排名类型		*/		rankType:number[];		/**		* 对应排名		*/		rank:number;		/**		* 奖励称号		*/		designation:number;		/**		* 奖励掉落		*/		awardDrop:number;	}}

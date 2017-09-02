@@ -1,0 +1,1 @@
+module data{	export interface MapTemple{		/**		* 编号		*/		ID:number;		/**		* 地图名字		*/		name:string;		/**		* 地图类型		*/		mapType:number;		/**		* 地图资源ID		*/		mapRes:number;	}}

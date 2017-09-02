@@ -1,0 +1,20 @@
+ID	地图ID	地图类型	传送区域	消耗种类	消耗值	需求道具ID	传送等级	VIP等级
+ID	mapID	mapType	moveArea	needType	needCount	needItem	moveLevel	VIPLevel
+string	string	int	string	string	int	string	int	int
+1	1	0	xinshoucunMove	gold	2000		1	0
+2	16	0	jiaguchengMove	gold	2000		10	0
+3	13	0	shamengMove	gold	2000		20	0
+4	12	0	yuezangdaoMove	money	10		40	0
+5	108	1	jiangshidongMove	bindmoney	100		20	0
+6	111	1	shimudongMove	gold	2000		30	0
+7	123	1	baidudongMove	gold	2000		40	0
+8	117	1	niumodongMove	gold	2000		40	0
+9	120	1	mayidongMove	gold	2000		40	0
+10	126	1	shourenchaoxueMove	gold	2000		40	0
+11	14	2	shabakeMove	gold	2000		60	0
+12	204	2	shendengjuMove	bindmoney	100		60	0
+13	206	2	shilianMove	bindmoney	100	21016	30	0
+14	2	1	xueyuMove	gold	2000		80	0
+15	18	0	manhuangzhidiMove	gold	2000		50	0
+16	17	0	shamengbeibuMove	gold	2000		30	0
+17	209	3	jieshashengdiMove		0		60	0

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Wing_star_item_skin" width="36" height="36" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="star" source="wing_star_0_png" width="46" height="46" y="-4.5" horizontalCenter="1"/>
+</e:Skin>

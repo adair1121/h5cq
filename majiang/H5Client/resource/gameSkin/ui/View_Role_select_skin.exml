@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_select_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="bag_bg_png" height="660" width="480" x="0" y="0"/>
+	<e:Label text="召集伙伴" size="16" fontFamily="SimHei" horizontalCenter="0" top="0"/>
+	<e:List id="roleList" width="434" height="292" horizontalCenter="0" top="40">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="top" gap="0"/>
+		</e:layout>
+	</e:List>
+	<e:Group y="394" horizontalCenter="0">
+		<e:Label text="召集伙伴可增加上阵角色,多个角色并肩战斗" y="0" size="16" fontFamily="SimHei" lineSpacing="1" x="0"/>
+		<e:Label text="等级达到80或vip1可召唤第一个伙伴" x="29" y="28" size="16" fontFamily="SimHei"/>
+		<e:Label text="转生等级达到4级或vip4可召唤第二个伙伴" x="6" y="56" size="16" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Group y="496" horizontalCenter="0.5">
+		<ns1:BagBtn id="roleBtnMan" width="92" height="41" y="0" enabled="true" skinName="BagBtn_skin" x="0"/>
+		<ns1:BagBtn id="roleBtnWoman" width="92" height="41" y="0.3299999999999841" enabled="true" skinName="BagBtn_skin" x="92.12999999999994"/>
+	</e:Group>
+	<ns1:BagBtn id="createRoleBtn" width="92" height="41" y="555.7" enabled="true" skinName="BagBtn_skin" horizontalCenter="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="5" bottom="148"/>
+</e:Skin>

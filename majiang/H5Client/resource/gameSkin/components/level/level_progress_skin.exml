@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="level_progress_skin" width="71" height="15" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" bottom="0" right="0" source="level_progress_down_png"/>
+	<e:Image id="thumb" source="level_progress_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image right="0" left="0" top="0" bottom="0" source="level_progress_up_png"/>
+	<e:Label id="numLabel" text="1/3" size="14" fontFamily="SimHei" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

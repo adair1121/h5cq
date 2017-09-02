@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Forging_AttrItem_skin" width="300" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="0" right="0" top="0" bottom="0" width="240" height="20">
+        <e:Group  left="0" top="0" bottom="0" right="150">
+            <e:Group horizontalCenter="0">
+                <e:Label id="txt_propName" text="生命"  size="20" textColor="0xE6D8B3" fontFamily="SimHei" y="0" textAlign="right" left="0"/>
+                <e:Label id="txt_prop_now" text="+15000"  size="20" textColor="0xE6D8B3" fontFamily="SimHei" y="0" textAlign="left" right="0" left="40"/>
+            </e:Group>
+        </e:Group>
+        <e:Group  left="150" right="0" top="0" bottom="0">
+		    <e:Label id="txt_prop_next" text="64541"  size="20" textColor="0x00FF4B" fontFamily="SimHei" y="0" textAlign="center" horizontalCenter="0"/>
+        </e:Group>
+    </e:Group>
+</e:Skin>

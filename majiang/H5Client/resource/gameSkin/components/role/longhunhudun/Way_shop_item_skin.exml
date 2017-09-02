@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Way_shop_item_skin" width="346" height="154" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="27" y="0">
+		<ns1:CommonItem id="commonItem" width="66" height="66" x="0" y="0" skinName="ItemSkin"/>
+		<e:Label id="itemName" text="龙魂碎片" x="78" y="3" size="20" fontFamily="SimHei"/>
+		<e:Image width="38" height="38" x="75" y="30" source="title_yuanbao_png"/>
+		<e:Label id="singleCostLabel" text="100" x="117" y="38" size="20" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Group x="119" y="115">
+		<e:Image width="38" height="38" x="39" y="0" source="title_yuanbao_png"/>
+		<e:Label id="allCostLabel" text="100" x="78" y="8" size="20" fontFamily="SimHei"/>
+		<e:Label text="总价" x="0" y="8" size="20" fontFamily="SimHei"/>
+	</e:Group>
+	<ns1:AddGoodsNumCom id="addCom" width="254" height="25" skinName="AddGoodsNumComSkin" x="46" y="84"/>
+</e:Skin>

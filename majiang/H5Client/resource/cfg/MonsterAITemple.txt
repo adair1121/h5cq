@@ -1,0 +1,1 @@
+{"40202001":{"timeSkill":[503],"rateSkill":[502],"fightTime":[5000],"skill":501,"comment":"怪物普通攻击","lifePrc":[5000],"lifeSkill":[504],"ID":40202001,"rate":[4000]}}

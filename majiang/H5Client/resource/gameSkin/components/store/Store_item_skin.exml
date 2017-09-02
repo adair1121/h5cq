@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Store_item_skin" width="130" height="205" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="normal,jifen" >
+	<e:Group right="0" bottom="0">
+		<e:Image source="store_item_bg_png" x="0" y="0"/>
+		<ns1:CommonItem id="commonItem" width="66" height="66" x="31.700000000000017" y="36.69" skinName="ItemSkin"/>
+		<e:Label id="itemName" text="高级转生丹" size="16" fontFamily="SimHei" horizontalCenter="0" top="13" textColor="0xfc3434" stroke="1"/>
+		<e:Group horizontalCenter="0" bottom="46">
+			<e:Label id="itemCost" text="13080" x="29" y="7" size="16" fontFamily="SimHei" textColor="0xffe4a0"/>
+			<e:Image id="type" x="0" y="0" width="30" height="30" source="title_jinbi_png"/>
+		</e:Group>
+		<e:Button id="buyBtn" label="购买" x="27.69999999999996" y="151.86" skinName="Btn3_skin" enabled="true"/>
+		<e:Group id="scoreGroup" horizontalCenter="0" verticalCenter="17.5" includeIn="normal">
+			<e:Label text="评分" x="0" size="16" fontFamily="SimHei" textColor="0x04fe10" y="0.009999999999990905"/>
+			<e:Label id="score" text="2055" x="44.66" size="16" fontFamily="SimHei" textColor="0x04FE10" y="0.009999999999990905"/>
+			<e:Image source="arrow_up_png" x="32.68" y="0"/>
+		</e:Group>
+		<e:Image id="disImg" y="-7.25" x="-6" source="555_png"/>
+		<e:Image id="jifenIcon" source="title_yuanbao_png" includeIn="jifen" x="27" y="100.5" width="30" height="30"/>
+		<e:Label id="jifenCost" text="00000" includeIn="jifen" x="57.5" y="108" size="16" fontFamily="SimHei" textColor="0xffe4a0"/>
+	</e:Group>
+</e:Skin>

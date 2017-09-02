@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Get_Goods_pop_skin" width="346" height="430" currentState="longhun" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="longhun,hudun"  height.hudun="280">
+	<e:Image source="cmmon_box_png" scale9Grid="14,48,317,164" left="0" right="0" top="0" bottom="0" anchorOffsetY.hudun="0" left.hudun="0" right.hudun="0" top.hudun="0" bottom.hudun="0" height.hudun="280"/>
+	<ns1:Btn1 id="reChargeBtn" height="42" skinName="Btn1_skin" bottom="116" includeIn="longhun" left="57" width="94"/>
+	<ns1:Btn1 id="buyBtn" width="94" height="42" skinName="Btn1_skin" right="57" bottom="116" includeIn="longhun"/>
+	<e:Image source="popup_title1_png" horizontalCenter="0" top="4"/>
+	<e:Group y="85.2" horizontalCenter="0" includeIn="longhun">
+		<e:Label text="商城购买" size="16" textColor="0xEAE2D1" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei"/>
+		<e:Image source="popup_line1_l_png" verticalCenter="0" horizontalCenter="-65"/>
+		<e:Image source="popup_line1_r_png" verticalCenter="0" horizontalCenter="65"/>
+	</e:Group>
+	<ns1:Way_shop_item id="shopItem" width="346" height="154" x="1" y="112" skinName="Way_shop_item_skin" includeIn="longhun"/>
+	<e:Label text="材料不足，通过以下方式获得" y="55" size="20" fontFamily="SimHei" horizontalCenter="0" textColor="0xfea304"/>
+	<ns1:Way_other_item id="otherItem" width="346" height="57" skinName="Way_other_item_skin" x.longhun="0" left.longhun="0" left.hudun="0" top.longhun="343" height.longhun="38" y.hudun="192" height.hudun="38"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="0" bottom="0" right.hudun="7" bottom.hudun="4" right.longhun="14" bottom.longhun="7"/>
+	<ns1:CommonItem id="commonItem" width="66" height="82" includeIn="hudun" skinName="ItemSkin" horizontalCenter="0" top="93"/>
+</e:Skin>

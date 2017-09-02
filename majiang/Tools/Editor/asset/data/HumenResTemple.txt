@@ -1,0 +1,73 @@
+模型ID	模型名字	游戏里名字	起始帧	资源路径	坐姿	截图	站姿	looks	图标1	图标2	图标3	图标4
+ID	name	GameName	startframe	res	zuo	pic	stand	looks	icon1	icon2	icon3	icon4
+string	string	string	int	string	string	string	string	int	string	string	string	string
+1	男裸体		0	hum1	完成		完成					
+2	女裸体		1060	hum1	完成     换头发		完成    换头发					
+400	初级布衣(男)		2120	hum1	完成		完成	400	items3	items2	items4	items1
+401	初级布衣(女)		3180	hum1	完成     换头发		完成    换头发	401	items3	items2	items4	items1
+402	朱雀盔甲(男) 10023	刀锋护甲(男)	4240	hum1	完成		完成	402	items3	items2	items4	items1
+403	朱雀盔甲(女) 10033	刀锋护甲(女)	5300	hum1	完成     换头发		完成    换头发	403	items3	items2	items4	items1
+404	黑暗战士2（男光明） 10043	荣耀战铠(男)	6360	hum1	完成		完成	404	items3	items2	items4	items1
+405	黑暗战士2（女）10053	荣耀战铠(女)	7420	hum1	完成     换头发		完成    换头发	405	items3	items2	items4	items1
+406	赤霞法衣(男) 12023	浮冰法衣(男)	8480	hum1	完成		完成	406	items3	items2	items4	items1
+407	赤霞法衣_female 12033	浮冰法衣(女)	9540	hum1	完成     换头发		完成    换头发	407	items3	items2	items4	items1
+408	暮光法衣男(光明法师2) 12043	盈月魔袍(男)	0	hum2	完成		完成	408	items3	items2	items4	items1
+409	暮光法衣_女(光明法师2) 12053	盈月魔袍(女)	1060	hum2	完成     换头发		完成    换头发	409	items3	items2	items4	items1
+410	天尊道袍   凰舞道衣(男) 14023	凰舞道衣(男)	2120	hum2	完成		完成	410	items3	items2	items4	items1
+411	天师长袍(光明道士1女)  凰舞道衣(女) 14033	凰舞道衣(女)	3180	hum2	完成     换头发		完成    换头发	411	items3	items2	items4	items1
+412	苍穹道衣male(光明道士2) 14043	曙光道袍(男)	4240	hum2	完成		完成	412	items3	items2	items4	items1
+413	苍穹道衣_女(光明道士2) 14053	曙光道袍(女)	5300	hum2	完成     换头发		完成    换头发	413	items3	items2	items4	items1
+414	暗黑战士2（男） 56022	暗刀锋护甲(男)	6360	hum2				414	items3			
+415	新-暗黑战士2（女） 56023	暗刀锋护甲(女)	7420	hum2				415	items3			
+416	暗黑战士1（男） 56024	暗荣耀战铠(男)	8480	hum2	完成		完成	416	items3	items2	items4	items1
+417	暗黑战士1（女） 56025	暗荣耀战铠(女)	9540	hum2	完成     换头发		完成    换头发	417	items3	items2	items4	items1
+418	黑暗法师1_   56030	暗浮冰法衣(男)	0	hum3	完成		完成	418	items3	items2	items4	items1
+419	黑暗法师1_女 56031	暗浮冰法衣(女)	1060	hum3	完成     换头发		完成    换头发	419	items3	items2	items4	items1
+420	暗黑法师02(男） 56032	暗盈月魔袍(男)	2120	hum3	完成		完成	420	items3	items2	items4	items1
+421	暗黑法师02(女） 56033	暗盈月魔袍(女)	3180	hum3	完成     换头发		完成    换头发	421	items3	items2	items4	items1
+422	暗黑道士01（男） 56038	暗凰舞道衣(男)	4240	hum3	完成		完成	422	items3	items2	items4	items1
+423	暗黑道士01（女） 56039	暗凰舞道衣(女)	5300	hum3	完成     换头发		完成    换头发	423	items3	items2	items4	items1
+424	暗黑道士02（男） 56040	暗曙光道袍(男)	6360	hum3	完成		完成	424	items3	items2	items4	items1
+425	暗黑道士02（女） 56041	暗曙光道袍(女)	7420	hum3	完成     换头发		完成    换头发	425	items3	items2	items4	items1
+438	光明战士3-男 10063	坚毅战甲(男)	8480	hum3	完成		完成	438	items3	items2	items4	items1
+439	光明战士3-女 10073	坚毅战甲(女)	9540	hum3	完成     换头发		完成    换头发	439	items3	items2	items4	items1
+440	光明法师3-男 12063	晨星法衣(男)	0	hum4	完成		完成	440	items3	items2	items4	items1
+441	光明法师3-女 12073	晨星法衣(女)	1060	hum4	完成     换头发		完成    换头发	441	items3	items2	items4	items1
+442	光明道士3-男 14063	青霜道衣(男)	2120	hum4	完成		完成	442	items3	items2	items4	items1
+443	光明道士3-女 14073	青霜道衣(女)	3180	hum4	完成     换头发		完成    换头发	443	items3	items2	items4	items1
+444	暗黑战士5-男 56026	暗坚毅战甲(男)	4240	hum4	完成		完成	444	items3	items2	items4	items1
+445	暗黑战士5-女 56027	暗坚毅战甲(女)	5300	hum4	完成     换头发		完成    换头发	445	items3	items2	items4	items1
+448	暗黑道士3-男 56042	暗青霜道衣(男)	8480	hum4	完成		完成	448	items3	items2	items4	items1
+449	暗黑道士3-男 56043	暗青霜道衣(女)	9540	hum4	完成     换头发		完成    换头发	449	items3	items2	items4	items1
+450	光明战士4-男 10083	征服战铠(男)更换为暗黑战士4	0	hum5	完成		完成	450	items3	items2	items4	items1
+451	光明战士4-女 10093	征服战铠(女)更换为暗黑战士4	1060	hum5	完成     换头发		完成    换头发	451	items3	items2	items4	items1
+456	暗黑战士4-男 56028	暗征服战铠(男)	6360	hum5	完成		完成	456	items3	items2	items4	items1
+457	暗黑战士4-女 56029	暗征服战铠(女)	7420	hum5	完成     换头发		完成	457	items3	items2	items4	items1
+462	光明战士5-男 10103	钢衬武衣(男)	2120	hum6	完成		完成	462	items3	items2	items4	items1
+463	光明战士5-女 10113	钢衬武衣(女)	3180	hum6	完成     换头发		完成    换头发	463	items3	items2	items4	items1
+468	暗黑战士3男 	暗钢衬武衣(男)	8480	hum6	完成		完成	468	items3	items2	items4	items1
+469	暗黑战士3女 	暗钢衬武衣(女)	9540	hum6	完成     换头发		完成    换头发	469	items3	items2	items4	items1
+470	法师倒是神装	暗苍穹法袍(男)	0	hum7	完成		完成	470	items3	items2	items4	items1
+471	暗苍穹法袍(女)	暗苍穹法袍(女)	1060	hum7	完成     换头发		完成    换头发	471	items3	items2	items4	items1
+472	暗无极道袍(男)	暗无极道袍(男)	2120	hum7	完成		完成	472	items3	items2	items4	items1
+473	暗无极道袍(女)	暗无极道袍(女)	3180	hum7	完成     换头发		完成    换头发	473	items3	items2	items4	items1
+474	正义轻甲（男） 56013	老兵护甲(男)	4240	hum7	完成		完成	474	items3	items2	items4	items1
+475	正义轻甲（女） 56018	老兵护甲(女)	5300	hum7	完成     换头发		完成    换头发	475	items3	items2	items4	items1
+476	新兵护甲(战士男)	新兵护甲(男)	6360	hum7	完成		完成	476	items3	items2	items4	items1
+477	新兵护甲(战士女)	新兵护甲(女)	7420	hum7	完成     换头发		完成    换头发	477	items3	items2	items4	items1
+478	奥义法甲(男)	奥义法甲(男)	8480	hum7	完成		完成	478	items3	items2	items4	items1
+479	奥义法袍(女)	奥义法袍(女)	9540	hum7	完成     换头发		完成    换头发	479	items3	items2	items4	items1
+480	无极道袍(男)	无极道袍(男)	0	hum8	完成		完成	480	items3	items2	items4	items1
+481	无极道袍(女)	无极道袍(女)	1060	hum8	完成     换头发		完成    换头发	481	items3	items2	items4	items1
+484	男战士神装	血饮战神甲(男)	4240	hum8	完成		完成	484	items3	items2	items4	items1
+485	女战士神装	血饮战神袍(女)	5300	hum8	完成     换头发		完成    换头发	485	items3	items2	items4	items1
+426	妖月法甲(男)	妖月法甲(男)	6360	hum8	完成		完成	426	items3	items2	items4	items1
+427	妖月法袍(女)	妖月法袍(女)	7420	hum8	完成     换头发		完成    换头发	427	items3	items2	items4	items1
+428	龙纹战甲(男)	龙纹战甲(男)	8480	hum8	完成		完成	428	items3	items2	items4	items1
+429	龙纹战袍(女)	龙纹战袍(女)	9540	hum8	完成     换头发		完成    换头发	429	items3	items2	items4	items1
+430	霜狼战甲(男)	霜狼战甲(男)	0	hum9	完成		完成	430	items3	items2	items4	items1
+431	霜狼战袍(女)	霜狼战袍(女)	1060	hum9	完成     换头发		完成    换头发	431	items3	items2	items4	items1
+432	血饮霸王甲(男)	血饮霸王甲(男)	2120	hum9	完成		完成	432	items3	items2	items4	items1
+433	血饮霸王袍(女)	血饮霸王袍(女)	3180	hum9	完成     换头发		完成	433	items3	items2	items4	items1
+436	圣诞时装(男)	圣诞时装(男)	6360	hum9	完成     换头发		完成	436	items3	items2	items4	items1
+437	圣诞时装(女)	圣诞时装(女)	7420	hum9	完成     换头发		完成	437	items3	items2	items4	items1

@@ -1,0 +1,10 @@
+ID	BossID	关卡ID	刷新坐标x	刷新坐标y	传送地图ID	传送坐标x	传送坐标y
+ID	BossID	MapID	posx	posy	goMapId	gox	goy
+string	string	string	int	int	string	int	int
+1	3621	110	16	19	109	66	113
+2	356	113	26	29	112	82	23
+3	1501	119	22	25	118	69	69
+4	213	122	16	26	121	90	112
+5	49	17	70	22	17	74	27
+6	366	125	27	34	124	21	115
+7	338	12	48	17	12	46	69

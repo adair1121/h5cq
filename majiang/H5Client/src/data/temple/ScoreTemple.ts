@@ -1,0 +1,1 @@
+module data{	export interface ScoreTemple{		/**		* ID		*/		Id:number;		/**		* 属性ID		*/		AttrId:number;		/**		* 属性名称		*/		Value:string;		/**		* 评分		*/		Garde:number;	}}

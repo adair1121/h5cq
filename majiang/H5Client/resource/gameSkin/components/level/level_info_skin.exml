@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="level_info_skin" width="170" height="87" currentState="mainState" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="mainState,fubenState" >
+	<e:Group left="0" top="0">
+		<e:Image source="level_info_bg_png" y="14.799999999999997" x="3"/>
+		<e:Image source="level_info_up_png" y="0" x="0"/>
+		<e:Image source="level_info_bottom_png" y="76" x="2"/>
+		<e:Label id="levelName" text="第999关 正宗小西瓜10" size="14" fontFamily="SimHei" textColor="0xffd339" stroke="1" horizontalCenter="0" top="23"/>
+		<e:Image source="level_divide_line_png" y="40" x="3"/>
+		<e:Label id="fubenDesc" text="奖励：元宝、金币、装备、材料" includeIn="fubenState" size="14" fontFamily="SimHei" textColor="0xeae1c2" wordWrap="true" multiline="true" anchorOffsetX="0" width="143.5" horizontalCenter="0" top="48"/>
+		<e:Image source="exp_icon_png" left="14" bottom="5" includeIn="mainState"/>
+		<e:Image source="money_icon_png" left="17" top="43" includeIn="mainState"/>
+		<e:Label id="levelMoney" text="99999999/小时" size="14" fontFamily="SimHei" textColor="0xeae1c2" stroke="1" left="61" top="45" includeIn="mainState"/>
+		<e:Label id="levelExp" text="99999999/小时" size="14" fontFamily="SimHei" textColor="0xEAE1C2" stroke="1" left="61" bottom="8" includeIn="mainState"/>
+	</e:Group>
+</e:Skin>

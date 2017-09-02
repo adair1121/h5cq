@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WingTab_skin" width="458" height="567" currentState="active" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"   states="noactive,active,upGradeStar"  width.noactive="434" height.noactive="578" width.active="434" height.active="578" width.upGradeStar="434" height.upGradeStar="578">
+	<e:Group id="wingGroup" top="0" left="0" right="0" bottom="0">
+		<e:Group id="roleWing" width="480" height="480" width.active="318" height.active="272" top.active="161" left.active="59" width.noactive="318" height.noactive="272" top.noactive="161" left.noactive="59" left.upGradeStar="59" top.upGradeStar="161" width.upGradeStar="318" height.upGradeStar="272">
+		</e:Group>
+		<e:Group includeIn="active,upGradeStar" x="168" y.noactive="243" horizontalCenter.active="0.5" verticalCenter.active="-15" horizontalCenter.upGradeStar="0.5" verticalCenter.upGradeStar="-15" visible.active="false" visible.upGradeStar="false">
+			<e:Image source="wing_name_box_png" includeIn="active,upGradeStar" y="0" x="0"/>
+			<e:Label text="摩罗之翼" includeIn="active,upGradeStar" y="3" size="18" fontFamily="SimHei" textColor="0xfbe709" x="13"/>
+		</e:Group>
+		<e:Image source="wing_attr_bottom_png" includeIn="active,upGradeStar" y="343" horizontalCenter="0" bottom.active="92" bottom.upGradeStar="92" horizontalCenter.active="0.5" horizontalCenter.upGradeStar="0.5"/>
+		<ns1:Btn1 id="changWing" width="94" height="42" includeIn="upGradeStar" skinName="Btn1_skin" horizontalCenter="0" bottom="20"/>
+		<e:List id="starList" width="337.34" height="29.33" includeIn="active,upGradeStar" y.noactive="325" anchorOffsetY="0" anchorOffsetX="0" width.active="340" horizontalCenter.active="-10" width.upGradeStar="340" horizontalCenter.upGradeStar="-10" height.upGradeStar="46" height.active="46" bottom.active="244" bottom.upGradeStar="244" y="273" x="47">
+			<e:layout.upGradeStar>
+				<e:HorizontalLayout gap="1" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout.upGradeStar>
+			<e:layout.active>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="top" gap="0"/>
+			</e:layout.active>
+		</e:List>
+		<e:Label text="当前属性" includeIn="active,upGradeStar" x="99.33" y="263.98" size="20" fontFamily="SimHei" textColor="0xfbe709" left.active="80" verticalCenter.active="85" left.upGradeStar="80" verticalCenter.upGradeStar="85"/>
+		<e:Label text="下一星级属性" includeIn="active,upGradeStar" x="278.67" y="263.31" size="20" fontFamily="SimHei" textColor="0xFBE709" right.active="66" verticalCenter.active="85" right.upGradeStar="66" verticalCenter.upGradeStar="85"/>
+		<e:ProgressBar id="updateProgress" width="383" height="25" includeIn="active,upGradeStar" skinName="Wing_progress_skin" horizontalCenter="0" bottom="92" maximum="10" value="1" horizontalCenter.active="0.5" bottom.active="225" enabled.active="true" y.upGradeStar="459" horizontalCenter.upGradeStar="0.5" bottom.upGradeStar="225" slideDuration.active="0" slideDuration.upGradeStar="0"/>
+		<e:Image source="role_title_png" width="70" scaleX="1" scaleY="1" horizontalCenter="11" top="5" includeIn="noactive,upGradeStar"/>
+		<ns1:BagBtn id="freeActive" width="94" skinName="BagBtn_skin" horizontalCenter="0" bottom="90" height="42" includeIn="noactive"/>
+		<e:Label text="16级可免费激活羽翼，提升角色属性" includeIn="noactive" y="395" fontFamily="SimHei" size="16" textColor="0xffd862" horizontalCenter="0"/>
+		<e:Group id="btnGroup" includeIn="active" bottom="20" horizontalCenter="0">
+			<ns1:Btn1 id="autoUp" width="94" height="42" includeIn="active" skinName="Btn1_skin" x="0" y="32"/>
+			<ns1:Btn1 id="promoteBtn" width="94" height="42" includeIn="active" skinName="Btn1_skin" x="140" y="32"/>
+			<ns1:Btn1 id="featherUpBtn" width="94" height="42" includeIn="active" skinName="Btn1_skin" x="280" y="32"/>
+			<e:Image width="30" height="30" includeIn="active" source="wing_feather_png" x="278" y="0"/>
+			<e:Label id="costMoney" text="320000" includeIn="active" size="20" fontFamily="SimHei" textAlign="left" textColor="0xe6d8b3" x="164" y="7"/>
+			<e:Image width="30" height="30" includeIn="active" source="title_jinbi_png" x="132" y="2"/>
+			<e:Label id="feather" text="0/1" includeIn="active" size="20" fontFamily="SimHei" textColor="0xe6d8b3" x="315" y="7"/>
+		</e:Group>
+		<e:Image width="30" height="36" includeIn="active,upGradeStar" source="arrow_png" horizontalCenter="0" verticalCenter="125" horizontalCenter.active="0" verticalCenter.active="140" verticalCenter.upGradeStar="140"/>
+		<e:List id="nextAttrList" width="160" height="100" includeIn="active,upGradeStar" x="260" y="397">
+			<e:layout>
+				<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+			</e:layout>
+		</e:List>
+		<e:Image source="wing_title_png" includeIn="active" horizontalCenter="2" top="7"/>
+	</e:Group>
+	<e:List id="cAttrList" width="160" height="100" includeIn="active,upGradeStar" x="70" y="397">
+		<e:layout>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

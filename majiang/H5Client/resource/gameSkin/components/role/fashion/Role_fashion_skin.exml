@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_fashion_skin" width="480" height="800" currentState="noselect" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="noselect,select"  height.select="660" height.noselect="660">
+	<e:Group x="0" y="0">
+		<e:Image source="bag_baseboard_box_png" height="660" width="480" x="0" y="0"/>
+		<e:Image id="bgSource" source="role_bg_png" anchorOffsetY="0" anchorOffsetX="0" width="434" height="542" top="40" horizontalCenter="1"/>
+		<e:Group id="roleModuleGroup" width="318" height="272" anchorOffsetX="0" anchorOffsetY="0" top="175" horizontalCenter="0"/>
+		<e:Group x="106.4" y="121.15">
+			<e:Image width="248" height="55" x="0" y="0" source="fight_bottom_png"/>
+			<e:BitmapLabel id="power" width="116.67" height="23.5" anchorOffsetX="0" anchorOffsetY="0" text="12346" font="fightValue_fnt" x="101.60000000000002" y="16.849999999999994"/>
+			<e:BitmapLabel width="72" height="31.33" x="30.620000000000005" font="fightValue_fnt" text="z" anchorOffsetX="0" anchorOffsetY="0" y="9.150000000000006"/>
+		</e:Group>
+		<e:Image source="font_bg_png" x="157.58" y="432.82" anchorOffsetX="0" width="171" includeIn="noselect"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="23" bottom="13"/>
+		<e:Group left="26" bottom="18" anchorOffsetX="0" width="279.33">
+		<ns1:BagBtn id="roleBtn" xmlns:ns1="*" width="92" height="41" y="0" enabled="true" skinName="BagBtn_skin" x="0"/>
+		<ns1:BagBtn id="weaponBtn" xmlns:ns1="*" width="92" height="41" y="0" enabled="true" skinName="BagBtn_skin" x="93"/>
+		<ns1:BagBtn id="wingBtn" xmlns:ns1="*" width="92" height="41" x="186" y="0" enabled="true" skinName="BagBtn_skin"/>
+		</e:Group>
+		<ns1:Role_headCom id="headCom" xmlns:ns1="*" width="260" height="72" skinName="Role_headCom_skin" x="110" y="40.75"/>
+		<e:Image width="446" height="5" source="role_line_png" y="582" horizontalCenter="1"/>
+		
+		<e:Scroller id="scroller" width="434" height="82" x="23" y="479" anchorOffsetY.select="0" height.select="107" height.noselect="100">
+            <e:List id="list" width="434" height="82" x="22.66" y="458.34" anchorOffsetY="0" anchorOffsetX="0" itemRendererSkinName="ItemSkin" useVirtualLayout="false" height.select="107" itemRendererSkinName.select="ForgingItemRenderer_skin" itemRendererSkinName.noselect="ForgingItemRenderer_skin">
+                <e:layout>
+                    <e:HorizontalLayout horizontalAlign="left" verticalAlign="top" gap="30" paddingLeft="20" gap.select="20" gap.noselect="20"/>
+                </e:layout>
+                <e:ArrayCollection>
+                    <e:Array>
+                        <e:Object test="null"/>
+                        <e:Object test="null"/>
+                        <e:Object test="null"/>
+                        <e:Object test="null"/>
+                        <e:Object test="null"/>
+                    </e:Array>
+                </e:ArrayCollection>
+            </e:List>
+		</e:Scroller>
+		<e:Group includeIn="select" x="25.329999999999984" y="293.68">
+			<e:Image source="role_attr_bg_png" scale9Grid="24,24,335,301" includeIn="select" width="135" height="165.21" x="0" y="18.659999999999968" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Image source="chat_item_line_png" width="100" includeIn="select" y="57.31999999999999" x="15.670000000000016"/>
+			<e:Label text="装备属性可累加" includeIn="select" x="4.340000000000032" y="0" size="14" fontFamily="SimHei"/>
+			<e:Label id="itemName" text="属性-东方幻想" includeIn="select" y="35.670000000000016" size="14" fontFamily="SimHei" horizontalCenter="0"/>
+			<e:List id="attrList" width="112.67" height="74.67" includeIn="select" y="64.64999999999998" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"/>
+			<e:Label id="itemPower" text="战力:00000" includeIn="select" x="12.670000000000016" y="149.32" size="14" fontFamily="SimHei"/>
+		</e:Group>
+		<e:Label text="需要:" includeIn="select" x="173" y="454" size="16" fontFamily="SimHei"/>
+		<e:Label id="needNum" text="xxxxxxxxxxxxx" includeIn="select" x="216" y="455" size="16" fontFamily="SimHei" textAlign="left"/>
+		<e:Button id="activateBtn" label="Button" includeIn="select" x="368" y="423" skinName="Btn3_skin"/>
+		<e:Label text="请选择装备进行试穿" x="171" y="441" size="16" fontFamily="SimHei" includeIn="noselect"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Smelt_selectItem_skin" width="430" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="reborn_normal_png" anchorOffsetY="0" left="0" top="0" right="0" bottom="0" scale9Grid="19,12,387,73"/>
+	<e:Image width="82.17" height="95.78" x="25.91" y="17.97" source="bag_select_bg_png" anchorOffsetY="0" anchorOffsetX="0"/>
+	<ns1:CommonItem id="comonItem" width="66" height="84" skinName="ItemSkin" x="34" y="27" anchorOffsetY="0"/>
+	<e:Label id="itemName" text="镇海头盔" size="16" fontFamily="SimHei" textColor="0xfecc04" x="112" y="12"/>
+	<e:Label text="评分:" x="263.82" fontFamily="SimHei" size="16" y="12"/>
+	<e:Label id="score" text="10575" x="307.82" fontFamily="SimHei" size="16" y="12"/>
+	<e:CheckBox id="checkBox" label="" skinName="skins.CheckBoxSkin" enabled="true" horizontalCenter="168" verticalCenter="1"/>
+	<e:Group id="attrGroup" width="186.67" height="91" x="112" y="35.17" anchorOffsetY="0" anchorOffsetX="0">
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="left" verticalAlign="top"/>
+		</e:layout>
+	</e:Group>
+	<e:Image source="common_item_box_png" anchorOffsetX="0" width="36" anchorOffsetY="0" height="36.67" right="31" top="49" alpha="0"/>
+</e:Skin>

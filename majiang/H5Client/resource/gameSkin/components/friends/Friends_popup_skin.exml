@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Friends_popup_skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="addFriend,blackList"  width.addFriend="346" height.addFriend="197" width.blackList="442" height.blackList="566">
+	<e:Image source="cmmon_box_png" scale9Grid="14,48,317,164" left="0" right="0" top="0" bottom="0" includeIn="addFriend,blackList" width.addFriend="346" height.addFriend="197"/>
+	<e:Image source="friends_add_title_png" horizontalCenter="0" top="3" source.blackList="friends_black_title_png" y.addFriend="3" x.addFriend="109"/>
+	<e:Group includeIn="addFriend" y="147" x="45">
+		<e:Button id="sureBtn" label="确认" includeIn="addFriend" x="0" anchorOffsetY="0" height="29.5" skinName="Btn3_skin" anchorOffsetX="0" width="88.5" y="0"/>
+		<e:Button id="cancleBtn" label="取消" includeIn="addFriend" x="167" skinName="Btn3_skin" anchorOffsetY="0" height="29.5" anchorOffsetX="0" width="88.5" y="0"/>
+	</e:Group>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="14" bottom="7" includeIn="blackList" />
+	<e:Group includeIn="blackList" bottom="25" left="30">
+		<e:Label text="屏蔽数量：" includeIn="blackList" x="0" y="0" textColor="0xe6d8b3" size="20" fontFamily="SimHei"/>
+		<e:Label id="blackNum" text="0/100" includeIn="blackList" x="95" y="0" textColor="0xE6D8B3" size="20" fontFamily="SimHei" textAlign="left" verticalAlign="middle"/>
+		<e:layout>
+			<e:HorizontalLayout gap="0"/>
+		</e:layout>
+	</e:Group>
+	<e:Scroller id="scroller" width="410" horizontalCenter="0" top="50" bottom="65" x.addFriend="-32" height.addFriend="82">
+		<e:List id="dataList"/>
+	</e:Scroller>
+	<e:Group includeIn="addFriend" x="46" y="76">
+		<e:Label text="输入姓名" includeIn="addFriend" x="0" y="4.5" fontFamily="SimHei" size="16" textColor="0xe6d8b3"/>
+		<e:Image source="chat_input_bg_png" includeIn="addFriend" x="73.82999999999998" y="0" anchorOffsetX="0" width="180" anchorOffsetY="0" height="25"/>
+		<e:EditableText id="editText" height="20" text="" anchorOffsetX="0" anchorOffsetY="0" size="16" textColor="0xe6d8b3" verticalAlign="middle" textAlign="left" fontFamily="SimHei" width="176" y="3" x="78"/>
+	</e:Group>
+</e:Skin>

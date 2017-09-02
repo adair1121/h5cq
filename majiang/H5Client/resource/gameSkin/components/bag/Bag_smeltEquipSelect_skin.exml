@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bag_smeltEquipSelect_skin" width="480" height="636" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bag_baseboard_box_png" left="0" top="0" right="0" bottom="0"/>
+	<e:Image source="bag_goods_board_png" bottom="9" right="21" anchorOffsetX="0" left="23" top="38" anchorOffsetY="0"/>
+	<e:Label id="count" text="8/9" fontFamily="SimHei" size="20" right="72" bottom="24"/>
+	
+	<e:Scroller id="scroller" height="518" left="23" right="23" top="45">
+		<e:List id="itemList" height="517.87" anchorOffsetX="0" anchorOffsetY="0" right="23" top="49" left="23" useVirtualLayout="false">
+			<e:layout>
+			<e:VerticalLayout horizontalAlign="left" verticalAlign="top" paddingLeft="3"/>
+			</e:layout>
+		</e:List>
+	</e:Scroller>
+	<ns1:Btn1 id="sureBtn" width="94" height="42" skinName="Btn1_skin" horizontalCenter="0" bottom="12" enabled="true"/>
+	<e:Image width="129" height="26" source="select_equip_png" horizontalCenter="9.5" top="7"/>
+</e:Skin>

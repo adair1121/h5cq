@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Material_item_skin" width="260" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="popup_bg2_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="icon" width="41" height="41" x="7.4" y="0" source="popup_box_png"/>
+	<ns1:UI_ConnectWord id="way" text="王者争霸" size="20" fontFamily="SimHei" verticalCenter="0" left="59" textColor="0x00ff4b"/>
+</e:Skin>

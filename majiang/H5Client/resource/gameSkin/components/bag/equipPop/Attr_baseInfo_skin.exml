@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Attr_baseInfo_skin" width="260" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="attrValue" text="10000+100" size="14" fontFamily="SimHei" left="7" top="8" anchorOffsetX="0" width="243.67"/>
+</e:Skin>

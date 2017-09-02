@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Material_find_skin" width="390" height="250" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" right="0" bottom="0" source="bag_baseboard_box_png" scale9Grid="0,32,466,612"/>
+	<e:Image id="closeBtn" source="bag_closeBtn_png" width="38" height="38" right="0" top="0"/>
+	<ns1:CommonItem id="secret" width="60" height="70" skinName="ItemSkin" top="64" y="24" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	<e:Label text="获得材料" size="18" textColor="0xC7A66D" fontFamily="SimHei" horizontalCenter="0" top="10"/>
+	<e:Label text="材料不足，通过以下方法获得" size="16" fontFamily="SimHei" horizontalCenter="0" top="40" textColor="0xca9325"/>
+	<e:Label text="其他途径" size="16" fontFamily="SimHei" horizontalCenter="0" top="151" textColor="0xc1bcb8"/>
+	<e:List id="itemList" width="344" height="38" anchorOffsetX="0" horizontalCenter="0.5" top="197" anchorOffsetY="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" bottom="4" right="5"/>
+</e:Skin>

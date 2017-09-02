@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="polyfill/promise.js" src-release="polyfill/promise.min.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/base/Base_MapUnit.js"></script>
+	<script egret="game" src="bin-debug/base/Base_module.js"></script>
+	<script egret="game" src="bin-debug/data/Enums.js"></script>
+	<script egret="game" src="bin-debug/data/proto/MessageHandle.js"></script>
+	<script egret="game" src="bin-debug/data/proto/Pro.js"></script>
+	<script egret="game" src="bin-debug/base/Base _view.js"></script>
+	<script egret="game" src="bin-debug/data/temple/Temple.js"></script>
+	<script egret="game" src="bin-debug/utils/Dictionary.js"></script>
+	<script egret="game" src="bin-debug/data/temple/GlobalDefineTemple.js"></script>
+	<script egret="game" src="bin-debug/components/bag/equipPop/Attr_GemInfo.js"></script>
+	<script egret="game" src="bin-debug/components/bag/equipPop/Bag_attrItem.js"></script>
+	<script egret="game" src="bin-debug/components/bag/equipPop/Bag_itemInfo.js"></script>
+	<script egret="game" src="bin-debug/components/bag/GoodsItem.js"></script>
+	<script egret="game" src="bin-debug/components/bag/goodsPop/Attr_goodsItem.js"></script>
+	<script egret="game" src="bin-debug/components/bag/goodsPop/Attr_goodsUse.js"></script>
+	<script egret="game" src="bin-debug/components/bag/goodsPop/Pop_goodsInfo.js"></script>
+	<script egret="game" src="bin-debug/components/bag/Smelt_selectItem.js"></script>
+	<script egret="game" src="bin-debug/components/boss/Boss_award.js"></script>
+	<script egret="game" src="bin-debug/components/boss/Boss_personal_item.js"></script>
+	<script egret="game" src="bin-debug/components/boss/Boss_personal_tab.js"></script>
+	<script egret="game" src="bin-debug/components/boss/Boss_world_tab.js"></script>
+	<script egret="game" src="bin-debug/components/btn/Btn1.js"></script>
+	<script egret="game" src="bin-debug/components/btn/Btn2.js"></script>
+	<script egret="game" src="bin-debug/components/btn/Btn3.js"></script>
+	<script egret="game" src="bin-debug/components/chat/Chat_ItemRenderer.js"></script>
+	<script egret="game" src="bin-debug/components/chat/System_notice.js"></script>
+	<script egret="game" src="bin-debug/components/chengzhuang/CJ_assembly_item.js"></script>
+	<script egret="game" src="bin-debug/components/chengzhuang/CJ_assembly.js"></script>
+	<script egret="game" src="bin-debug/components/chengzhuang/CJ_tab.js"></script>
+	<script egret="game" src="bin-debug/components/common/AddGoodsNumCom.js"></script>
+	<script egret="game" src="bin-debug/components/common/CommonItem.js"></script>
+	<script egret="game" src="bin-debug/components/common/Forging_AttrItem.js"></script>
+	<script egret="game" src="bin-debug/components/common/GlobalFunc.js"></script>
+	<script egret="game" src="bin-debug/components/common/MovieClip.js"></script>
+	<script egret="game" src="bin-debug/components/common/SkillEffect.js"></script>
+	<script egret="game" src="bin-debug/components/common/UI_ConnectWord.js"></script>
+	<script egret="game" src="bin-debug/components/friends/Friend_chat_item.js"></script>
+	<script egret="game" src="bin-debug/components/friends/Friends_list_item.js"></script>
+	<script egret="game" src="bin-debug/components/friends/Friends_popup.js"></script>
+	<script egret="game" src="bin-debug/components/fuben/fuben_material_item.js"></script>
+	<script egret="game" src="bin-debug/components/itemRenderers/ForgingItemRenderer.js"></script>
+	<script egret="game" src="bin-debug/components/level/level_btn.js"></script>
+	<script egret="game" src="bin-debug/components/level/level_info.js"></script>
+	<script egret="game" src="bin-debug/components/level/level_rank_item.js"></script>
+	<script egret="game" src="bin-debug/components/mail/Mail_itemRenderer.js"></script>
+	<script egret="game" src="bin-debug/components/mail/Mail_popup.js"></script>
+	<script egret="game" src="bin-debug/components/mainUI/MainUI_nav.js"></script>
+	<script egret="game" src="bin-debug/components/mainUI/MainUI_progress.js"></script>
+	<script egret="game" src="bin-debug/components/mainUI/MainUI_roleInfo.js"></script>
+	<script egret="game" src="bin-debug/components/mainUI/MainUI_title.js"></script>
+	<script egret="game" src="bin-debug/components/map/MapUnit_Drop.js"></script>
+	<script egret="game" src="bin-debug/components/map/MapUnit_Monster.js"></script>
+	<script egret="game" src="bin-debug/components/map/MapUnit_Role.js"></script>
+	<script egret="game" src="bin-debug/components/rank/Rank_roleInfo_item.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/fashion/Role_fashion.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/longhunhudun/Get_Goods_pop.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/longhunhudun/Role_longhunhudun.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/longhunhudun/Role_specialItem.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/longhunhudun/Way_other_item.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/longhunhudun/Way_shop_item.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/meridians/RoleMeridiansTab.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/reborn/Role_getXw.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/reborn/Role_reborn.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/reborn/Role_xwExchange_item.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/Role_headCom.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/Role_showAttrs.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/RoleEquipRenderer.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/RoleHeadItemRender.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/RoleTab.js"></script>
+	<script egret="game" src="bin-debug/components/roleInfo/select/Role_select_item.js"></script>
+	<script egret="game" src="bin-debug/components/skill/Material_find.js"></script>
+	<script egret="game" src="bin-debug/components/skill/Material_item.js"></script>
+	<script egret="game" src="bin-debug/components/skill/RoleSkillItemRender.js"></script>
+	<script egret="game" src="bin-debug/components/skill/Secret_book.js"></script>
+	<script egret="game" src="bin-debug/components/skill/Secret_replace.js"></script>
+	<script egret="game" src="bin-debug/components/skill/SkillShowTab.js"></script>
+	<script egret="game" src="bin-debug/components/store/Store_item.js"></script>
+	<script egret="game" src="bin-debug/components/store/Store_shop.js"></script>
+	<script egret="game" src="bin-debug/components/tips/PopTips.js"></script>
+	<script egret="game" src="bin-debug/components/tips/PowerTips.js"></script>
+	<script egret="game" src="bin-debug/components/tips/RedPointTips.js"></script>
+	<script egret="game" src="bin-debug/components/wing/Wing_star_item.js"></script>
+	<script egret="game" src="bin-debug/components/wing/WingTab.js"></script>
+	<script egret="game" src="bin-debug/config/Config.js"></script>
+	<script egret="game" src="bin-debug/data/DataCenter.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/components/bag/Bag_addGrid.js"></script>
+	<script egret="game" src="bin-debug/data/proto/MessageType.js"></script>
+	<script egret="game" src="bin-debug/data/proto/messType.js"></script>
+	<script egret="game" src="bin-debug/components/bag/Bag_item.js"></script>
+	<script egret="game" src="bin-debug/data/proto/Proto.js"></script>
+	<script egret="game" src="bin-debug/data/temple/AddBagTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/BossTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/BuffTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/CheatsInlayTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/CheatsOpenTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/CheatsTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/DragonSoulTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/DropItemTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/DropTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/EquipTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ExperienceTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/FashionTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/FeatureTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/FilterWordTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/GemstoneTemple.js"></script>
+	<script egret="game" src="bin-debug/components/bag/Bag_smeltEquipSelect.js"></script>
+	<script egret="game" src="bin-debug/data/temple/GridrateTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/GridTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/HumenTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/InitializeTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ItemTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/JingMaiTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/JobInitTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/LevelStageTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/LevelTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/MailTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/MapTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/MeetBattleTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/MonsterAITemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/MonsterTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/PeerageTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/RankTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/RebornBossTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/RebornTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/RoleInitTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ScoreTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ShieldTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ShopTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/SkillTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/StrengthenTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/TalismanTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/TaskTemple.js"></script>
+	<script egret="game" src="bin-debug/components/bag/BagBtn.js"></script>
+	<script egret="game" src="bin-debug/data/temple/TitleTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/UnitTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/WingsTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/WordTemple.js"></script>
+	<script egret="game" src="bin-debug/data/temple/ZhuLingTemple.js"></script>
+	<script egret="game" src="bin-debug/data/TempleManager.js"></script>
+	<script egret="game" src="bin-debug/data/vo/MapConfigVo.js"></script>
+	<script egret="game" src="bin-debug/data/vo/PlayerBaseInfoVo.js"></script>
+	<script egret="game" src="bin-debug/data/vo/RoleInfoVo.js"></script>
+	<script egret="game" src="bin-debug/display/MainContainer.js"></script>
+	<script egret="game" src="bin-debug/display/View_selectServer.js"></script>
+	<script egret="game" src="bin-debug/display/ViewController.js"></script>
+	<script egret="game" src="bin-debug/enums/MapUnitState.js"></script>
+	<script egret="game" src="bin-debug/enums/ModuleEnum.js"></script>
+	<script egret="game" src="bin-debug/enums/TipsEnum.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/manager/AssetsManager.js"></script>
+	<script egret="game" src="bin-debug/manager/ModuleManager.js"></script>
+	<script egret="game" src="bin-debug/manager/PopTipsManager.js"></script>
+	<script egret="game" src="bin-debug/manager/PopUpManager.js"></script>
+	<script egret="game" src="bin-debug/module/action/Module_action.js"></script>
+	<script egret="game" src="bin-debug/module/bag/Module_bag.js"></script>
+	<script egret="game" src="bin-debug/module/bag/smelt/Module_bag_smelt.js"></script>
+	<script egret="game" src="bin-debug/module/bag/smelt/View_bag_smelt.js"></script>
+	<script egret="game" src="bin-debug/module/bag/View_bag.js"></script>
+	<script egret="game" src="bin-debug/module/boss/Module_boss.js"></script>
+	<script egret="game" src="bin-debug/module/boss/View_boss.js"></script>
+	<script egret="game" src="bin-debug/module/chat/Module_chat.js"></script>
+	<script egret="game" src="bin-debug/module/chat/View_chat.js"></script>
+	<script egret="game" src="bin-debug/module/chengzhuang/Module_chengzhuang.js"></script>
+	<script egret="game" src="bin-debug/module/chengzhuang/View_chengzhuang.js"></script>
+	<script egret="game" src="bin-debug/module/data/Module_data.js"></script>
+	<script egret="game" src="bin-debug/module/forging/dataUtil/Forging_DataUtil.js"></script>
+	<script egret="game" src="bin-debug/module/forging/Module_forging.js"></script>
+	<script egret="game" src="bin-debug/module/forging/popup/Forging_getStone.js"></script>
+	<script egret="game" src="bin-debug/module/forging/View_forging.js"></script>
+	<script egret="game" src="bin-debug/module/friends/Module_friends.js"></script>
+	<script egret="game" src="bin-debug/module/friends/View_friends.js"></script>
+	<script egret="game" src="bin-debug/module/fuben/Module_fuben.js"></script>
+	<script egret="game" src="bin-debug/module/fuben/View_fuben.js"></script>
+	<script egret="game" src="bin-debug/module/level/Module_level.js"></script>
+	<script egret="game" src="bin-debug/module/level/View_level.js"></script>
+	<script egret="game" src="bin-debug/module/mail/Module_mail.js"></script>
+	<script egret="game" src="bin-debug/module/mail/View_mail.js"></script>
+	<script egret="game" src="bin-debug/module/map/layer/View_map_bg.js"></script>
+	<script egret="game" src="bin-debug/module/map/layer/View_map_effect.js"></script>
+	<script egret="game" src="bin-debug/module/map/layer/View_map_unit.js"></script>
+	<script egret="game" src="bin-debug/module/map/Module_map.js"></script>
+	<script egret="game" src="bin-debug/module/map/View_map.js"></script>
+	<script egret="game" src="bin-debug/module/player/Module_player.js"></script>
+	<script egret="game" src="bin-debug/module/rank/Module_rank.js"></script>
+	<script egret="game" src="bin-debug/module/rank/View_rank.js"></script>
+	<script egret="game" src="bin-debug/module/roleInfo/Module_roleInfo.js"></script>
+	<script egret="game" src="bin-debug/module/roleInfo/select/Module_roleSelect.js"></script>
+	<script egret="game" src="bin-debug/module/roleInfo/select/View_roleSelect.js"></script>
+	<script egret="game" src="bin-debug/module/roleInfo/View_roleInfo.js"></script>
+	<script egret="game" src="bin-debug/module/skill/Module_skillPanel.js"></script>
+	<script egret="game" src="bin-debug/module/skill/View_skillPanel.js"></script>
+	<script egret="game" src="bin-debug/module/store/Module_store.js"></script>
+	<script egret="game" src="bin-debug/module/store/View_store.js"></script>
+	<script egret="game" src="bin-debug/module/ui/mainUI/Module_mainUI.js"></script>
+	<script egret="game" src="bin-debug/module/ui/mainUI/View_mainUI.js"></script>
+	<script egret="game" src="bin-debug/module/ui/selectRole/Module_selectRole.js"></script>
+	<script egret="game" src="bin-debug/module/ui/selectRole/View_selectRole.js"></script>
+	<script egret="game" src="bin-debug/net/Processor.js"></script>
+	<script egret="game" src="bin-debug/net/SocketManager.js"></script>
+	<script egret="game" src="bin-debug/notice/MainNotify.js"></script>
+	<script egret="game" src="bin-debug/test/ChangeEvent.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/utils/ActionUtil.js"></script>
+	<script egret="game" src="bin-debug/utils/AttrNameUtil.js"></script>
+	<script egret="game" src="bin-debug/components/bag/equipPop/Attr_baseInfo.js"></script>
+	<script egret="game" src="bin-debug/utils/Global.js"></script>
+	<script egret="game" src="bin-debug/utils/LListener.js"></script>
+	<script egret="game" src="bin-debug/utils/MoviePool.js"></script>
+	<script egret="game" src="bin-debug/utils/PosUtils.js"></script>
+	<script egret="game" src="bin-debug/utils/TimerUtils.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="true"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

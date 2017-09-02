@@ -1,0 +1,1 @@
+module data{	export interface TitleTemple{		/**		* id		*/		id:number;		/**		* 称号名称		*/		titleName:string;		/**		* 称号图标		*/		titleIcon:number;		/**		* 称号战力		*/		titleCombat:number;		/**		* 称号级别		*/		titleLevel:number;		/**		* 称号属性		*/		titleNature:number[];		/**		* 属性值		*/		titleNumber:number[];		/**		* 获得条件		*/		condition:string;	}}

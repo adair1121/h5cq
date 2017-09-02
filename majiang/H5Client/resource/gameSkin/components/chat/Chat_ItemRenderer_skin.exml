@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Chat_ItemRenderer_skin" width="420" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="default,system"  height.system="50">
+	<e:Image source="chat_item_line_png" horizontalCenter="0" bottom="0"/>
+	<e:Image id="chatSysImgIcon" source="chat_msgType1_png" includeIn="system" left="14" verticalCenter="0"/>
+	<e:Label id="notice" text="label" size="16" fontFamily="SimHei" textColor="0xE6D8B3" anchorOffsetX="0" width="334.67" wordWrap="true" multiline="true" includeIn="system" left="71" verticalCenter="0"/>
+	<ns1:RoleHeadItemRender id="icon" width="70" height="70" skinName="Role_item_skin" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" left="15" includeIn="default"/>
+	<e:Label id="content" width="300" height="50" text="一二三四五一二三四五一二三四五一二三四五一二三四五一二三四五一二三四五" x="104" anchorOffsetX="0" anchorOffsetY="0" size="16" fontFamily="SimHei" multiline="true" textColor="0xe6d8b3" verticalAlign="middle" textAlign="left" maxChars="70" height.system="60" verticalCenter.system="0" left.system="100" right.system="20" bottom.default="10" top.default="40" right.default="16" left.default="104" lineSpacing.system="10" lineSpacing.default="5" includeIn="default" y="40" touchEnabled="false"/>
+	<e:Group id="group" includeIn="default" x="105" y="18" touchEnabled="false">
+		<e:layout>
+			<e:HorizontalLayout gap="10" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_btnGroup" includeIn="default" x="89" y="18">
+		<e:Image source="friends_item_tips_bg_png" includeIn="default" x="0" y="0" anchorOffsetY="0" height="62.8"/>
+		<e:Group right="0" left="0" top="0" bottom="0">
+			<ns1:Btn3 id="btn_addFriend"  includeIn="default" y="0" skinName="Btn3_skin" anchorOffsetX="0" width="56" anchorOffsetY="0" height="23" x="0"/>
+			<ns1:Btn3 id="btn_addBlack"  includeIn="default" y="0" skinName="Btn3_skin" anchorOffsetX="0" width="56" anchorOffsetY="0" height="23" x="0"/>
+			<e:layout>
+				<e:VerticalLayout gap="2" horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

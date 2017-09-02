@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUI_progress_skin" width="478" height="20" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" top="0" bottom="0" right="0" source="nav_experience_bg_png" locked="true"/>
+	<e:Image id="thumb" source="nav_experience_png" width="409.34" height="20" x="34.33" y="0" anchorOffsetX="0"/>
+	<e:Image source="nav_experience_box_png" left="0" right="0" top="0" bottom="0" locked="true"/>
+	<e:Label id="progressValue" text="Label" y="1" size="20" fontFamily="SimHei" horizontalCenter="0" visible="false"/>
+</e:Skin>

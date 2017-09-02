@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mail_itemRenderer_skin" width="420" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tips_png" right="0" left="0" top="0" bottom="0" scale9Grid="14,13,48,49"/>
+	<e:Image source="friends_item_bg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="chat_item_line_png" horizontalCenter="0" bottom="0"/>
+	<e:Label id="txt_title" text="邮件标题" x="16" y="21" size="16" fontFamily="SimHei" textColor="0xbc943e"/>
+	<e:Label id="txt_time" text="2017/08/03" x="16.32" y="60.02" size="16" fontFamily="SimHei"/>
+	<e:Label id="txt_read" text="未读" size="16" horizontalCenter="-99" verticalCenter="-21" fontFamily="SimHei" x="108" y="21.5" textColor="0xcccccc"/>
+	<e:Image id="icon" source="popup_box_png" x="348" y="8" visible="false"/>
+</e:Skin>

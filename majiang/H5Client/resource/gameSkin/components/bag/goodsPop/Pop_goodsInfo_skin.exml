@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Pop_goodsInfo_skin" width="260" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image left="0" right="0" top="0" bottom="0" source="role_attr_bg_png" scale9Grid="24,22,335,302"/>
+	<e:Group x="21.33" y="38">
+		<e:Image id="goodsBoxSource" source="bag_1_box_png" width="66" height="66" scale9Grid="8,8,60,60" x="0" y="0"/>
+		<e:Image id="goodsSource" width="56" height="56" source="bag_bg_png" horizontalCenter="0" top="5"/>
+	</e:Group>
+	<e:Label id="itemName" text="强化石" size="16" fontFamily="SimHei" top="14" horizontalCenter="-75"/>
+	<e:Label text="数量:" size="14" fontFamily="SimHei" left="102" top="40" textColor="0xCEBC44"/>
+	<e:Label text="等级:" size="14" fontFamily="SimHei" left="102" top="64" textColor="0xCEBC44" x="10" y="10"/>
+	<e:Label id="goodsNum" text="55" size="14" fontFamily="SimHei" top="40" left="143"/>
+	<e:Label id="level" text="1级" size="14" fontFamily="SimHei" top="64" left="143" x="10" y="10"/>
+	<e:Image source="chat_item_line_png" width="180" horizontalCenter="0" top="115"/>
+	<e:DataGroup id="attrGroup" width="260" height="0" anchorOffsetY="0" top="128" useVirtualLayout="false" horizontalCenter="0">
+		<e:layout>
+		<e:VerticalLayout horizontalAlign="left" gap="0"/>
+		</e:layout>
+	</e:DataGroup>
+</e:Skin>

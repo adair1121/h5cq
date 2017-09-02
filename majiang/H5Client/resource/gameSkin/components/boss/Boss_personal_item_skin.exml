@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Boss_personal_item_skin" width="434" height="147" currentState="personal" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="personal,world" >
+	<e:Image source="reborn_normal_png" anchorOffsetX="0" anchorOffsetY="0" right="0" left="0" top="0" bottom="0" scale9Grid="19,12,386,73"/>
+	<e:Label text="00:00:00后重生" textColor="0xE89F3C" size="16" fontFamily="SimHei" left="312" top="15" id="time" includeIn="world"/>
+	<ns1:CommonItem id="item1" width="66" height="82" x="108" y="65" skinName="ItemSkin"/>
+	<ns1:CommonItem id="item2" width="66" height="82" x="181" y="65" skinName="ItemSkin"/>
+	<ns1:CommonItem id="item3" width="66" height="82" x="255" y="66" skinName="ItemSkin"/>
+	<e:Button id="challengeBtn" label="Button" x="345" skinName="Btn3_skin" verticalCenter="0"/>
+	<e:Label text="掉落:" x="110" y="41" size="18" fontFamily="SimHei"/>
+	<e:Group x="110" y="10" includeIn="personal">
+		<e:Label text="剩余次数:" x="0" y="0" size="18" fontFamily="SimHei"/>
+		<e:Label id="count" text="0次" x="86" y="1" size="18" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Group x="12" y="15">
+		<e:Image id="bossIcon" width="80" height="80" x="0" y="0"/>
+		<e:Label id="bossName" text="Label" y="91" size="16" fontFamily="SimHei" textColor="0x00ff4b" horizontalCenter="0"/>
+	</e:Group>
+	<e:Group id="group" includeIn="world" x="109" y="14">
+		<e:Label text="争夺:" includeIn="world" x="0" y="0" size="16" fontFamily="SimHei"/>
+		<e:Label id="romeNum" text="0人" includeIn="world" x="42" y="0" size="16" fontFamily="SimHei"/>
+	</e:Group>
+	<e:Label id="condition" text="label" size="16" fontFamily="SimHei" verticalCenter="-0.5" left="349"/>
+</e:Skin>

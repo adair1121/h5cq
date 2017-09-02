@@ -1,0 +1,57 @@
+协议ID	协议名	内容
+id	name	content
+i	s	s
+0	c_say	required,0,int,channel,optional,1,string,target,required,2,string,content
+1	s_say	required,0,string,name,required,1,int,channel,optional,2,string,target,required,3,string,content
+2	s_mess	required,0,int,channel,required,1,string,content
+3	c_move	required,0,Pos,pos
+4	s_move	required,0,int,uid,repeated,1,Pos,paths
+5	Pos	required,0,short,x,required,1,short,y
+6	s_Mapload	required,0,string,mapid
+7	s_Mapshow	8	s_setpos	required,0,int,sid,required,1,Pos,paths
+9	s_Map_UnitAdd	required,0,s_MapUnitInfo,unitinfo
+10	s_Map_UnitRemove	required,0,int,uid
+11	s_MapUnitInfo	required,0,int,uid,required,1,byte,type,required,2,string,name,repeated,3,string,titles,optional,4,string,guildname,required,5,float,speed,required,6,Pos,pos,required,7,string,model,required,8,byte,lev,required,9,short,MHP,required,10,short,HP,required,11,short,MMP,required,12,short,MP,required,13,string,head,requied,14,bool,isdie,requied,15,byte,CAMP,requied,16,byte,PKV
+12	c_skill_use	required,0,string,skillid,optional,1,Pos,targetPos,optional,2,int,target
+13	c_skill_up	required,0,string,skillid
+14	s_skill_list	repeated,0,string,templeIds
+15	s_skill_add	required,0,string,templeId
+16	s_skill_remove	required,0,string,templeId
+17	s_SkillInfo	required,0,string,templeId
+18	s_CD_add	required,0,string,cdgroup,required,1,int,cdtime
+19	s_CD_remove	required,0,string,cdgroup
+20	c_item_use	required,0,byte,pos,required,1,string,gid
+21	c_item_move	required,0,byte,sourcepos,required,1,byte,despos
+22	c_item_up	required,0,byte,pos,required,1,string,gid
+23	c_item_stone	required,0,byte,pos,required,1,string,gid
+24	c_item_unstone	required,0,byte,pos,required,1,string,gid
+25	c_item_destroy	required,0,byte,pos,required,1,string,gid
+26	s_item_list	repeated,0,s_ItemInfo,items
+27	s_item_add	required,0,s_ItemInfo,item
+28	s_item_remove	required,0,byte,pos,required,1,string,gid
+29	s_item_move	required,0,byte,pos,required,1,string,gid
+30	s_item_update	required,0,s_ItemInfo,item
+31	s_ItemInfo	required,0,byte,place,required,1,string,gid,required,2,string,templeID,required,3,int,count,repeated,4,int,attrs
+32	s_GuildInfo	required,0,int,id,required,1,string,name,requited,2,string,master
+33	s_GuildMember	34	s_Guild_addMember	35	s_Guild_removeMember	36	s_Guild_MemberList	37	s_GuildList	38	c_Guild_Apply	required,0,string,name,required,1,byte,type
+39	c_Guild_Agree	required,0,int,requestid
+40	c_GuildInvite	required,0,string,name
+41	s_GuildInvite	required,0,int,requestid,required,1,string,name
+42	s_Guild_Apply	required,0,int,requestid,required,1,string,name,required,2,byte,type
+43	c_group_create	44	c_group_leave	required,0,string,name
+45	c_groupApplyJoin	46	c_groupInvite	required,0,string,name
+47	c_GroupInfo	48	s_Group_addMember	required,0,string,name,required,1,byte,lev,required,2,byte,job,required,3,bool,isLeader
+49	s_Group_removeMember	required,0,string,name
+50	s_Group_Disband	51	s_GroupUpdateMember	required,0,string,name,required,1,byte,lev,required,2,byte,job,required,3,bool,isLeader
+52	s_groupInvite	required,0,int,requestid,required,1,string,name
+53	s_Task_triger	54	s_TaskInfo	55	s_TaskActive	56	s_TaskInActive	57	s_TaskBonus	58	s_TaskRemove	59	s_TaskAdd	60	c_Task_accept	61	c_Task_Reject	62	c_Login	required,0,string,name,required,1,string,pass
+63	s_Login	required,0,byte,state,optional,1,string,mess
+64	c_CreateChar	required,0,string,name,required,1,byte,sex,required,2,byte,JOB,required,3,string,liping
+65	s_UIshow	required,0,string,uiID
+66	s_UIhide	required,0,string,uiID
+67	c_UIClick	required,0,string,uiID,required,1,string,buttonID
+68	s_TimerAdd	required,0,string,TimerID,required,1,int,second
+69	s_TimerRemove	required,0,string,TimerID
+70	s_Unit_setInt	required,0,int,uid,required,1,byte,attrID,required,2,int,myvalue
+71	s_Unit_setStr	required,0,int,uid,required,1,byte,attrID,required,2,string,myvalue
+72	s_Unit_headText	required,0,int,uid,required,1,byte,type,required,2,int,value

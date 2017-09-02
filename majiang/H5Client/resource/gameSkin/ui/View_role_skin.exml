@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_role_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<w:Config id="15ad63bbf92"/>
+	<e:Group x="0" y="0">
+		<e:Image source="bag_baseboard_box_png" height="660" width="480" x="0" y="0"/>
+		<e:Image id="bgSource" source="role_bg_png" anchorOffsetY="0" anchorOffsetX="0" width="434" height="542" top="40" horizontalCenter="1"/>
+		<e:Group id="tabGroup" width="434" anchorOffsetX="0" anchorOffsetY="0" x="24" y="0"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="23" bottom="13"/>
+		<e:Group left="26" bottom="18" anchorOffsetX="0" width="374.33">
+			<ns1:BagBtn id="roleBtn" width="92" height="41" y="0" enabled="true" skinName="BagBtn_skin" x="0"/>
+			<ns1:BagBtn id="zhuanBtn" width="92" height="41" y="0" enabled="true" skinName="BagBtn_skin" x="93"/>
+			<ns1:BagBtn id="wingBtn" width="92" height="41" x="186" y="0" enabled="true" skinName="BagBtn_skin"/>
+			<ns1:BagBtn id="meridiansBtn" width="92" height="41" x="279" y="0" enabled="true" skinName="BagBtn_skin"/>
+		</e:Group>
+		<ns1:Role_headCom id="headCom" width="260" height="72" skinName="Role_headCom_skin" x="110" y="40.75"/>
+		<e:Image width="446" height="5" source="role_line_png" y="582" horizontalCenter="1"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,38 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_as_path": "androidTest"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "E:/h5cq/publish/client/bin-release"
+	},
+	"egret_version": "4.1.0",
+	"modules": [
+		{
+			"name": "egret",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		},
+		{
+			"name": "game",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		},
+		{
+			"name": "res",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		},
+		{
+			"name": "eui",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		},
+		{
+			"name": "tween",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		},
+		{
+			"name": "socket",
+			"path": "${EGRET_APP_DATA}/4.0.3"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ForgingItemRenderer_skin" width="76" height="107.13" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down"  width.down="76" height.down="107.13" width.up="76" height.up="107.13">
+	<e:Image includeIn="down" source="role_box_bg_png" x="1.2" y="0.8"/>
+	<e:Image id="boxS" source="bag_1_box_png" width="66" height="66" x="5" y="5"/>
+	<e:Image id="equipImg" source="common_item_box_png" width="56" height="56" x="10" y="10"/>
+	<e:Label id="equipIntensify" text="Label" size="16" textColor="0xfea304" fontFamily="SimHei" x="21" y="10"/>
+	<e:Label id="iName" text="" horizontalCenter="0" bottom="18.129999999999995" size="14" fontFamily="SimHei"/>
+	<e:Label id="time" text="" horizontalCenter="1" bottom="3.1299999999999955" size="14" fontFamily="SimHei"/>
+</e:Skin>

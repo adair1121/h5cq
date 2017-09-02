@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Mail_popup_skin" width="400" height="400" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="cmmon_box_png" scale9Grid="14,48,317,164" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="10" bottom="8"/>
+	<e:Label id="txt_content" text="邮件内容是什么？最多多少个字？显示几行？字体是什么？字号是什么？字体颜色是什么？赶紧来个美术确定一下好吧~！！！" x="25.5" y="61" anchorOffsetX="0" width="349" anchorOffsetY="0" height="149" textColor="0xd1caca" size="20" multiline="true" fontFamily="SimHei"/>
+	<ns1:Btn1 id="btn_reward"  skinName="Btn1_skin" horizontalCenter="0" bottom="15"/>
+	<e:Label text="附件" y="220" size="20" fontFamily="SimHei" horizontalCenter="0"/>
+	<e:List id="rewardList" width="361" height="82" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0.5" bottom="70" itemRendererSkinName="ItemSkin">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="top" paddingLeft="2"/>
+		</e:layout>
+	</e:List>
+</e:Skin>

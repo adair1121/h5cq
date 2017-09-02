@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Friend_chat_item_skin" width="434" height="83" currentState="Lchat" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="Lchat,Rchat,time"  height.time="25">
+	<e:Image source="friends_item_bg_png" includeIn="Lchat" left="0" right="0" top="0" bottom="0"/>
+	<ns1:RoleHeadItemRender id="icon" width="70" height="70" skinName="Role_item_skin" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" left.Lchat="15" right.Rchat="15"  includeIn="Lchat,Rchat"/>
+	<e:Label id="txt" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel" textColor="0xe6d8b3" verticalCenter.Lchat="0" height="50" size="16" textAlign="left" verticalAlign="top" lineSpacing="15" multiline="true" left.Lchat="100" right.Rchat="100" textAlign.Rchat="left" verticalCenter.Rchat="0" anchorOffsetX.Rchat="315" anchorOffsetY.Rchat="-1" maxWidth.Lchat="314" text.Lchat="4684841165163rth dh dxth dy tdry d dr drtyrdy t edrt u " maxWidth.Rchat="314" text.Rchat="dr56u e5du6 56ueudrt6utyhghd tfdjdu tyjd yjdt  hdry drdrt ud t " horizontalCenter.time="0" width.time="150" text.time="2017-6-1 15:23" anchorOffsetY.time="0" height.time="17" multiline.time="false" fontFamily="SimHei" textColor.time="0xfca304" textAlign.time="center" verticalCenter.time="0"/>
+	<e:Image source="chat_item_line_png" horizontalCenter="0" bottom="0" includeIn="Lchat,Rchat"/>
+	
+	
+</e:Skin>

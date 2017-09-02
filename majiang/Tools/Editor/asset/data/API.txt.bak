@@ -1,0 +1,94 @@
+﻿"event","Map_Init","","地图初始化","def"
+"event","entermap","Player _subpl","进入地图","def"
+"event","leavemap","Player _subpl","离开地图","def"
+"event","enterarea","Player _subpl,string _area","进入区域","def"
+"event","leavearea","Player _subpl,string _area","离开区域","def"
+"event","success","Player _subpl","玩家胜利","def"
+"event","fail","Player _subpl","玩家失败","def"
+
+"event","UI.selmenu","Player _subpl,string _menu","玩家选择某个菜单功能入口","def" 
+
+"event","useItem","Player _subpl,string _itemid","使用物品","def"
+"event","playerattrs","Player _subpl,string _attr","玩家属性改变","def"
+"event","playerdie","Player _subpl,Unit _killer","玩家死亡","def"
+"event","mobattrs","Mob _submob,string","怪物属性改变","def"
+"event","mobdie","Mob _submob,Unit _killer","怪物死亡","def"
+"event","heart","","心跳事件","def"
+
+"void","Triger.ClearTriger","","清除本地图的所有的已经触发的动作","def" 
+"void","Triger.Triger","string","执行一个触发器","def"
+"void","Triger.openTriger","string","打开某一个触发器,(,触发器名)","def"
+"void","Triger.closeTriger","string","关闭某一个触发器,(,触发器名)","def" 
+"void","Triger.waitTriger","number , string","等待N秒后，执行一个触发器,(时间,触发器名)","waitTriger" 
+
+"void","Map.AddMob","mobname:string , areaname:string , string","在指定区域增加一个怪物,参数为[怪物ID,区域名,路径ID)","def"
+"void","Map.AddItem","itemname:string , number , areaname:string","在指定区域放置物品,参数为,(物品ID,数量,区域名)","def"
+"void","Map.AddRandomItem","string , areaname:string","在指定区域放置随机物品,参数为,(随机的物品ID列表,区域名)","def"
+"void","Map.AddNpc","mobname:string , areaname:string","在指定区域增加一个npc,参数为(NPC名,区域名)","def"
+"void","Map.removeNpc","mobname:string","移除一个Npc,参数为(NPC名)","def"
+"void","Map.removeMobByCamp","number","移除一个阵营的Mob,参数为(阵营ID)","def"
+"void","Map.ClearMob","","清除本地图的怪物","def"
+"void","Map.ClearPlayer","","清除本地图的所有玩家","def"
+"void","CloseMap","","关闭本地图,不允许玩家进入","def"
+"void","OpenMap","","开启地图，允许玩家进入","def"
+
+"number","getMapAttrF","attrname:string","获取当前地图的某个表格属性","def"
+"number","getmobcount","all","获取某阵营怪物的数量,(指定阵营（或者ID))","def"
+"number","getplayercount","number","获取某阵营玩家的数量,(指定阵营)","def"
+"void","Unit.SetMobAttr","Unit , attrname:string , number","设置怪物的属性(指定单位，属性名，属性值)","user2"
+"void","SetAttr","Player , attrname:string , number","设置玩家的属性,(指定单位，属性名，属性值)","user2"
+"void","AddAttr","Player , attrname:string , number","增加玩家的某个属性(指定玩家，属性名，增加的属性值)","user2"
+"void","VAR.setNumber","string , number","设置一个数字类型的自定义变量，参数形式:(变量名,数值)","setNumber"
+"void","VAR.addNumber","string , number","增加一个变量的值","addNumber"
+"number","VAR.getNumber","string","获取一个自定义的数字类型变量，如果没有返回0(变量名)","setNumber"
+"void","VAR.setString","string , string","设置一个字串类型的自定义变量，参数形式:(变量名,字符串)","setNumber"
+"string","VAR.getString","string","获取一个自定义的字符串变量,如果没有返回空的。参数形式:(变量名)","setNumber"
+"void","VAR.ClearString","","清空自定义字符串变量","setNumber"
+"void","VAR.ClearNumber","","清空自定义数字变量","setNumber"
+"void","SetTimerTitle","string , number","设置倒计时标题和时间(标题,倒计时间)","SetTimerTitle"
+"void","ShowTextALL","string","向所有人播放滚动消息(内容)","rss (2)"
+"void","ShowTextMap","string","向本地图所有人播放滚动消息(内容)","rss (2)"
+
+
+
+
+"number","Rand","number , number","get random,(minnum,maxnum)","def"
+"number","getAttrF","Unit , attrname:string","取某个单位(玩家或者怪物)数值属性值,(单位,属性名)","user2"
+"string","getAttrS","Unit , attrname:string","取某个单位（玩家或者怪物)属性值，(单位,属性名)","user2"
+"void","MovePlayer","Player , areaname:string","移动玩家到目标区域：(玩家,目标区域)","user2"
+"number","getGuildAttr","Player , string","获取玩家所在帮会的属性(可以为exp,lev,count)：(玩家,获取的属性)","user2"
+"void","addGuildExp","Player , number","修改玩家所在帮会的发展度：(玩家,修改的值)","user2"
+"void","sendTip","Player , string","给指定玩家发送提示：(玩家,提示内容)","rss (2)"
+
+"bool","isPlayer","Unit","判断目标是否是玩家","def"
+//
+"void","AddBuf","all , string","给指定玩家，怪物,阵营,增加一个buf：(玩家(怪物,阵营),BUFID)","user2"
+"void","RemoveBuf","all , string","给指定玩家移除一个buf,参数：(玩家,BUFID)","user2"
+"void","Task.addQuest","Player , string","给指定玩家增加一个隐藏任务,参数：(玩家,任务ID)","user2"
+
+"void","Success","number","使得这个阵营的玩家获胜,参数：(阵营ID)","def"
+"void","Fail","number","使得这个阵营的玩家失败,参数：(阵营ID)","def"
+"void","return","","返回，不做任何事","def"
+//
+"void","Task.FinishQuest","Player , string","使得指定玩家的指定任务进程变为达成,参数：(玩家,任务ID)","def"
+"void","Task.FailQuest","Player , string","使得指定玩家的指定任务进程变为失败,参数：(玩家,任务ID)","def"
+
+"void","赋值语句","all = all","比较危险，没有真正明白每个变量的意义的话，不要随意使用","def"
+"void","pub","number , string , number","向特定的玩家发消息,3个参数(频道,内容,消息位置)频道编码0本图1全服,消息位置编码:1,聊天文字2,滚动文字4中央文字","def"
+
+"void","UI.setHead","Player , string , string","设置玩家头衔：(玩家,头衔,头衔颜色(green,red,blue,purple))","def"
+"void","UI.showUI","all , string","给玩家弹出一个界面,参数：(玩家,uiname)","def"
+"void","UI.hideUI","all , string","关闭某个界面,参数：(玩家,uiname)","def"
+"void","executScript","string","调用客户端的脚本,开发者才能用","def"
+"void","UI.PlaySwf","all , string , number , number","让玩家播放某动画：(玩家,动画文件名,x,y)","def"
+"void","UI.CloseSwf","all , string","让玩家关闭某动画：(玩家,动画文件名)","def"
+
+"void","CD.addCD","Player , string , number , string","增加一个cd条,(玩家,cd名,倒计时秒数,labels)","user2"
+"void","CD.removeCD","Player , string","移除一个cd条,(玩家,cd名)","user2"
+"number","CD.getCD","Player , string","获得一个cd的剩余时间,不存在返回0","user2"
+
+"void","addArea","string , number , number , number , number","给地图添加一个区域,(区域名,x,y,w,h)","user2" 
+
+"void","PlayeSwf","Player , string","不建议使用，请用playSwf替代.让玩家播放某动画：(玩家,动画文件名)","def"
+"void","puball","number , string","不建议使用,请用pub替代.向指定频道的玩家广播滚动文字(频道,内容)0本图1全服","def"
+"void","trigerAll","string","向所有地图内玩家触发某个触发器,参数(触发器名)","def"

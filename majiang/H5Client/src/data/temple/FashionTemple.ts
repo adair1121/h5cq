@@ -1,0 +1,1 @@
+module data{	export interface FashionTemple{		/**		* id		*/		id:number;		/**		* 时装名称		*/		clothesNmame:string;		/**		* 时装部位		*/		clothesPart:number;		/**		* 需要道具id		*/		needItem:number;		/**		* 需要数量		*/		itemNumber:number;		/**		* 穿戴时装id		*/		clothesId:number;		/**		* 道具时效		*/		clothesTime:number;		/**		* 时装说明		*/		information:string;	}}

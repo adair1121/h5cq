@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_headCom_skin" width="290" height="80" xmlns:e="http://ns.egret.com/eui">
+	<e:Group horizontalCenter="0" top="0">
+		<e:Image source="role_select_box_png" horizontalCenter="0" top="0"/>
+		<e:List id="headList" width="260" height="72" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="12" paddingLeft="16"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

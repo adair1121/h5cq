@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_selectRole_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="taoistBtn_0" source="head_3_1_png" width="80" height="80" x="108" y="166" name="3_1"/>
+	<e:Image id="taoistBtn_1" source="head_3_2_png" width="80" height="80" x="294" y="166" name="3_2"/>
+	<e:Image id="masterBtn_0" source="head_2_1_png" width="80" height="80" x="108" y="336" name="2_1"/>
+	<e:Image id="masterBtn_1" source="head_2_2_png" width="80" height="80" x="294" y="336" name="2_2"/>
+	<e:Image id="warriorBtn_0" source="head_1_1_png" width="80" height="80" x="108" y="515" name="1_1"/>
+	<e:Image id="warriorBtn_1" source="head_1_2_png" width="80" height="80" x="294" y="515" name="1_2"/>
+	<e:Label text="道士" y="104" textColor="0xf9efef" x="203"/>
+	<e:Label text="法师" x="203" y="284"/>
+	<e:Label text="战士" x="203" y="459"/>
+	<e:Button label="Button" x="186" y="720"/>
+	<e:Button id="createBtn" label="Button" skinName="RoleBtn_skin" horizontalCenter="0" top="699"/>
+</e:Skin>

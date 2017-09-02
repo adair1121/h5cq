@@ -1,0 +1,1 @@
+module data{	export interface DragonSoulTemple{		/**		* ID		*/		ID:number;		/**		* 等级		*/		lev:number;		/**		* 下一级ID		*/		nextID:number;		/**		* 升级所需物品ID		*/		needItem:number;		/**		* 升级所需物品数量		*/		num:number;		/**		* 提升攻击		*/		ATK:number;		/**		* 提升战力		*/		FightValue:number;	}}

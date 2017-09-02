@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_showAttrs_skin" width="382" height="349" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group>
+		<e:Image scale9Grid="2,37,460,607" source="role_attr_bg_png" x="0" y="0"/>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" bottom="10" right="10"/>
+		<e:Image id="img_title"  source="role_attr_title_1_png" horizontalCenter="0" top="10"/>
+		<e:Label text="角色属性：" size="18" fontFamily="SimHei" textColor="0xd9ad4e" left="40" top="45"/>
+		<e:Group id="attrs" anchorOffsetX="101" top="70" anchorOffsetY="-1" horizontalCenter="0">
+			<e:Group x="0" y="0" anchorOffsetY="0" height="275" anchorOffsetX="0" width="90">
+				<e:Label text="生    命：" x="-15" y="0" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="魔    法：" x="10" y="10" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="攻    击：" x="20" y="20" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="物    防：" x="-48" y="-130" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="法    防：" x="40" y="40" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="暴    击：" x="50" y="50" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="暴击伤害：" x="60" y="60" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="抗    暴：" x="70" y="70" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="麻痹几率：" x="80" y="80" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="麻痹抵抗：" x="90" y="90" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:Label text="伤害减免：" x="-117" y="6" size="18" anchorOffsetX="0" width="90" verticalAlign="middle" textAlign="center" fontFamily="SimHei" textColor="0xe6d8b3"/>
+				<e:layout>
+				<e:VerticalLayout gap="6" horizontalAlign="right" verticalAlign="top"/>
+				</e:layout>
+			</e:Group>
+			<e:Group x="0" y="0" width="110" height="275" anchorOffsetX="0">
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Label id="txt_hp" text="生命：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" width="110" x="0" height="20" y="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" verticalCenter="0" horizontalCenter="0"/>
+					<e:Label id="txt_mp" text="魔法：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" bottom="0" width="110" x="0" height="20"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" y="0"/>
+					<e:Label id="txt_atk" text="攻击：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" left="0" right="0" top="0" bottom="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" y="0"/>
+					<e:Label id="txt_def" text="物防：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" width="110" height="20" y="0" x="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" y="0"/>
+					<e:Label id="txt_mdef" text="法防：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" width="110" x="0" height="20" y="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" width="110" x="0" height="20" y="0"/>
+					<e:Label id="txt_critial" text="暴击：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" width="110" x="0" height="20" y="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" y="0"/>
+					<e:Label id="txt_critcoe" text="暴击伤害：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" left="0" top="0" right="0" bottom="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" verticalCenter="0"/>
+					<e:Label id="txt_resicritial" text="抗暴：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" left="0" top="0" right="0" bottom="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" verticalCenter="0"/>
+					<e:Label id="txt_mbChan" text="麻痹几率：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" top="0" left="0" bottom="0" right="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" verticalCenter="0"/>
+					<e:Label id="txt_mbResi" text="麻痹抵抗：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" left="0" top="0" right="0" bottom="0"/>
+				</e:Group>
+				<e:Group x="0" y="0">
+					<e:Image source="role_attr_text_bg_png" x="0" verticalCenter="0"/>
+					<e:Label id="txt_drd" text="伤害减免：" size="18" anchorOffsetX="0" verticalAlign="middle" textAlign="left" fontFamily="SimHei" textColor="0xe6d8b3" right="0" top="0" bottom="0" left="0"/>
+				</e:Group>
+				<e:layout>
+				<e:VerticalLayout gap="4" horizontalAlign="left" verticalAlign="top"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout gap="0"/>
+			</e:layout>
+		</e:Group>
+		<e:Image id="btn_next"  verticalCenter="0" source="role_attr_btn_r_png" right="20"/>
+		<e:Image id="btn_prev"  verticalCenter="0" source="role_attr_btn_l_png" left="20"/>
+	</e:Group>
+</e:Skin>

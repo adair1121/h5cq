@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="level_rank_item_skin" width="196" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="itemName" text="正宗小西瓜西瓜" size="16" fontFamily="SimHei" textColor="0xe6d8b3" left="16" top="4"/>
+	<e:Label id="itemLev" text="9999关" size="16" fontFamily="SimHei" textColor="0xE6D8B3" left="147" top="4"/>
+	<e:Label id="rankLev" text="1" x="2" y="4" size="16" fontFamily="SimHei" textColor="0xE6D8B3"/>
+</e:Skin>

@@ -1,0 +1,92 @@
+技能ID	技能名	图标	技能类型	备注	职业	等级	学习等级	升级所需修为值	升级后的技能ID	消耗HP	消耗MP	吟唱时间	CD类别	冷却时间	公共冷却	循环技能	施放方式	状态技能	形状	目标类型	合法对象	移动到目标位置	施法距离	影响范围	最大影响人数	技能攻击	系别	系别伤害	触发功能几率	是否持续引导	间隔时间	持续时间	功能ID	功能参数	功能数据	目标特效	动作	音效	技能说明	编辑器目录
+ID	name	icon	type	desc	job	lev	studylev	needexp	nextID	needHP	needMP	singtime	cdtype	cdtime	pubcdtime	iscircle	ReleaseType	isstate	shape	TargetType	validTarget	gotarget	distance	range	maxcount	ATKrate	sort	Damage	Funcrate	isguide	intervaltime	duration	funcid	funcparams	funcdatas	targeteffect	act	sound	info	editdir
+string	string	string	int	string	string	int	int	int	string	int	int	int	string	int	int	bool	int	bool	int	int	int	int	int	int	int	float	int	int	float	bool	int	int	int	string	int	string	string	string	string	string
+pk	平砍	items/pk	1	普通攻击	全职业	1	1	0	0	0	0	0	skill	600	600	1	1	0	1	2	3	0	48	0	1	1	0	0	1	0	1000	0	0	0	0	普通攻击	atk	flameswipe01		平砍
+cj	采集	items/cj	1	采集技能	全职业	1	1	0	0	0	0	0	skill	600	600	0	1	0	1	2	5	0	48	0	1	0	3	0	1	0	1000	0	0	0	0	采集	collet	flameswipe01		采集
+sq	拾取	items/sq	1	拾取技能	全职业	1	1	0	0	0	0	0	skill	600	600	1	1	0	1	2	4	0	0	0	1	0	3	0	1	0	1000	0	0	0	0	拾取	stand	flameswipe01		拾取
+jbjf01	基本剑法	items/jbjf	0	被动技能	战士	1	1	100	jbjf02	0	1	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	1.1	3	0	1	0	1000	0	1	HIT	0		atk	flameswipe01		基本剑法
+jbjf02	基本剑法	items/jbjf	0	被动技能	战士	2	1	500	jbjf03	0	2	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	1.2	3	0	1	0	1000	0	1	HIT	0		atk	flameswipe01		基本剑法
+jbjf03	基本剑法	items/jbjf	0	被动技能	战士	3	1	1000	0	0	4	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	1.3	3	0	1	0	1000	0	1	HIT	0		atk	flameswipe01		基本剑法
+csjf01	刺杀剑法	items/csjf	1	直线两人	战士	1	1	150	csjf02	0	3	0	skill	600	600	1	2	0	2	2	3	0	96	48	2	1	0	0	1	0	1000	0	0	0	0	刺杀	atk	flameswipe01	天枫十四郎目光尽赤，满身衣服也被他身体发出的真力鼓动得飘飞而起	刺杀剑法
+csjf02	刺杀剑法	items/csjf	1	直线两人	战士	2	1	800	csjf03	0	5	0	skill	600	600	1	2	0	2	2	3	0	96	48	2	1	0	0	1	0	1000	0	0	0	0	刺杀	atk	flameswipe01	　　——这一刀必杀，他已不必再留余力。	刺杀剑法
+csjf03	刺杀剑法	items/csjf	1	直线两人	战士	3	1	1500	0	0	8	0	skill	600	600	1	2	0	2	2	3	0	96	48	2	1	0	0	1	0	1000	0	0	0	0	刺杀	atk	flameswipe01	　　这“迎风一刀斩”，岂是真能无敌于天下？	刺杀剑法
+gsjf01	攻杀剑法	items/gsjf	0	单体技能	战士	1	1	200	gsjf02	0	2	0	skill	0	0	0	2	0	1	2	3	0	0	48	1	1.1	0	0	1	0	1000	0	0	0	0	攻杀	atk	flameswipe01		攻杀剑法
+gsjf02	攻杀剑法	items/gsjf	0	单体技能	战士	2	1	1000	gsjf03	0	3	0	skill	0	0	0	2	0	1	2	3	0	0	48	1	1.2	0	0	1	0	1000	0	0	0	0	攻杀	atk	flameswipe01		攻杀剑法
+gsjf03	攻杀剑法	items/gsjf	0	单体技能	战士	3	1	3000	0	0	4	0	skill	0	0	0	2	0	1	2	3	0	0	48	1	1.4	0	0	1	0	1000	0	0	0	0	攻杀	atk	flameswipe01		攻杀剑法
+bywd01	半月弯刀	items/bywd	1	扇形多人	战士	1	1	100	bywd02	0	5	0	skill	600	600	0	2	0	4	2	3	0	48	48	4	0.9	0	0	1	0	1000	0	0	0	0	半月	atk	flameswipe01		半月弯刀
+bywd02	半月弯刀	items/bywd	1	扇形多人	战士	2	1	500	bywd03	0	15	0	skill	600	600	0	2	0	4	2	3	0	48	48	4	1	0	0	1	0	1000	0	0	0	0	半月	atk	flameswipe01		半月弯刀
+bywd03	半月弯刀	items/bywd	1	扇形多人	战士	3	1	1000	0	0	25	0	skill	600	600	0	2	0	4	2	3	0	48	48	4	1.1	0	0	1	0	1000	0	0	0	0	半月	atk	flameswipe01		半月弯刀
+ymcz01	野蛮冲撞	items/ymcz	1	单体技能	战士	1	1	100	ymcz02	0	10	0	skill	2500	600	0	1	0	2	0	3	2	48	48	1	0	0	0	1	0	1000	0	10		3	野蛮冲撞	crush	flameswipe01		野蛮冲撞
+ymcz02	野蛮冲撞	items/ymcz	1	单体技能	战士	2	1	500	ymcz03	0	20	0	skill	2500	600	0	1	0	2	0	3	2	48	48	1	0	0	0	1	0	1000	0	10		3	野蛮冲撞	crush	flameswipe01		野蛮冲撞
+ymcz03	野蛮冲撞	items/ymcz	1	单体技能	战士	3	1	1000	0	0	30	0	skill	2500	600	0	1	0	2	0	3	2	48	48	1	0	0	0	1	0	1000	0	10		3	野蛮冲撞	crush	flameswipe01		野蛮冲撞
+lhjf01	烈火剑法	items/lhjf	1	单体技能	战士	1	1	100	lhjf02	0	20	0	skill	1500	600	0	2	0	1	2	3	0	48	48	1	2	0	0	1	0	1000	0	0	0	0	烈火剑法	atk	flameswipe01		烈火剑法
+lhjf02	烈火剑法	items/lhjf	1	单体技能	战士	2	1	500	lhjf03	0	35	0	skill	1500	600	0	2	0	1	2	3	0	48	48	1	2.2	0	0	1	0	1000	0	0	0	0	烈火剑法	atk	flameswipe01		烈火剑法
+lhjf03	烈火剑法	items/lhjf	1	单体技能	战士	3	1	1000	0	0	50	0	skill	1500	600	0	2	0	1	2	3	0	48	48	1	2.5	0	0	1	0	1000	0	0	0	0	烈火剑法	atk	flameswipe01		烈火剑法
+szh01	狮子吼	items/szh	1	圆形多人	战士	1	1	0	0	0	20	0	skill	10000	600	0	1	0	3	0	3	0	0	144	9	0	0	0	1	0	1000	0	2	xy02	0	狮子吼	spell	flameswipe01		狮子吼
+hqs01	火球术	items/hqs	1	单体技能	法师	1	1	100	hqs02	0	3	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1	1	0	1	0	1000	0	0	0	0	火焰球	spell	flameswipe01		火球术
+hqs02	火球术	items/hqs	1	单体技能	法师	2	1	500	hqs03	0	7	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.1	1	0	1	0	1000	0	0	0	0	火焰球	spell	flameswipe01		火球术
+hqs03	火球术	items/hqs	1	单体技能	法师	3	1	1000	0	0	15	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.3	1	0	1	0	1000	0	0	0	0	火焰球	spell	flameswipe01		火球术
+kjhh01	抗拒火环	items/kjhh	1	圆形多人	法师	1	1	100	kjhh02	0	5	0	skill	1000	600	0	1	0	3	0	3	0	48	48	9	0	3	0	1	0	1000	0	10		2	抗拒火环	spell	flameswipe01		抗拒火环
+kjhh02	抗拒火环	items/kjhh	1	圆形多人	法师	2	1	500	kjhh03	0	15	0	skill	1000	600	0	1	0	3	0	3	0	48	48	9	0	3	0	1	0	1000	0	10		2	抗拒火环	spell	flameswipe01		抗拒火环
+kjhh03	抗拒火环	items/kjhh	1	圆形多人	法师	3	1	1000	0	0	30	0	skill	1000	600	0	1	0	3	0	3	0	48	48	9	0	3	0	1	0	1000	0	10		2	抗拒火环	spell	flameswipe01		抗拒火环
+lds01	雷电术	items/lds	1	单体技能	法师	1	1	100	lds02	0	5	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.2	1	0	1	0	1000	0	0	0	0	雷电	spell	flameswipe01		雷电术
+lds02	雷电术	items/lds	1	单体技能	法师	2	1	500	lds03	0	10	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.3	1	0	1	0	1000	0	0	0	0	雷电	spell	flameswipe01		雷电术
+lds03	雷电术	items/lds	1	单体技能	法师	3	1	1000	0	0	25	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.4	1	0	1	0	1000	0	0	0	0	雷电	spell	flameswipe01		雷电术
+bys01	爆炎术	items/bys	1	圆形多人	法师	1	1	150	bys02	0	8	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	0.9	1	0	1	0	1000	0	0	0	0	爆炎术	spell	flameswipe01		爆炎术
+bys02	爆炎术	items/bys	1	圆形多人	法师	2	1	800	bys03	0	17	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.1	1	0	1	0	1000	0	0	0	0	爆炎术	spell	flameswipe01		爆炎术
+bys03	爆炎术	items/bys	1	圆形多人	法师	3	1	1500	0	0	35	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.3	1	0	1	0	1000	0	0	0	0	爆炎术	spell	flameswipe01		爆炎术
+lyhq01	烈焰火墙	items/lyhq	1	召唤	法师	1	1	50	lyhq02	0	5	0	skill	1000	600	0	1	0	0	3	0	0	288	48	4	1.3	1	0	1	0	1000	0	6	zd04	0	烈焰火墙	spell	flameswipe01		烈焰火墙
+lyhq02	烈焰火墙	items/lyhq	1	召唤	法师	2	1	200	lyhq03	0	15	0	skill	1000	600	0	1	0	0	3	0	0	288	48	4	1.5	1	0	1	0	1000	0	6	zd04	0	烈焰火墙	spell	flameswipe01		烈焰火墙
+lyhq03	烈焰火墙	items/lyhq	1	召唤	法师	3	1	800	0	0	30	0	skill	1000	600	0	1	0	0	3	0	0	288	48	4	1.7	1	0	1	0	1000	0	6	zd04	0	烈焰火墙	spell	flameswipe01		烈焰火墙
+bpx01	冰咆哮	items/bpx	1	圆形多人	法师	1	1	100	bpx02	0	20	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.1	1	0	1	0	1000	0	0	0	0	冰咆哮	spell	flameswipe01		冰咆哮
+bpx02	冰咆哮	items/bpx	1	圆形多人	法师	2	1	500	bpx03	0	40	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.2	1	0	1	0	1000	0	0	0	0	冰咆哮	spell	flameswipe01		冰咆哮
+bpx03	冰咆哮	items/bpx	1	圆形多人	法师	3	1	1000	0	0	80	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.4	1	0	1	0	1000	0	0	0	0	冰咆哮	spell	flameswipe01		冰咆哮
+jgdy01	疾光电影	items/jgdy	1	直线多人	法师	1	1	150	jgdy02	0	10	0	skill	1000	600	0	1	0	2	2	3	0	288	48	8	1.2	1	0	1	0	1000	0	0	0	0	疾光电影	spell	flameswipe01		疾光电影
+jgdy02	疾光电影	items/jgdy	1	直线多人	法师	2	1	800	jgdy03	0	20	0	skill	1000	600	0	1	0	2	2	3	0	288	48	8	1.3	1	0	1	0	1000	0	0	0	0	疾光电影	spell	flameswipe02		疾光电影
+jgdy03	疾光电影	items/jgdy	1	直线多人	法师	3	1	1500	0	0	35	0	skill	1000	600	0	1	0	2	2	3	0	288	48	8	1.4	1	0	1	0	1000	0	0	0	0	疾光电影	spell	flameswipe03		疾光电影
+mfd01	魔法盾	items/mfd	1	能力提升	法师	1	1	50	mfd02	0	20	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	10000	2	mfd01	0	魔法盾	spell	flameswipe04		魔法盾
+mfd02	魔法盾	items/mfd	1	能力提升	法师	2	1	200	mfd03	0	30	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	20000	2	mfd02	0	魔法盾	spell	flameswipe05		魔法盾
+mfd03	魔法盾	items/mfd	1	能力提升	法师	3	1	600	mfd04	0	40	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	30000	2	mfd03	0	魔法盾	spell	flameswipe01		魔法盾
+mfd04	魔法盾	items/mfd	1	能力提升	法师	4	1	1500	0	0	50	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	40000	2	mfd04	0	魔法盾	spell	flameswipe01		魔法盾
+dylg01	地狱雷光	items/dylg	1	圆形多人	法师	1	1	200	dylg02	0	20	0	skill	1000	600	0	1	0	3	0	3	0	48	240	24	0.9	1	0	1	0	1000	0	0	0	0	地狱雷光	spell	flameswipe01		地狱雷光
+dylg02	地狱雷光	items/dylg	1	圆形多人	法师	2	1	1000	dylg03	0	40	0	skill	1000	600	0	1	0	3	0	3	0	48	240	24	1	1	0	1	0	1000	0	0	0	0	地狱雷光	spell	flameswipe01		地狱雷光
+dylg03	地狱雷光	items/dylg	1	圆形多人	法师	3	1	3000	0	0	80	0	skill	1000	600	0	1	0	3	0	3	0	48	240	24	1.1	1	0	1	0	1000	0	0	0	0	地狱雷光	spell	flameswipe01		地狱雷光
+jslzf01	精神力战法	items/jslzf	0	被动技能	道士	1	1	100	jslzf02	0	0	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	0	3	0	1	0	1000	0	0	0	0		spell	flameswipe01		精神力战法
+jslzf02	精神力战法	items/jslzf	0	被动技能	道士	2	1	500	jslzf03	0	0	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	0	3	0	1	0	1000	0	0	0	0		spell	flameswipe01		精神力战法
+jslzf03	精神力战法	items/jslzf	0	被动技能	道士	3	1	1000	0	0	0	0	skill	1000	600	0	3	0	1	2	3	0	0	0	1	0	3	0	1	0	1000	0	0	0	0		spell	flameswipe01		精神力战法
+hlf01	火灵符	items/hlf	1	单体技能	道士	1	1	100	hlf02	0	2	0	skill	1000	600	1	1	0	1	2	3	0	288	0	1	1	2	0	1	0	1000	0	0	0	0	火符	spell	flameswipe01		火灵符
+hlf02	火灵符	items/hlf	1	单体技能	道士	2	1	500	hlf03	0	5	0	skill	1000	600	1	1	0	1	2	3	0	288	0	1	1.1	2	0	1	0	1000	0	0	0	0	火符	spell	flameswipe01		火灵符
+hlf03	火灵符	items/hlf	1	单体技能	道士	3	1	1000	0	0	11	0	skill	1000	600	1	1	0	1	2	3	0	288	0	1	1.2	2	0	1	0	1000	0	0	0	0	火符	spell	flameswipe01		火灵符
+sds01	施毒术	items/sds	1	单体技能	道士	1	1	200	sds02	0	5	0	skill	1000	600	0	1	1	1	2	3	0	288	0	1	0	2	0	1	0	1000	0	2	zd01	0	施毒术	spell	flameswipe02		施毒术
+sds02	施毒术	items/sds	1	单体技能	道士	2	1	1000	sds03	0	20	0	skill	1000	600	0	1	1	1	2	3	0	288	0	1	0	2	0	1	0	1000	0	2	zd02	0	施毒术	spell	flameswipe03		施毒术
+sds03	施毒术	items/sds	1	单体技能	道士	3	1	3000	0	0	30	0	skill	1000	600	0	1	1	1	2	3	0	288	0	1	0	2	0	1	0	1000	0	2	zd03	0	施毒术	spell	flameswipe04		施毒术
+qtzls01	群体治疗术	items/qtzls	1	圆形多人	道士	1	1	50	qtzls02	0	20	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	0	0	群体治疗术	spell	flameswipe05		群体治疗术
+qtzls02	群体治疗术	items/qtzls	1	圆形多人	道士	2	1	200	qtzls03	0	30	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	0	0	群体治疗术	spell	flameswipe01	弓箭手向天空奋力射击，形成漫天的箭雨攻击范围内的所有目标。	群体治疗术
+qtzls03	群体治疗术	items/qtzls	1	圆形多人	道士	3	1	600	0	0	45	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	0	0	群体治疗术	spell	flameswipe01	弓箭手向天空奋力射击，形成漫天的箭雨攻击范围内的所有目标。	群体治疗术
+zhs01	召唤神兽	items/zhs	1	召唤	道士	1	1	50	zhs02	0	20	0	skill	120000	600	0	1	0	0	0	0	0	0	48	0	0	3	0	1	0	1000	0	6	331	0	召唤神兽	spell	flameswipe01	弓箭手向天空奋力射击，形成漫天的箭雨攻击范围内的所有目标。	召唤神兽
+zhs02	召唤神兽	items/zhs	1	召唤	道士	2	1	300	zhs03	0	40	0	skill	120000	600	0	1	0	0	0	0	0	0	48	0	0	3	0	1	0	1000	0	6	331	0	召唤神兽	spell	flameswipe01	弓箭手向天空奋力射击，形成漫天的箭雨攻击范围内的所有目标。	召唤神兽
+zhs03	召唤神兽	items/zhs	1	召唤	道士	3	1	1000	zhs04	0	60	0	skill	120000	600	0	1	0	0	0	0	0	0	48	0	0	3	0	1	0	1000	0	6	331	0	召唤神兽	spell	flameswipe01	弓箭手向天空奋力射击，形成漫天的箭雨攻击范围内的所有目标。	召唤神兽
+zhs04	召唤神兽	items/zhs	1	召唤	道士	4	1	3000	0	0	100	0	skill	120000	600	0	1	0	0	0	0	0	0	48	0	0	3	0	1	0	1000	0	6	331	0	召唤神兽	spell	flameswipe01		召唤神兽
+sszjs01	神圣战甲术	items/sjs	1	圆形多人	道士	1	1	50	sszjs02	0	20	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	sszjs01	0	圣甲术	spell	flameswipe01		神圣战甲术
+sszjs02	神圣战甲术	items/sjs	1	圆形多人	道士	2	1	200	sszjs03	0	30	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	sszjs02	0	圣甲术	spell	flameswipe01		神圣战甲术
+sszjs03	神圣战甲术	items/sjs	1	圆形多人	道士	3	1	500	0	0	45	0	skill	1000	600	0	1	1	3	0	2	0	0	144	9	0	3	0	1	0	1000	0	2	sszjs03	0	圣甲术	spell	flameswipe01		神圣战甲术
+yss01	隐身术	items/yss	1	自身单体	道士	1	1	100	yss02	0	15	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	yss01	0	隐身术	spell	flameswipe01		隐身术
+yss02	隐身术	items/yss	1	自身单体	道士	2	1	500	yss03	0	30	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	yss02	0	隐身术	spell	flameswipe01		隐身术
+yss03	隐身术	items/yss	1	自身单体	道士	3	1	1000	0	0	50	0	skill	1000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	yss03	0	隐身术	spell	flameswipe01		隐身术
+wjzq01	无极真气	items/wjzq	1	自身单体	道士	1	1	100	wjzq02	0	30	0	skill	20000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	wjzq01	0	无极真气	spell	flameswipe01		无极真气
+wjzq02	无极真气	items/wjzq	1	自身单体	道士	2	1	500	wjzq03	0	45	0	skill	20000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	wjzq02	0	无极真气	spell	flameswipe01		无极真气
+wjzq03	无极真气	items/wjzq	1	自身单体	道士	3	1	1000	0	0	60	0	skill	20000	600	0	1	1	0	0	1	0	0	48	1	0	3	0	1	0	1000	0	2	wjzq03	0	无极真气	spell	flameswipe01		无极真气
+jt	击退	items/jt	1	单体技能	怪物	3	1	0	0	0	0	0	skill	2500	600	0	1	0	2	0	3	2	48	48	1	0	0	0	1	0	1000	0	10		4	击退	atk	flameswipe01		击退
+sj	射箭	items/sj	1	单体技能	怪物	1	1	0	0	0	0	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1	1	0	1	0	1000	0	0	0	0	射箭	atk	flameswipe01		射箭
+bfx	暴风雪	items/bfx	1	圆形多人	怪物	1	1	0	0	0	0	0	skill	1000	600	0	1	0	3	2	3	0	288	144	9	1.3	1	0	1	0	1000	0	0	0	0	暴风雪	spell	flameswipe01		暴风雪
+zhsph	召唤兽喷火	items/zhsph	1	直线多人	怪物	1	1	0	0	0	0	0	skill	500	600	1	1	0	2	2	3	0	96	48	2	1	1	0	1	0	1000	0	0	0	0	召唤兽喷火	atk	flameswipe01		召唤兽喷火
+cls	触龙神		1	范围多人	怪物	1	1	0	0	0	0	0	skill	500	600	1	1	0	4	2	3	0	96	96	4	1	1	0	1	0	1000	0	2	zd03	0	触龙神	atk	flameswipe01		触龙神
+zhjw	镇海蛟王		1	单体技能	怪物	1	1	0	0	0	0	0	skill	500	600	1	1	0	1	2	3	0	96	48	1	1	1	0	1	0	1000	0	0	0	0	镇海蛟王	atk	flameswipe01		镇海蛟王
+xfz	血炼魔猪旋风斩		1	圆形多人	怪物	1	1	0	0	0	0	0	skill	500	600	0	1	0	3	2	3	0	288	144	9	1	1	0	1	0	1000	0	0	0	0	血炼魔猪旋风斩	spell	flameswipe01		血炼魔猪旋风斩
+emdc	恶魔地刺		1	单体技能	怪物	1	1	0	0	0	0	0	skill	500	600	1	1	0	1	2	3	0	288	288	10	1	1	0	1	0	1000	0	0	0	0	恶魔地刺	atk	flameswipe01		恶魔地刺
+czsj	船长射击		1	单体技能	怪物	1	1	0	0	0	0	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1	1	0	1	0	1000	0	0	0	0	船长射击	spell	flameswipe01		船长射击
+gwlds	雷电术	items/lds	1	单体技能	怪物	3	1	0	0	0	25	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1.4	1	0	1	0	1000	0	0	0	0	雷电	atk	flameswipe01		雷电术
+NPCsj	NPC射箭	items/sj	1	单体技能	怪物	1	1	0	0	0	0	0	skill	800	600	1	1	0	1	2	3	0	288	48	1	1	1	0	1	0	1000	0	0	0	0	NPC射箭	atk	flameswipe01		NPC射箭
+xmph	熊猫喷火	items/xmph	1	直线多人	怪物	1	1	0	0	0	0	0	skill	500	600	1	1	0	2	2	3	0	48	48	4	1	1	0	1	0	1000	0	0	0	0	熊猫喷火	spell	flameswipe01		熊猫喷火
+																																								
+																																								

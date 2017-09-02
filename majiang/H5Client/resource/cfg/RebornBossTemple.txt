@@ -1,0 +1,1 @@
+{"201130001":{"rebornRanking":[0,1,2,3,4],"birthPoint":[25,25],"startTime":21,"showDrop":[0],"bossName":"10级个人BOSS","id":201130001,"killAward":0,"joinAward":2,"mapID":10001,"rankingAward":[2,2,2,2,2],"playerNumber":100,"mosterId":30110409,"bossSustain":10,"bossIcon":0,"bossPos":[40,40],"RebornLv":[1,2]}}

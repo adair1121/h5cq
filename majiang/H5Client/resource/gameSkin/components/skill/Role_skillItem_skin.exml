@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_skillItem_skin" width="426" height="75" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="skillItemBg" left="0" right="0" top="0" bottom="0" source="reborn_normal_png"/>
+	<e:Label id="skillName" text="火焰之球" fontFamily="SimHei" size="16" left="101" top="6" textColor="0xfedc1d"/>
+	<e:Label id="level" text="lv.2" fontFamily="SimHei" size="18" left="181" top="6" textColor="0x04fe10"/>
+	<e:Label id="skillDesc" text="害物理伤害物理伤害物害物理伤害物理伤害物" anchorOffsetX="0" anchorOffsetY="0" height="36" size="14" fontFamily="SimHei" bottom="13" left="100" width="253" verticalAlign="bottom" textColor="0xe6d8b3"/>
+	<ns1:CommonItem id="item" width="60" height="60" x="24" y="4" skinName="ItemSkin"/>
+</e:Skin>

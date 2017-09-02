@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Rank_roleInfo_item_skin" width="320" height="68" currentState="rank_first" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="rank_first,other_rank,lev_rank,rank_first2"  height.other_rank="71" height.lev_rank="71">
+	<e:Group left="0" top="0" right.other_rank="0" bottom.other_rank="0" right.lev_rank="0" bottom.lev_rank="0">
+		<e:Image source="black_bottom_png" anchorOffsetX="0" anchorOffsetY="0" right="0" left="0" top="0" bottom="0" width="320" height="68" includeIn="rank_first,rank_first2"/>
+		<e:Label id="uName" text="xxxxxxxxxx" size="18" fontFamily="SimHei" textColor="0xE6D8B3" touchEnabled="false" x="82" y="12" y.lev_rank="27" y.rank_first2="25.99"/>
+		<e:Label id="uLev" text="xxxxxxxxxx" size="18" fontFamily="SimHei" textColor="0x04FE10" touchEnabled="false" x="179" y="12" y.lev_rank="27" y.rank_first2="25.99"/>
+		<e:Label id="rank_value" text="战斗力:" size="18" fontFamily="SimHei" touchEnabled="false" textColor="0xfbe709" x="82" y="43.5" includeIn="rank_first,other_rank"/>
+		<e:Label id="uFightValue" text="xxxxxxxxx" size="18" fontFamily="SimHei" touchEnabled="false" textColor="0xfbe709" x="151" y="44.5" includeIn="rank_first,other_rank"/>
+		<e:Label id="rankOrder" fontFamily="SimHei" size.other_rank="22"   size.lev_rank="22" horizontalCenter.lev_rank="-117.5" top.lev_rank="9"  includeIn="other_rank,lev_rank" horizontalCenter.other_rank="-117.5" verticalCenter.other_rank="-15.5"/>
+		<e:Image source="chat_item_line_png" includeIn="other_rank,lev_rank" width="320" y="67.75" x="0"/>
+		<e:Group x="11.5" y="40.5">
+			<e:Image source="rank_vip_bg_png" x="0" y="0"/>
+			<e:BitmapLabel id="vipNum" width="24.42" height="18" font="vipFont_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" x="29.5" y="3"/>
+			<e:Image source="rank_vip_icon_png" x="12" y="1.5"/>
+		</e:Group>
+		<e:Image source="rank_first_icon_png" x="20.5" y="0.5" includeIn="rank_first,rank_first2"/>
+	</e:Group>
+</e:Skin>

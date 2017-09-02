@@ -1,0 +1,58 @@
+ID	游戏里名字	武器	shape	男	女	目录	特效编号	模型名字	looks	items1	items2	items3	items4	pic1	pic2	desc	other
+ID	Name	GameName	shape	man	woman	res	effectDir	modelname	looks	items1	items2	items3	items4	pic1	pic2	desc	other
+string	string	string	string	int	int	string	int	string	int	string	string	string	string	string	string	string	string
+1	菜刀 改大刀	1桃木剑	1	2120	3180	weapon1	2	0-5菜刀改      大刀	544	items1	items2	items3	4				x
+2	碎牙斩刀（武器05	10勇气之刀	2	4240	5300	weapon1	2	0-10长刀	546	items1	items2	items3	4			大剑	x
+3	无惧斩刀	20坚毅战锤	3	6360	7420	weapon1	2	0-10砍刀	548	items1	items2	items3	4			碎牙之刀	x
+4	无惧弯刀	30无畏弯刀	4	8480	9540	weapon1	4	10-20弯刀a	550	items1	items2	items3	4				x
+5	坚毅战锤   屠龙宝刀	30无畏之剑	10	0	1060	weapon2	2	10-20重锤改    屠龙刀	552	items1	items2	items3	4	特效	1		x
+6	征战之刀	40征服战锤	11	2120	3180	weapon2	4	20-30弯刀a	556	items1	items2	items3	4			40征服战锤	x
+7	征战权杖	40征服之剑	12	4240	5300	weapon2	2	20-30裁杵	554	items1	items2	items3	4				x
+8	荣耀巨斧	50荣耀巨剑	13	6360	7420	weapon2	7	20-30斧子a	558	items1	items2	items3	4			龙首刀	x
+9	荣耀之剑	50荣耀之刀	14	8480	9540	weapon2	2	30-40剑a	560	items1	items2	items3	4			霹雷斩	x
+10	漆黑法杖	1杖	20	0	1060	weapon3	5	0-10法杖a	522	items1	items2	items3	4				x
+11	天蓝法杖	10萤火之杖	21	2120	3180	weapon3	5	0-10f法杖b	524	items1	items2	items3	4				x
+12	紫电骨杖	20紫电之剑	22	4240	5300	weapon3	5	10-20法杖a	526	items1	items2	items3	4				x
+13	冰雪魔剑	30冰啸法杖	23	6360	7420	weapon3	1	10-20剑a	528	items1	items2	items3	4				x
+14	冰雪法杖	30冰啸法珠	24	8480	9540	weapon3	3	20-30a冰啸法杖	530	items1	items2	items3	4				x
+15	晨星翼杖	40星辰法珠	30	0	1060	weapon4	3	20-30b星辰法珠	532	items1	items2	items3	4	特效	2		x
+16	晨星妖杖	40星辰之杖	31	2120	3180	weapon4	3	30-40a盈月之杖	534	items1	items2	items3	4				x
+17	盈月凝杖	50盈月法珠	32	4240	5300	weapon4	3	30-40b苍穹之杖	536	items1	items2	items3	4		盈月凝杖		
+18	盈月法刃	50盈月之杖	33	6360	7420	weapon4	8	40-50a猎圈	538	items1	items2	items3	4				x
+19	苍穹法镰	60苍穹宝珠	34	8480	9540	weapon4	3	40-50b法杖	540	items1	items2	items3	4				x
+20	桃木剑	1木剑	40	0	1060	weapon5	1	0-10木剑	500	items1	items2	items3	4				x
+21	檀香玄扇	10清灵之扇	41	2120	3180	weapon5	6	10-20清灵之扇	502	items1	items2	items3	4				x
+22	青霜之剑	20清霜之剑	42	4240	5300	weapon5	1	10-20青霜之剑	504	items1	items2	items3	4				
+23	火舞之剑	30风舞之剑	43	6360	7420	weapon5	1	20-30凤舞之剑	506	items1	items2	items3	4				x
+24	火舞之扇	30凤舞之扇	44	8480	9540	weapon5	6	20-30凤舞之扇	508	items1	items2	items3	4				x
+25	玄冥之剑	40青冥之剑	50	0	1060	weapon6	1	30-40青冥之剑	510				4	特效	3	道士黄金武器	
+26	玄冥之刃	40青冥之扇	51	2120	3180	weapon6	4	30-40青冥弯刀	512	items1	items2	items3	4				x
+27	曙光之剑	50曙光之剑	52	4240	5300	weapon6	1	40-50曙光之剑	514	items1	items2	items3	4			降龙羽扇	x
+28	曙光之扇	50曙光之扇	53	6360	7420	weapon6	7	40-50曙光之扇	516	items1	items2	items3	4				x
+29	无极法扇	60无极道扇	54	8480	9540	weapon6	7	50-60无极道扇	518	items1	items2	items3	4				x
+30	战神圣剑	60战神之刀	60	0	1060	weapon7	2	40-50剑a	562	items1	items2	items3	4			战斧	x
+31	战神斩刀	60战神圣剑	61	2120	3180	weapon7	4	40-50刀a	564	items1	items2	items3	4	特效	4		x
+32	苍穹权杖	60苍穹之杖	62	4240	5300	weapon7	3	50-60a苍穹法杖	542	items1	items2	items3	4	特效	5		x
+33	无极之剑	60无极圣剑	63	6360	7420	weapon7	1	50-60无极圣剑	520	items1	items2	items3	4	特效	6	封神诀	x
+34	王者之刀		64	8480	9540	weapon7		王者之刀	566	items1	items2	items3				王者之刀	x
+35			70	0	1060	weapon8			568	items1	items2	items3				龙纹杖	x
+36			71	2120	3180	weapon8			570	items1	items2	items3				武器06-雷霆刀斧	x
+37			72	4240	5300	weapon8			572	items1	items2	items3				梦魂杖	x
+38			73	6360	7420	weapon8			574	items1	items2	items3				玄冥杖	x
+39			74	8480	9540	weapon8			576	items1	items2	items3				轮回杖	x
+40			80	0	1060	weapon9			578	items1	items2	items3				海神之刃	x
+41			81	2120	3180	weapon9			580	items1	items2	items3				寒焰刃	x
+42			82	4240	5300	weapon9			582	items1	items2	items3				轩焰刃	x
+43			83	6360	7420	weapon9			584	items1	items2	items3				道光刃	x
+44			84	8480	9540	weapon9			586	items1	items2	items3				玄天斩	x
+45			90	0	1060	weapon10			588	items1	items2	items3				矿锄	x
+46			91	2120	3180	weapon10			590	items1	items2	items3				赤月魔剑	x
+47			92	4240	5300	weapon10			592	items1	items2	items3					x
+48			93	6360	7420	weapon10			594	items1	items2	items3		   			x
+49			94	8480	9540	weapon10			596	items1	items2	items3					x
+50			100	0	1060	weapon11			598	items1	items2	items3					x
+51			101	2120	3180	weapon11			1400	items1	items2	items3					x
+52	鱼竿		102	4240	5300	weapon11			1402	items1	items2	items3					
+53			103	6360	7420	weapon11			1404	items1	items2	items3		   			
+54			104	8480	9540	weapon11			1406	items1	items2	items3					
+55			110	0	1060	weapon12			1408	items1	items2	items3					

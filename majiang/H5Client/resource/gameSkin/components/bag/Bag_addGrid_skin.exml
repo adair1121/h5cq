@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Bag_addGrid_skin" width="346" height="280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" top="0">
+		<e:Image source="cmmon_box_png" left="0" top="0" right="0" bottom="0" scale9Grid="14,48,315,168"/>
+		<e:Group left="45" top="85">
+			<e:Label text="消耗元宝:" size="20" fontFamily="SimHei" textColor="0xeae2d1" x="0" y="0"/>
+			<e:Image width="20" height="20" source="title_yuanbao_png" x="91" y="0"/>
+			<e:Label id="cost" text="4" x="113.59999999999997" y="1.789999999999992" size="20" textAlign="left" verticalAlign="middle" fontFamily="SimHei" textColor="0xffd71b"/>
+		</e:Group>
+		<e:Group left="45" bottom="104">
+			<e:Label text="开启数量:" size="20" fontFamily="SimHei" textColor="0xeae2d1" x="0" y="3"/>
+			<e:Image width="90" height="25" source="bag_capacity_box_png" x="116" y="0"/>
+			<e:Image id="reduceBtn" width="20" height="20" x="91.99000000000001" y="2.319999999999993" source="jian_png"/>
+			<e:Image id="addBtn" width="20" height="20" x="209" y="2" source="jia_png"/>
+			<e:Label id="gridNum" text="5" size="16" fontFamily="SimHei" width="90" height="25" textAlign="center" verticalAlign="middle" x="119" y="0" textColor="0xffd71b"/>
+		</e:Group>
+		<e:Image width="128" height="25" source="bag_add_png" horizontalCenter="4" top="4"/>
+		<ns1:Btn1 id="confireBtn" width="94" height="42" skinName="Btn1_skin" enabled="true" bottom="17" left="45"/>
+		<ns1:Btn1 id="cancleBtn" height="42" skinName="Btn1_skin" enabled="true" width="94" right="42" bottom="17"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Way_other_item_skin" width="346" height="38" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:List id="list" height="0" width="247" anchorOffsetY="0" left="16" top="31"/>
+	<e:Group horizontalCenter="0" top="0">
+		<e:Label id="title" text="其他途径" size="16" textColor="0xEAE2D1" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei"/>
+		<e:Image source="popup_line1_l_png" verticalCenter="0" horizontalCenter="-65"/>
+		<e:Image source="popup_line1_r_png" verticalCenter="0" horizontalCenter="65"/>
+	</e:Group>p>
+</e:Skin>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_longhunhudun_skin" width="382" height="510" currentState="longhun" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="longhun,hudun,mabi,hushen" >
+	<e:Image left="0" right="0" top="0" bottom="0" source.longhun="longhun_bottom_png" source.hudun="longhun_bottom_png" source.mabi="longhun_bottom_png" source.hushen="longhun_bottom_png"/>
+	<ns1:Role_headCom id="headCom" width="260" height="72" horizontalCenter.longhun="0" top.longhun="7" skinName="Role_headCom_skin" x.hudun="61" y.hudun="6.68" horizontalCenter.mabi="0" top.mabi="7" horizontalCenter.hushen="0" top.hushen="7"/>
+	<e:Image width="30" height="36" source="arrow_png" horizontalCenter="0" verticalCenter="82" horizontalCenter.longhun="0" verticalCenter.longhun="100" horizontalCenter.hudun="0" verticalCenter.hudun="100" verticalCenter.mabi="100" verticalCenter.hushen="100"/>
+	<e:Label text="消耗龙魂碎片:" includeIn="longhun" size="20" fontFamily="SimHei" textColor="0xeaddbf" left="62" bottom="80"/>
+	<e:Label id="num" text="/27" size="20" fontFamily="SimHei" textColor="0x00ff4b" textAlign="left" left="221" bottom="68" left.longhun="248" bottom.longhun="78" left.hudun="258" bottom.hudun="77" text.longhun="5/27" horizontalCenter="77" text.hudun="5/27" text.mabi="5/27" left.mabi="248" horizontalCenter.mabi="77" bottom.mabi="77" text.hushen="5/27" left.hushen="248" horizontalCenter.hushen="77" bottom.hushen="77"/>
+	<e:Label text="龙魂" includeIn="longhun" size="20" fontFamily="SimHei" x="139" y="254" textColor="0xfea304"/>
+	<e:Label id="level" text="Lv.67" x="191" y="202" size="20" fontFamily="SimHei" textColor="0xF3862E" x.longhun="191" y.longhun="254" y.hudun="253" textColor.hudun="0xfea304" textColor.longhun="0xfea304" y.mabi="253" y.hushen="253" textColor.mabi="0xfea304" textColor.hushen="0xfea304" x.mabi="213" x.hushen="213"/>
+	<e:Label text="护身戒指" x="123" y="253" size="20" fontFamily="SimHei" textColor="0xFEA304" includeIn="hushen"/>
+	<e:Label text="麻痹戒指" x="123" y="253" size="20" fontFamily="SimHei" textColor="0xFEA304" includeIn="mabi"/>
+	<ns1:Btn1 id="upGradeBtn" width="94" height="42" y="459" skinName="Btn1_skin" horizontalCenter="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="0" bottom="0"/>
+	<e:Label text="当前属性" size="20" fontFamily="SimHei" textColor="0xfbe709" left="43" top="307" left.longhun="43" top.longhun="300" top.hudun="300" top.mabi="300" top.hushen="300"/>
+	<e:Label text="下级属性" x="257" size="20" fontFamily="SimHei" textColor="0xFBE709" top="307" top.longhun="300" top.hudun="300" top.mabi="300" top.hushen="300"/>
+	<e:Label text="护盾" x="140" size="20" fontFamily="SimHei" includeIn="hudun" y="254" textColor="0xfea304"/>
+	<e:Label text="消耗护盾碎片:" includeIn="hudun" left="61" bottom="79" size="20" fontFamily="SimHei" textColor="0xeaddbf"/>
+	<e:Image id="item" width="56" height="56" x="159.2" y="139.7" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:List id="curAttrGroup" width="111" height="78.33" left="25" bottom="108">
+		<e:layout.hushen>
+			<e:VerticalLayout gap="2" horizontalAlign="left"/>
+		</e:layout.hushen>
+		<e:layout.mabi>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.mabi>
+		<e:layout.hudun>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.hudun>
+		<e:layout.longhun>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.longhun>
+	</e:List>
+	<e:List id="nextAttrGroup" width="111" height="78.33" bottom="108" right="25">
+		<e:layout.mabi>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.mabi>
+		<e:layout.hudun>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.hudun>
+		<e:layout.longhun>
+			<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout.longhun>
+	</e:List>
+	<e:Label text="消耗护身碎片:" includeIn="hushen" size="20" fontFamily="SimHei" textColor="0xeaddbf" left="61" bottom="79"/>
+	<e:Label text="消耗麻痹碎片:" includeIn="mabi" size="20" fontFamily="SimHei" textColor="0xeaddbf" left="61" bottom="79"/>
+</e:Skin>

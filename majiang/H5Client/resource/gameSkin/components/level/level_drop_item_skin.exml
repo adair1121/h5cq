@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="level_drop_item_skin" width="66" height="86" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group height="86" left="0" top="0">
+		<e:Image id="equipBox" width="66" height="66" scale9Grid="8,8,60,60" x="0" y="0" source="{data.boxS}"/>
+		<e:Image id="equipImg" width="56" height="56" source="{data.imS}" x="5" y="4.8799999999999955" anchorOffsetX="0"/>
+		<e:Label text="{data.itemName}" textColor="{data.color}" y="65" size="14" fontFamily="SimHei" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>

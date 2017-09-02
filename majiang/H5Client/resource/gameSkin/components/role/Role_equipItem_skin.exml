@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Role_equipItem_skin" width="66" height="82" currentState="rect" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="rect,specialEquip"  height.rect="84" width.specialEquip="56">
+	<e:Button id="specialBtn" label="Button" includeIn="specialEquip" x="-8" skinName="Btn3_skin" verticalCenter="0"/>
+	<e:Image id="equipBox" width="66" height="66" left="0" top="0" scale9Grid="7,7,62,62" source="bag_1_box_png" includeIn="rect"/>
+	<e:Image id="equipImg" width="56" height="56" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="5" includeIn="rect"/>
+	<e:Label id="equipIntensify" text="20" anchorOffsetX="0" width="27" anchorOffsetY="0" height="12.4" fontFamily="SimHei" size="12" verticalAlign="justify" textAlign="right" backgroundColor="0x000000" textColor="0xE5B347" includeIn="rect" x="33" y="48"/>
+	<e:Label id="equipLv" text="7" size="12" anchorOffsetX="0" width="13" fontFamily="SimHei" textColor="0x0BA7EA" height="12.4" includeIn="rect" x="7" y="48"/>
+	<e:Label id="showName" text="未激活" size="14" verticalCenter="32" horizontalCenter="0.5" textColor="0xEADDBF" fontFamily="SimHei" textAlign="center" verticalAlign="middle" includeIn="rect"/>
+</e:Skin>

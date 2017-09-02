@@ -1,0 +1,1 @@
+module data{	export interface CheatsInlayTemple{		/**		* id		*/		id:number;		/**		* 已有技能数量		*/		ownskillNumber:number;		/**		* 增加技能概率		*/		addSkill:number;	}}

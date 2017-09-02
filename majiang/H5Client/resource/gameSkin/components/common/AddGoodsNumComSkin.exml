@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AddGoodsNumComSkin" width="254" height="25" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" top="0">
+		<e:Image id="jian10" source="jian10_png" x="0" y="0"/>
+		<e:Image id="jian" source="jian_png" x="50" y="0"/>
+		<e:Image source="title_box_png" x="81" y="0" anchorOffsetX="0" width="91"/>
+		<e:Image id="jia" source="jia_png" x="180" y="1"/>
+		<e:Image id="jia10" source="jia10_png" x="210" y="1"/>
+		<e:Label id="numLabel" text="1" y="2" size="20" fontFamily="SimHei" anchorOffsetX="0" width="89.5" horizontalCenter="0" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

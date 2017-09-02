@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainUI_button_skin" width="61" height="67" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="navBtnBg" source="nav_btnBg_png" horizontalCenter="0" verticalCenter="0.5"/>
+	<e:Image id="bagIcon" source="nav_user_png" horizontalCenter="0" verticalCenter="0"/>
+	<!--<e:Image source="Icon beibao_png" verticalCenter="0" horizontalCenter="0" visible="false"/>-->
+</e:Skin>

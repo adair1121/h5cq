@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_forging_skin"  width="480" height="800"  xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" states="qianghua,gem,zhuling" >
+	<e:Group x="0" y="0" width="480">
+		<e:Image source="bag_baseboard_box_png" scale9Grid="154,46,178,588" left="0" right="0" top="0" bottom="0" height.qianghua="660" horizontalCenter.qianghua="0"/>
+		<e:Image source="forging_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" top="40" anchorOffsetY.qianghua="0" horizontalCenter.qianghua="0" top.qianghua="40"/>
+		<e:Image source="forging_title_png" horizontalCenter="0" top="10"/>
+		<e:Image  width="438"  source="role_line_png" horizontalCenter="1"  bottom="73"/>
+		<e:Group horizontalCenter="0" top="120">
+			<e:Image width="248" height="55" x="0" y="0" source="fight_bottom_png"/>
+			<e:BitmapLabel id="power" width="116.67" height="23.5" anchorOffsetX="0" anchorOffsetY="0" text="" font="fightValue_fnt" x="112.5" verticalCenter="0"   />
+			<e:BitmapLabel width="72" height="31.33" x="30.620000000000005" font="fightValue_fnt" text="z" anchorOffsetX="0" anchorOffsetY="0" y="9.150000000000006"/>
+		</e:Group>
+		<e:Image id="returnBtn" source="bag_returnBtn_png" right="23" bottom="13" top="593" left="403"/>
+		<e:Group bottom="18" left="24">
+			<ns1:BagBtn id="btn_qianghua" width="94" height="42" x="0" y="0" enabled="true" skinName="BagBtn_skin"/>
+			<ns1:BagBtn id="btn_gem" width="94" height="42" x="95" y="0" enabled="true" skinName="BagBtn_skin"/>
+			<ns1:BagBtn id="btn_zhuling" width="94" height="42" x="190" y="0" enabled="true" skinName="BagBtn_skin"/>
+			<ns1:BagBtn id="btn_refining" width="94" height="42" x="284" y="0" enabled="true" skinName="BagBtn_skin"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" verticalCenter="-93" x="181" y="171" includeIn="qianghua,zhuling">
+			<e:Image source="forging_icon_bg_png" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+			<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image id="icon_img" width="56" height="56" anchorOffsetX="0" anchorOffsetY="-0.4" horizontalCenter="-1" verticalCenter="-1"/>
+			<e:Label id="icon_txt" text="3" size="16" textColor="0xfea304" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="bottom" textAlign="right" right="3" bottom="3"/>
+			</e:Group>
+		</e:Group>
+		<e:Group x="36" y="35" anchorOffsetY="0" height="60" horizontalCenter="0" verticalCenter="50" horizontalCenter.gem="0" verticalCenter.gem="0" height.gem="122" >
+			<e:Image source="forging_content_bg_png" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" width="228" horizontalCenter="0" top="0" bottom="0"/>
+			<e:Image source="forging_content_bold_png" height="4" horizontalCenter="0" top="0"/>
+			<e:Image source="forging_content_bold_png" height="4" horizontalCenter="0" bottom="0"/>
+		</e:Group>
+		<e:Group includeIn="qianghua,zhuling" horizontalCenter="0" bottom="200" anchorOffsetY="0" height="146">
+			<e:Image source="arrow_png" horizontalCenter="0" top="50" x="135" y="-294" scaleX="1" scaleY="1"/>
+			<e:Group id="group_attrs" width="300" height="58" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" top="37">
+				<e:layout>
+					<e:VerticalLayout verticalAlign="middle" horizontalAlign="center"/>
+				</e:layout>
+			</e:Group>
+			<e:Label text="下级属性" textColor="0xFBE709" size="20" scaleX="1" scaleY="1" fontFamily="SimHei" horizontalCenter="70" x="180"/>
+			<e:Label text="当前属性" textColor="0xfbe709" size="20" scaleX="1" scaleY="1" fontFamily="SimHei" horizontalCenter="-70" x="40"/>
+		</e:Group>
+		<e:Group horizontalCenter="0" bottom="160">
+			<e:Image source="forging_stoneNum_bg_png" x="84" y="1.0000000000000568"/>
+			<e:Label id="txt_needStone" text="7634"  size="20" fontFamily="SimHei" textColor="0xe6d8b3" width="50" verticalCenter="0" x="149.01" textAlign="left"/>
+			<e:Label text="消耗：" x="0" size="20" anchorOffsetY="0" height="20.67" textColor="0xe6d8b3" fontFamily="SimHei" verticalCenter="0"/>
+			<e:Label text="/"  size="20" anchorOffsetY="2.67" height="20.67" fontFamily="SimHei" textColor="0xe6d8b3" verticalCenter="0" horizontalCenter="40" verticalAlign="middle"/>
+			<e:Label id="txt_haveStone" text="1652"  size="20" textColor="0x00ff4b" fontFamily="SimHei"  anchorOffsetX="0" verticalCenter="0" width="50" x="87" textAlign="right"/>
+		</e:Group>
+		<e:Group  y="521" horizontalCenter="55">
+			<ns1:Btn1 id="btn_upgrade" width="94" height="42" y="0" enabled="true" skinName="Btn1_skin" scaleX="1" scaleY="1" x="0"/>
+			<ns1:UI_ConnectWord id="btn_getProps" text="获取道具" x="104" y="12" size="20"   fontFamily="SimHei" textColor="0x00ff4b"/>
+		</e:Group>
+		<e:Group id="group_gemData" width="260" height="105" includeIn="gem" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" anchorOffsetY="0">
+			<e:Group width="260" height="25" x="35" y="23" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="gem_img1" x="66" y="16"/>
+				<e:Label id="gem_txt_grade1" text="攻击宝石" x="85" y="2" size="20" textColor="0x00ff4b" fontFamily="SimHei" width="80" textAlign="left" verticalAlign="middle"/>
+				<e:Label id="gem_txt_attr1" text="攻击+3936" x="95" y="12" size="20" textColor="0x00FF4B" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="120"/>
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingLeft="25" gap="5"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="260" height="25" x="45" y="33" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="gem_img2" x="66" y="16"/>
+				<e:Label id="gem_txt_grade2" text="攻击宝石" x="85" y="2" size="20" textColor="0x00FF4B" fontFamily="SimHei" width="80" textAlign="left" verticalAlign="middle"/>
+				<e:Label id="gem_txt_attr2" text="攻击+3936" x="95" y="12" size="20" textColor="0x00FF4B" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="120"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingLeft="25" gap="5"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="260" height="25" x="55" y="43" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="gem_img3" x="66" y="16"/>
+				<e:Label id="gem_txt_grade3" text="攻击宝石" x="85" y="2" size="20" textColor="0x00FF4B" fontFamily="SimHei" width="80" textAlign="left" verticalAlign="middle"/>
+				<e:Label id="gem_txt_attr3" text="攻击+3936" x="95" y="12" size="20" textColor="0x00FF4B" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="120"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingLeft="25" gap="5"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="260" height="25" x="65" y="53" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Image id="gem_img4" x="66" y="16"/>
+				<e:Label id="gem_txt_grade4" text="攻击宝石" x="85" y="2" size="20" textColor="0x00FF4B" fontFamily="SimHei" width="80" textAlign="left" verticalAlign="middle"/>
+				<e:Label id="gem_txt_attr4" text="攻击+3936" x="95" y="12" size="20" textColor="0x00FF4B" fontFamily="SimHei" verticalAlign="middle" textAlign="center" width="120"/>
+				<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle" paddingLeft="25" gap="5"/>
+				</e:layout>
+			</e:Group>
+			<e:layout>
+				<e:VerticalLayout verticalAlign="top" horizontalAlign="center" gap="0"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+	<e:List id="itemGroup" width="420"  anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0"  height="300" y="150" itemRendererSkinName="ForgingItemRenderer_skin" top="153">
+		<e:layout>
+			<e:TileLayout horizontalGap="0" verticalGap="0" rowHeight="90" columnWidth="80" requestedRowCount="4" requestedColumnCount="2" columnAlign="justifyUsingGap" rowAlign="justifyUsingGap"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+				<e:Object r="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+		
+		
+	</e:List>
+	<ns1:Role_headCom id="headCom" horizontalCenter="0"  skinName="Role_headCom_skin" top="40"/>
+</e:Skin>

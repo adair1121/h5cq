@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Attr_GemInfo_skin" width="260" height="28" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="gem" source="gem_icon_red_1_png" x="4.5" y="5"/>
+	<e:Label id="attr" text="Label" x="30" verticalCenter="0" size="14" fontFamily="SimHei" anchorOffsetX="0" width="219"/>
+</e:Skin>

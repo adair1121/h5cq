@@ -1,0 +1,45 @@
+
+<e:Skin class="CJ_tab_skin" width="434" height="578" currentState="noactivate" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" states="activate,noactivate" >
+	<e:Label text="橙装" size="20" fontFamily="SimHei" horizontalCenter="0" top="5"/>
+	<e:List id="list" height="368" y="99" anchorOffsetX="0" left="0" right="0" anchorOffsetY="0" itemRendererSkinName="ForgingItemRenderer_skin">
+		<e:layout>
+			<e:TileLayout rowHeight="80" horizontalAlign="left" verticalAlign="top" requestedRowCount="4" columnWidth="80" requestedColumnCount="2" rowAlign="justifyUsingGap" columnAlign="justifyUsingGap"/>
+		</e:layout>
+		<e:ArrayCollection>
+			<e:Array>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+				<e:Object 人="null"/>
+			</e:Array>
+		</e:ArrayCollection>
+	</e:List>
+	<e:List id="cAttrList" width="128" height="100" x="77" y="313" anchorOffsetX="0" x.noactivate="149">
+		<e:layout>
+		<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout>
+	</e:List>
+	<e:List id="nAttrList" width="128" height="100" includeIn="activate" x="215" y="312" anchorOffsetX="0">
+		<e:layout>
+		<e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+		</e:layout>
+	</e:List>
+	<e:Image width="30" height="36" includeIn="activate" source="arrow_png" horizontalCenter="5" verticalCenter="-96"/>
+	<ns1:CommonItem id="curCj" width="66" height="82" x="117" skinName="ItemSkin" top="160" y.noactivate="160" y.activate="160" x.noactivate="184"/>
+	<ns1:CommonItem id="nextCj" width="66" height="82" includeIn="activate" x="259" skinName="ItemSkin" top="160"/>
+	<e:Label text="评分:" x="78" y="289" size="16" fontFamily="SimHei" x.noactivate="149"/>
+	<e:Label id="curScore" text="000000" x="122" y="289" size="16" fontFamily="SimHei" x.noactivate="193"/>
+	<e:Label text="评分:" includeIn="activate" x="225" y="289" size="16" fontFamily="SimHei"/>
+	<e:Label id="nextScore" text="000000" includeIn="activate" x="269" y="289" size="16" fontFamily="SimHei"/>
+	<e:Label text="消耗橙装碎片:" size="16" fontFamily="SimHei" left="45" bottom="66"/>
+	<e:Image source="title_box_png" y="492" horizontalCenter="0"/>
+	<e:Label id="cost" text="000/000" size="16" fontFamily="SimHei" width="114.66" x="160" y="492" anchorOffsetX="0" anchorOffsetY="0" height="22.67" verticalAlign="middle" textAlign="center"/>
+	<ns1:UI_ConnectWord id="getCjWay" text="获得橙装碎片" x="301.66" y="494.67" size="16" fontFamily="SimHei" textColor="0x00ff4b"/>
+	<e:Button id="operBtn" label="Button" skinName="Btn3_skin" horizontalCenter="0" bottom="14"/>
+	<e:Label id="curName" text="label" y="139" size="16" fontFamily="SimHei" horizontalCenter="-67" horizontalCenter.noactivate="0"/>
+	<e:Label id="nextName" text="label" includeIn="activate" y="140" size="16" fontFamily="SimHei" horizontalCenter="75"/>
+</e:Skin>

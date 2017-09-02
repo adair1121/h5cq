@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleMeridiansTab_skin" width="434" height="578" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group left="262" top="165">
+		<e:Image source="font_bg_png" x="0" y="0" anchorOffsetX="0" width="171"/>
+		<e:Label text="当前经脉属性" x="28" y="6" size="20" fontFamily="SimHei" textColor="0xfbe709"/>
+	</e:Group>
+	<e:Group top="347" right="0" width="185">
+		<e:Image source="font_bg_png" y="-34.66" anchorOffsetX="0" width="171" right="0"/>
+		<e:Label text="下级经脉属性" x="42" y="-27.66" size="20" fontFamily="SimHei" textColor="0xfbe709"/>
+	</e:Group>
+	<ns1:Btn1 id="ptomoteBtn" width="94" height="42" x="263.68" y="520.01" skinName="Btn1_skin"/>
+	<e:Group id="lineGroup" width="218" height="343" bottom="85" left="57"/>
+	<e:Group id="pGroup" left="57" width="218" bottom="85" anchorOffsetY="0" height="343">
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="117" y="12"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="25" y="27"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="62" y="89"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" y="122" x="138"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="199" y="169"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="89" y="170"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="41" y="211"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="10" y="280"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" y="247" x="163"/>
+		<e:Image width="22" height="22" source="point_un_select_png" anchorOffsetX="11" anchorOffsetY="11" x="206" y="330"/>
+	</e:Group>
+	<e:BitmapLabel id="rank" width="31.5" height="55.5" x="20" y="99.5" font="jinmaiFont_fnt" text="1c" anchorOffsetY="0" anchorOffsetX="0"/>
+	<e:BitmapLabel id="fightValue" width="100" height="19" x="326" y="140.49" text="0" anchorOffsetY="0" anchorOffsetX="0" font="fightValue2_fnt"/>
+	<e:Image source="meridians_title_png" horizontalCenter="2" top="7"/>
+	<e:Group id="costGroup" bottom="22" left="69">
+		<e:Label id="num" text="9/10" x="113.66999999999996" y="1.3099999999999454" size="20" fontFamily="SimHei" textColor="0xe6d8b3"/>
+		<e:Label text="消耗内功丹:" x="0" y="0" size="20" fontFamily="SimHei" textColor="0xe6d8b3"/>
+	</e:Group>
+	<e:Label id="upLevLab" text="" size="20" fontFamily="SimHei" textColor="0xe6d8b3" left="109" bottom="24"/>
+	<e:List id="cAttrList" width="142" height="96" x="282" y="209"/>
+	<e:List id="nAttrList" width="142" height="96" x="282" y="355"/>
+</e:Skin>

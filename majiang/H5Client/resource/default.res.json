@@ -1,0 +1,1285 @@
+{
+	"groups": [
+		{
+			"keys": "black_bottom_png,cmmon_box_png,common_item_box_png,d_e_001_png,d_e_002_png,d_e_003_png,d_e_004_png,d_e_005_png,d_e_006_png,fight_bottom_png,jia_png,jia10_png,jian_png,jian10_png,mark_circle_png,tips_png,arrow_png,wing_equip_bg_png,wing_equip_icon_png,wing_feather_png,wing_pro_bg_png,wing_pro_head_png,wing_pro_png,wing_star_0_png,wing_star_1_png,wing_title_png,110001_png,120001_png,130001_png,140001_png,150001_png,210001_png,220001_png,230001_png,240001_png,250001_png,310001_png,320001_png,330001_png,340001_png,350001_png,bag_1_box_png,bag_2_box_png,bag_3_box_png,bag_4_box_png,bag_5_box_png,bag_6_box_png,bag_add_png,bag_baseboard_box_png,bag_bg_png,bag_btn1_png,bag_btn2_png,bag_btn4_png,bag_capacity_box_png,bag_closeBtn_png,bag_returnBtn_png,bag_rong_bg_png,bag_rong_png,bag_select_bg_png,bag_title_png,select_equip_png,chat_bg_png,chat_btn_send_png,chat_input_bg_png,chat_item_line_png,chat_msgType1_png,chat_msgType2_png,chat_service_bg_png,chat_title_png,chat_ui_bg_png,chat_ui_btn_png,head_1_1_png,head_1_2_png,head_2_1_png,head_2_2_png,head_3_1_png,head_3_2_png,purpleFont_fnt,purpleFont_png,damageFont_blue_fnt,damageFont_blue_png,fightValue_fnt,fightValue_png,fightValue2_fnt,fightValue2_png,greenFont_fnt,greenFont_png,jinmaiFont_fnt,jinmaiFont_png,orangeFont_fnt,orangeFont_png,redFont_fnt,redFont_png,warrior_fnt,warrior_png,forging_bg_png,forging_icon_bg_png,forging_stoneNum_bg_png,forging_title_png,longhun_bottom_png,font_bg_png,meridians_bg_png,meridians_title_png,point_select_png,point_un_select_png,ball_box_png,hp_mask_png,mp_mask_png,nav_bag_png,nav_bgInfo_png,nav_btnBg_png,nav_experience_bg_png,nav_experience_box_png,nav_experience_png,nav_gang_png,nav_hpBg_png,nav_user_png,popup_bg1_png,popup_bg2_png,popup_box_png,popup_line1_l_png,popup_line1_r_png,popup_title1_png,font_desc_png,reborn_bg_png,reborn_c_attr_png,reborn_c_lev_png,reborn_n_attr_png,reborn_normal_png,reborn_select_png,reborn_title_png,xw_box_png,role_bg_png,role_box_bg_png,role_head_box_png,role_head_light_png,role_infoBg_png,role_levelBox_png,role_line_png,role_select_box_png,role_title_png,vip_icon_png,skill_bg_png,skill_title_png,title_bg_png,title_box_png,title_jiahao_png,title_jinbi_png,title_yuanbao_png,vipFont_fnt,vipFont_png,hpBall_json,hpBall_png,mpBall_json,mpBall_png,gem_icon_red_1_png,gem_icon_red_2_png,gem_icon_yellow_1_png,gem_icon_yellow_2_png,gem_icon_gray_1_png,gem_icon_blue_1_png,gem_icon_blue_2_png,gem_icon_green_1_png,gem_icon_green_2_png,forging_content_bg_png,forging_content_bold_png,bag_bottom_png,role_attr_title_2_png,role_attr_btn_r_png,role_attr_btn_l_png,role_attr_title_1_png,role_attr_text_bg_png,role_attr_title_3_png,role_attr_bg_png,wing_name_box_png,wing_attr_bottom_png,reborn_pop_bottom_png,reborn_title_buy_png,ZhuLingTemple_txt,title_rank_png,nav_forg_png,rank_vip_icon_png,rank_vip_bg_png,rank_btn_down_png,rank_btn_up_png,rank_bottom_png,rank_first_icon_png,rank_btn2_dis_png,rank_btn2_up_png,rank_self_bg_png,exp_icon_png,money_icon_png,store_bg_png,arrow_up_png,store_btn_title1_png,store_btn_title2_png,store_item_bg_png,store_title_png,store_btn_png,friends_title_png,firends_bg_nav_png,friend_list_bg_png,friends_item_bg_png,friends_item_tips_bg_png,friends_chat_title_png,friends_add_title_png,friends_apply_title_png,friends_black_title_png,level_bottom_png,level_icon_png,level_progress_up_png,level_progress_down_png,level_title_png,level_progress_png,level_btn_up_png,level_btn_dis_png,level_info_up_png,level_info_bottom_png,level_divide_line_png,level_info_bg_png,level_panel_title_png,level_panel_bottom_png,level_panel_progress_up_png,level_panel_progress_down_png,level_panel_rank_bottom_png,level_panel_btn_png,level_panel_reward_png,level_panel_btnLabel_png,5_png,8_png,kingofkings_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/picicon/images/public/black_bottom.png",
+			"type": "image",
+			"name": "black_bottom_png"
+		},
+		{
+			"url": "assets/ui/font/fightValue.fnt",
+			"type": "font",
+			"name": "fightValue_fnt"
+		},
+		{
+			"url": "assets/ui/font/fightValue2.png",
+			"type": "image",
+			"name": "fightValue2_png"
+		},
+		{
+			"url": "assets/ui/font/jinmaiFont.fnt",
+			"type": "font",
+			"name": "jinmaiFont_fnt"
+		},
+		{
+			"url": "assets/ui/font/jinmaiFont.png",
+			"type": "image",
+			"name": "jinmaiFont_png"
+		},
+		{
+			"url": "assets/ui/font/orangeFont.png",
+			"type": "image",
+			"name": "orangeFont_png"
+		},
+		{
+			"url": "assets/ui/title/title_bg.png",
+			"type": "image",
+			"name": "title_bg_png"
+		},
+		{
+			"url": "assets/ui/title/title_box.png",
+			"type": "image",
+			"name": "title_box_png"
+		},
+		{
+			"url": "assets/ui/title/title_jiahao.png",
+			"type": "image",
+			"name": "title_jiahao_png"
+		},
+		{
+			"url": "assets/ui/title/title_jinbi.png",
+			"type": "image",
+			"name": "title_jinbi_png"
+		},
+		{
+			"url": "assets/ui/title/title_yuanbao.png",
+			"type": "image",
+			"name": "title_yuanbao_png"
+		},
+		{
+			"url": "assets/ui/vip/vipFont.fnt",
+			"type": "font",
+			"name": "vipFont_fnt"
+		},
+		{
+			"url": "assets/ui/vip/vipFont.png",
+			"type": "image",
+			"name": "vipFont_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_1_box.png",
+			"type": "image",
+			"name": "bag_1_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_2_box.png",
+			"type": "image",
+			"name": "bag_2_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_3_box.png",
+			"type": "image",
+			"name": "bag_3_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_4_box.png",
+			"type": "image",
+			"name": "bag_4_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_5_box.png",
+			"type": "image",
+			"name": "bag_5_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_6_box.png",
+			"type": "image",
+			"name": "bag_6_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_add.png",
+			"type": "image",
+			"name": "bag_add_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_baseboard_bg.png",
+			"type": "image",
+			"name": "bag_baseboard_bg_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_baseboard_box.png",
+			"type": "image",
+			"name": "bag_baseboard_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_bg.png",
+			"type": "image",
+			"name": "bag_bg_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_btn1.png",
+			"type": "image",
+			"name": "bag_btn1_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_btn2.png",
+			"type": "image",
+			"name": "bag_btn2_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_btn4.png",
+			"type": "image",
+			"name": "bag_btn4_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_capacity_box.png",
+			"type": "image",
+			"name": "bag_capacity_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_closeBtn.png",
+			"type": "image",
+			"name": "bag_closeBtn_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_goods_board.png",
+			"type": "image",
+			"name": "bag_goods_board_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_goods_box.png",
+			"type": "image",
+			"name": "bag_goods_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_lev_box.png",
+			"type": "image",
+			"name": "bag_lev_box_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_returnBtn.png",
+			"type": "image",
+			"name": "bag_returnBtn_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_rong.png",
+			"type": "image",
+			"name": "bag_rong_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_rong_bg.png",
+			"type": "image",
+			"name": "bag_rong_bg_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_select_bg.png",
+			"type": "image",
+			"name": "bag_select_bg_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_title.png",
+			"type": "image",
+			"name": "bag_title_png"
+		},
+		{
+			"url": "assets/ui/bag/divider_line.png",
+			"type": "image",
+			"name": "divider_line_png"
+		},
+		{
+			"url": "assets/ui/bag/select_equip.png",
+			"type": "image",
+			"name": "select_equip_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_bg.png",
+			"type": "image",
+			"name": "chat_bg_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_btn_send.png",
+			"type": "image",
+			"name": "chat_btn_send_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_input_bg.png",
+			"type": "image",
+			"name": "chat_input_bg_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_item_line.png",
+			"type": "image",
+			"name": "chat_item_line_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_msgType1.png",
+			"type": "image",
+			"name": "chat_msgType1_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_msgType2.png",
+			"type": "image",
+			"name": "chat_msgType2_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_service_bg.png",
+			"type": "image",
+			"name": "chat_service_bg_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_title.png",
+			"type": "image",
+			"name": "chat_title_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_ui_bg.png",
+			"type": "image",
+			"name": "chat_ui_bg_png"
+		},
+		{
+			"url": "assets/ui/chat/chat_ui_btn.png",
+			"type": "image",
+			"name": "chat_ui_btn_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_1_1.png",
+			"type": "image",
+			"name": "head_1_1_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_1_2.png",
+			"type": "image",
+			"name": "head_1_2_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_2_1.png",
+			"type": "image",
+			"name": "head_2_1_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_2_2.png",
+			"type": "image",
+			"name": "head_2_2_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_3_1.png",
+			"type": "image",
+			"name": "head_3_1_png"
+		},
+		{
+			"url": "assets/ui/default_head/head_3_2.png",
+			"type": "image",
+			"name": "head_3_2_png"
+		},
+		{
+			"url": "assets/ui/font/fightValue.png",
+			"type": "image",
+			"name": "fightValue_png"
+		},
+		{
+			"url": "assets/ui/font/fightValue2.fnt",
+			"type": "font",
+			"name": "fightValue2_fnt"
+		},
+		{
+			"url": "assets/ui/font/orangeFont.fnt",
+			"type": "font",
+			"name": "orangeFont_fnt"
+		},
+		{
+			"url": "assets/ui/forging/forging_bg.png",
+			"type": "image",
+			"name": "forging_bg_png"
+		},
+		{
+			"url": "assets/ui/forging/forging_icon_bg.png",
+			"type": "image",
+			"name": "forging_icon_bg_png"
+		},
+		{
+			"url": "assets/ui/forging/forging_stoneNum_bg.png",
+			"type": "image",
+			"name": "forging_stoneNum_bg_png"
+		},
+		{
+			"url": "assets/ui/forging/forging_title.png",
+			"type": "image",
+			"name": "forging_title_png"
+		},
+		{
+			"url": "assets/ui/longhun/longhun_bottom.png",
+			"type": "image",
+			"name": "longhun_bottom_png"
+		},
+		{
+			"url": "assets/ui/meridians/font_bg.png",
+			"type": "image",
+			"name": "font_bg_png"
+		},
+		{
+			"url": "assets/ui/meridians/meridians_bg.png",
+			"type": "image",
+			"name": "meridians_bg_png"
+		},
+		{
+			"url": "assets/ui/meridians/meridians_title.png",
+			"type": "image",
+			"name": "meridians_title_png"
+		},
+		{
+			"url": "assets/ui/meridians/point_select.png",
+			"type": "image",
+			"name": "point_select_png"
+		},
+		{
+			"url": "assets/ui/meridians/point_un_select.png",
+			"type": "image",
+			"name": "point_un_select_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_bg1.png",
+			"type": "image",
+			"name": "popup_bg1_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_bg2.png",
+			"type": "image",
+			"name": "popup_bg2_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_box.png",
+			"type": "image",
+			"name": "popup_box_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_line1_l.png",
+			"type": "image",
+			"name": "popup_line1_l_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_line1_r.png",
+			"type": "image",
+			"name": "popup_line1_r_png"
+		},
+		{
+			"url": "assets/ui/popup/popup_title1.png",
+			"type": "image",
+			"name": "popup_title1_png"
+		},
+		{
+			"url": "assets/ui/reborn/font_desc.png",
+			"type": "image",
+			"name": "font_desc_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_bg.png",
+			"type": "image",
+			"name": "reborn_bg_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_c_attr.png",
+			"type": "image",
+			"name": "reborn_c_attr_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_c_lev.png",
+			"type": "image",
+			"name": "reborn_c_lev_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_n_attr.png",
+			"type": "image",
+			"name": "reborn_n_attr_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_normal.png",
+			"type": "image",
+			"name": "reborn_normal_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_select.png",
+			"type": "image",
+			"name": "reborn_select_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_title.png",
+			"type": "image",
+			"name": "reborn_title_png"
+		},
+		{
+			"url": "assets/ui/reborn/xw_box.png",
+			"type": "image",
+			"name": "xw_box_png"
+		},
+		{
+			"url": "assets/ui/nav/ball_box.png",
+			"type": "image",
+			"name": "ball_box_png"
+		},
+		{
+			"url": "assets/ui/nav/hp_mask.png",
+			"type": "image",
+			"name": "hp_mask_png"
+		},
+		{
+			"url": "assets/ui/nav/mp_mask.png",
+			"type": "image",
+			"name": "mp_mask_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_bag.png",
+			"type": "image",
+			"name": "nav_bag_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_bgInfo.png",
+			"type": "image",
+			"name": "nav_bgInfo_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_boss.png",
+			"type": "image",
+			"name": "nav_boss_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_btnBg.png",
+			"type": "image",
+			"name": "nav_btnBg_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_experience.png",
+			"type": "image",
+			"name": "nav_experience_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_experience_bg.png",
+			"type": "image",
+			"name": "nav_experience_bg_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_experience_box.png",
+			"type": "image",
+			"name": "nav_experience_box_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_forg.png",
+			"type": "image",
+			"name": "nav_forg_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_gang.png",
+			"type": "image",
+			"name": "nav_gang_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_hpBg.png",
+			"type": "image",
+			"name": "nav_hpBg_png"
+		},
+		{
+			"url": "assets/ui/nav/nav_user.png",
+			"type": "image",
+			"name": "nav_user_png"
+		},
+		{
+			"url": "assets/ui/skill/skill_bg.png",
+			"type": "image",
+			"name": "skill_bg_png"
+		},
+		{
+			"url": "assets/ui/skill/skill_title.png",
+			"type": "image",
+			"name": "skill_title_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_bg.png",
+			"type": "image",
+			"name": "role_bg_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_box_bg.png",
+			"type": "image",
+			"name": "role_box_bg_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_head_box.png",
+			"type": "image",
+			"name": "role_head_box_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_head_light.png",
+			"type": "image",
+			"name": "role_head_light_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_infoBg.png",
+			"type": "image",
+			"name": "role_infoBg_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_levelBox.png",
+			"type": "image",
+			"name": "role_levelBox_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_line.png",
+			"type": "image",
+			"name": "role_line_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_select_box.png",
+			"type": "image",
+			"name": "role_select_box_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_title.png",
+			"type": "image",
+			"name": "role_title_png"
+		},
+		{
+			"url": "assets/ui/role_info/vip_icon.png",
+			"type": "image",
+			"name": "vip_icon_png"
+		},
+		{
+			"url": "assets/ui/font/daoshi/purpleFont.fnt",
+			"type": "font",
+			"name": "purpleFont_fnt"
+		},
+		{
+			"url": "assets/ui/font/daoshi/purpleFont.png",
+			"type": "image",
+			"name": "purpleFont_png"
+		},
+		{
+			"url": "assets/ui/font/fashi/damageFont_blue.fnt",
+			"type": "font",
+			"name": "damageFont_blue_fnt"
+		},
+		{
+			"url": "assets/ui/font/fashi/damageFont_blue.png",
+			"type": "image",
+			"name": "damageFont_blue_png"
+		},
+		{
+			"url": "assets/ui/font/green/greenFont.fnt",
+			"type": "font",
+			"name": "greenFont_fnt"
+		},
+		{
+			"url": "assets/ui/font/green/greenFont.png",
+			"type": "image",
+			"name": "greenFont_png"
+		},
+		{
+			"url": "assets/ui/font/red/redFont.fnt",
+			"type": "font",
+			"name": "redFont_fnt"
+		},
+		{
+			"url": "assets/ui/font/red/redFont.png",
+			"type": "image",
+			"name": "redFont_png"
+		},
+		{
+			"url": "assets/ui/font/zhanshi/warrior.fnt",
+			"type": "font",
+			"name": "warrior_fnt"
+		},
+		{
+			"url": "assets/ui/font/zhanshi/warrior.png",
+			"type": "image",
+			"name": "warrior_png"
+		},
+		{
+			"url": "assets/picicon/images/public/10000000.png",
+			"type": "image",
+			"name": "10000000_png"
+		},
+		{
+			"url": "assets/picicon/images/public/40000010.png",
+			"type": "image",
+			"name": "40000010_png"
+		},
+		{
+			"url": "assets/picicon/images/public/cloth_loading.png",
+			"type": "image",
+			"name": "cloth_loading_png"
+		},
+		{
+			"url": "assets/picicon/images/public/cmmon_box.png",
+			"type": "image",
+			"name": "cmmon_box_png"
+		},
+		{
+			"url": "assets/picicon/images/public/common_item_box.png",
+			"type": "image",
+			"name": "common_item_box_png"
+		},
+		{
+			"url": "assets/picicon/images/public/fight_bottom.png",
+			"type": "image",
+			"name": "fight_bottom_png"
+		},
+		{
+			"url": "assets/picicon/images/public/fly.png",
+			"type": "image",
+			"name": "fly_png"
+		},
+		{
+			"url": "assets/picicon/images/public/jia.png",
+			"type": "image",
+			"name": "jia_png"
+		},
+		{
+			"url": "assets/picicon/images/public/jia10.png",
+			"type": "image",
+			"name": "jia10_png"
+		},
+		{
+			"url": "assets/picicon/images/public/jian.png",
+			"type": "image",
+			"name": "jian_png"
+		},
+		{
+			"url": "assets/picicon/images/public/jian10.png",
+			"type": "image",
+			"name": "jian10_png"
+		},
+		{
+			"url": "assets/picicon/images/public/king_title.png",
+			"type": "image",
+			"name": "king_title_png"
+		},
+		{
+			"url": "assets/picicon/images/public/kingofkings.png",
+			"type": "image",
+			"name": "kingofkings_png"
+		},
+		{
+			"url": "assets/picicon/images/public/mark_circle.png",
+			"type": "image",
+			"name": "mark_circle_png"
+		},
+		{
+			"url": "assets/picicon/images/public/none_boss.png",
+			"type": "image",
+			"name": "none_boss_png"
+		},
+		{
+			"url": "assets/picicon/images/public/none_npc.png",
+			"type": "image",
+			"name": "none_npc_png"
+		},
+		{
+			"url": "assets/picicon/images/public/none_player.png",
+			"type": "image",
+			"name": "none_player_png"
+		},
+		{
+			"url": "assets/picicon/images/public/null.png",
+			"type": "image",
+			"name": "null_png"
+		},
+		{
+			"url": "assets/picicon/images/public/safearea_point.png",
+			"type": "image",
+			"name": "safearea_point_png"
+		},
+		{
+			"url": "assets/picicon/images/public/shadow.png",
+			"type": "image",
+			"name": "shadow_png"
+		},
+		{
+			"url": "assets/picicon/images/public/tips.png",
+			"type": "image",
+			"name": "tips_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_001.png",
+			"type": "image",
+			"name": "d_e_001_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_002.png",
+			"type": "image",
+			"name": "d_e_002_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_003.png",
+			"type": "image",
+			"name": "d_e_003_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_004.png",
+			"type": "image",
+			"name": "d_e_004_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_005.png",
+			"type": "image",
+			"name": "d_e_005_png"
+		},
+		{
+			"url": "assets/picicon/images/public/default/equip/d_e_006.png",
+			"type": "image",
+			"name": "d_e_006_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/blood/blood_normal.png",
+			"type": "image",
+			"name": "blood_normal_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/blood/blood_normal_bg.png",
+			"type": "image",
+			"name": "blood_normal_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/blood/blood_yellow.png",
+			"type": "image",
+			"name": "blood_yellow_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/arrow.png",
+			"type": "image",
+			"name": "arrow_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_equip_bg.png",
+			"type": "image",
+			"name": "wing_equip_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_equip_icon.png",
+			"type": "image",
+			"name": "wing_equip_icon_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_feather.png",
+			"type": "image",
+			"name": "wing_feather_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_pro.png",
+			"type": "image",
+			"name": "wing_pro_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_pro_bg.png",
+			"type": "image",
+			"name": "wing_pro_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_pro_head.png",
+			"type": "image",
+			"name": "wing_pro_head_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_star_0.png",
+			"type": "image",
+			"name": "wing_star_0_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_star_1.png",
+			"type": "image",
+			"name": "wing_star_1_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_title.png",
+			"type": "image",
+			"name": "wing_title_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/110001.png",
+			"type": "image",
+			"name": "110001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/120001.png",
+			"type": "image",
+			"name": "120001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/130001.png",
+			"type": "image",
+			"name": "130001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/140001.png",
+			"type": "image",
+			"name": "140001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/150001.png",
+			"type": "image",
+			"name": "150001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/210001.png",
+			"type": "image",
+			"name": "210001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/220001.png",
+			"type": "image",
+			"name": "220001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/230001.png",
+			"type": "image",
+			"name": "230001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/240001.png",
+			"type": "image",
+			"name": "240001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/250001.png",
+			"type": "image",
+			"name": "250001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/310001.png",
+			"type": "image",
+			"name": "310001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/320001.png",
+			"type": "image",
+			"name": "320001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/330001.png",
+			"type": "image",
+			"name": "330001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/340001.png",
+			"type": "image",
+			"name": "340001_png"
+		},
+		{
+			"url": "assets/picicon/images/skillIcon/350001.png",
+			"type": "image",
+			"name": "350001_png"
+		},
+		{
+			"url": "assets/movie/ui/hpBall.png",
+			"type": "image",
+			"name": "hpBall_png"
+		},
+		{
+			"url": "assets/movie/ui/mpBall.png",
+			"type": "image",
+			"name": "mpBall_png"
+		},
+		{
+			"url": "assets/movie/ui/mpBall.json",
+			"type": "json",
+			"name": "mpBall_json"
+		},
+		{
+			"url": "assets/movie/ui/hpBall.json",
+			"type": "json",
+			"name": "hpBall_json"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_red_1.png",
+			"type": "image",
+			"name": "gem_icon_red_1_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_red_2.png",
+			"type": "image",
+			"name": "gem_icon_red_2_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_yellow_1.png",
+			"type": "image",
+			"name": "gem_icon_yellow_1_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_yellow_2.png",
+			"type": "image",
+			"name": "gem_icon_yellow_2_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_gray_1.png",
+			"type": "image",
+			"name": "gem_icon_gray_1_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_blue_1.png",
+			"type": "image",
+			"name": "gem_icon_blue_1_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_blue_2.png",
+			"type": "image",
+			"name": "gem_icon_blue_2_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_green_1.png",
+			"type": "image",
+			"name": "gem_icon_green_1_png"
+		},
+		{
+			"url": "assets/ui/forging/gem_icon_green_2.png",
+			"type": "image",
+			"name": "gem_icon_green_2_png"
+		},
+		{
+			"url": "assets/ui/forging/forging_content_bg.png",
+			"type": "image",
+			"name": "forging_content_bg_png"
+		},
+		{
+			"url": "assets/ui/forging/forging_content_bold.png",
+			"type": "image",
+			"name": "forging_content_bold_png"
+		},
+		{
+			"url": "assets/ui/bag/bag_bottom.png",
+			"type": "image",
+			"name": "bag_bottom_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_title_2.png",
+			"type": "image",
+			"name": "role_attr_title_2_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_btn_r.png",
+			"type": "image",
+			"name": "role_attr_btn_r_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_btn_l.png",
+			"type": "image",
+			"name": "role_attr_btn_l_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_title_1.png",
+			"type": "image",
+			"name": "role_attr_title_1_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_text_bg.png",
+			"type": "image",
+			"name": "role_attr_text_bg_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_title_3.png",
+			"type": "image",
+			"name": "role_attr_title_3_png"
+		},
+		{
+			"url": "assets/ui/role_info/role_attr_bg.png",
+			"type": "image",
+			"name": "role_attr_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_name_box.png",
+			"type": "image",
+			"name": "wing_name_box_png"
+		},
+		{
+			"url": "assets/picicon/images/roleInfo/wing/wing_attr_bottom.png",
+			"type": "image",
+			"name": "wing_attr_bottom_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_pop_bottom.png",
+			"type": "image",
+			"name": "reborn_pop_bottom_png"
+		},
+		{
+			"url": "assets/ui/reborn/reborn_title_buy.png",
+			"type": "image",
+			"name": "reborn_title_buy_png"
+		},
+		{
+			"url": "cfg/ZhuLingTemple.txt",
+			"type": "text",
+			"name": "ZhuLingTemple_txt"
+		},
+		{
+			"url": "assets/ui/title/title_rank.png",
+			"type": "image",
+			"name": "title_rank_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_vip_icon.png",
+			"type": "image",
+			"name": "rank_vip_icon_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_vip_bg.png",
+			"type": "image",
+			"name": "rank_vip_bg_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_btn_down.png",
+			"type": "image",
+			"name": "rank_btn_down_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_btn_up.png",
+			"type": "image",
+			"name": "rank_btn_up_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_bottom.png",
+			"type": "image",
+			"name": "rank_bottom_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_first_icon.png",
+			"type": "image",
+			"name": "rank_first_icon_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_btn2_dis.png",
+			"type": "image",
+			"name": "rank_btn2_dis_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_btn2_up.png",
+			"type": "image",
+			"name": "rank_btn2_up_png"
+		},
+		{
+			"url": "assets/ui/rank/rank_self_bg.png",
+			"type": "image",
+			"name": "rank_self_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/public/exp_icon.png",
+			"type": "image",
+			"name": "exp_icon_png"
+		},
+		{
+			"url": "assets/picicon/images/public/money_icon.png",
+			"type": "image",
+			"name": "money_icon_png"
+		},
+		{
+			"url": "assets/ui/store/store_bg.png",
+			"type": "image",
+			"name": "store_bg_png"
+		},
+		{
+			"url": "assets/picicon/images/public/arrow_up.png",
+			"type": "image",
+			"name": "arrow_up_png"
+		},
+		{
+			"url": "assets/ui/store/store_btn_title1.png",
+			"type": "image",
+			"name": "store_btn_title1_png"
+		},
+		{
+			"url": "assets/ui/store/store_btn_title2.png",
+			"type": "image",
+			"name": "store_btn_title2_png"
+		},
+		{
+			"url": "assets/ui/store/store_item_bg.png",
+			"type": "image",
+			"name": "store_item_bg_png"
+		},
+		{
+			"url": "assets/ui/store/store_title.png",
+			"type": "image",
+			"name": "store_title_png"
+		},
+		{
+			"url": "assets/ui/store/store_btn.png",
+			"type": "image",
+			"name": "store_btn_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_title.png",
+			"type": "image",
+			"name": "friends_title_png"
+		},
+		{
+			"url": "assets/ui/friends/firends_bg_nav.png",
+			"type": "image",
+			"name": "firends_bg_nav_png"
+		},
+		{
+			"url": "assets/ui/friends/friend_list_bg.png",
+			"type": "image",
+			"name": "friend_list_bg_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_item_bg.png",
+			"type": "image",
+			"name": "friends_item_bg_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_item_tips_bg.png",
+			"type": "image",
+			"name": "friends_item_tips_bg_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_chat_title.png",
+			"type": "image",
+			"name": "friends_chat_title_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_add_title.png",
+			"type": "image",
+			"name": "friends_add_title_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_apply_title.png",
+			"type": "image",
+			"name": "friends_apply_title_png"
+		},
+		{
+			"url": "assets/ui/friends/friends_black_title.png",
+			"type": "image",
+			"name": "friends_black_title_png"
+		},
+		{
+			"url": "assets/ui/level/level_bottom.png",
+			"type": "image",
+			"name": "level_bottom_png"
+		},
+		{
+			"url": "assets/ui/level/level_icon.png",
+			"type": "image",
+			"name": "level_icon_png"
+		},
+		{
+			"url": "assets/ui/level/level_progress_up.png",
+			"type": "image",
+			"name": "level_progress_up_png"
+		},
+		{
+			"url": "assets/ui/level/level_progress_down.png",
+			"type": "image",
+			"name": "level_progress_down_png"
+		},
+		{
+			"url": "assets/ui/level/level_title.png",
+			"type": "image",
+			"name": "level_title_png"
+		},
+		{
+			"url": "assets/ui/level/level_progress.png",
+			"type": "image",
+			"name": "level_progress_png"
+		},
+		{
+			"url": "assets/ui/level/level_btn_up.png",
+			"type": "image",
+			"name": "level_btn_up_png"
+		},
+		{
+			"url": "assets/ui/level/level_btn_dis.png",
+			"type": "image",
+			"name": "level_btn_dis_png"
+		},
+		{
+			"url": "assets/ui/level/level_info_up.png",
+			"type": "image",
+			"name": "level_info_up_png"
+		},
+		{
+			"url": "assets/ui/level/level_info_bottom.png",
+			"type": "image",
+			"name": "level_info_bottom_png"
+		},
+		{
+			"url": "assets/ui/level/level_divide_line.png",
+			"type": "image",
+			"name": "level_divide_line_png"
+		},
+		{
+			"url": "assets/ui/level/level_info_bg.png",
+			"type": "image",
+			"name": "level_info_bg_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_title.png",
+			"type": "image",
+			"name": "level_panel_title_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_bottom.png",
+			"type": "image",
+			"name": "level_panel_bottom_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_progress_up.png",
+			"type": "image",
+			"name": "level_panel_progress_up_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_progress_down.png",
+			"type": "image",
+			"name": "level_panel_progress_down_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_rank_bottom.png",
+			"type": "image",
+			"name": "level_panel_rank_bottom_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_btn.png",
+			"type": "image",
+			"name": "level_panel_btn_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_reward.png",
+			"type": "image",
+			"name": "level_panel_reward_png"
+		},
+		{
+			"url": "assets/ui/level/level_panel_btnLabel.png",
+			"type": "image",
+			"name": "level_panel_btnLabel_png"
+		},
+		{
+			"url": "assets/ui/store/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "assets/ui/store/8.png",
+			"type": "image",
+			"name": "8_png"
+		},
+		{
+			"url": "assets/picicon/images/public/40000001.png",
+			"type": "image",
+			"name": "40000001_png"
+		},
+		{
+			"url": "assets/picicon/images/public/40000007.png",
+			"type": "image",
+			"name": "40000007_png"
+		},
+		{
+			"url": "assets/picicon/images/public/40000008.png",
+			"type": "image",
+			"name": "40000008_png"
+		},
+		{
+			"url": "assets/picicon/images/public/40000009.png",
+			"type": "image",
+			"name": "40000009_png"
+		}
+	]
+}

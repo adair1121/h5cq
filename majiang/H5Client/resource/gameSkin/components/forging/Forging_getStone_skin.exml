@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Forging_getStone_skin" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="400" height="300" y="0" source="popup_bg1_png" horizontalCenter="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="10" bottom="10"/>
+	<e:Label text="材料不足，通过以下方式获得" size="16" textColor="0xffd71b" horizontalCenter="0" top="69" fontFamily="SimHei"/>
+	<ns1:RoleEquipRenderer id="item" anchorOffsetX="0" anchorOffsetY="0" skinName="Role_equipItem_skin" horizontalCenter="0" verticalCenter="-10"/>
+	<e:Image source="popup_title1_png" horizontalCenter="0" top="7"/>
+	<e:Group y="182" horizontalCenter="0">
+		<e:Label text="其他途径" size="16" textColor="0xeae2d1" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei"/>
+		<e:Image source="popup_line1_l_png" verticalCenter="0" horizontalCenter="-65"/>
+		<e:Image source="popup_line1_r_png" verticalCenter="0" horizontalCenter="65"/>
+	</e:Group>
+	<e:Image source="popup_bg2_png" anchorOffsetX="0" width="275" bottom="20" horizontalCenter="-25"/>
+	<e:Image source="popup_box_png" left="30" bottom="20"/>
+	<ns1:UI_ConnectWord id="btn_ronglian" text="装备熔炼" size="18" fontFamily="SimHei" bottom="30" left="80" textColor="0x04fe10"/>
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  class="MainUI_roleInfo_skin" width="300" height="118" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image  x="0" visible="false"/>
+	<e:Group x="0" y="0">
+		<e:Image source="role_infoBg_png" x="0" y="0"/>
+		<e:Image source="vip_icon_png" x="116" y="87"/>
+		<e:BitmapLabel id="power" width="107.5" height="23" anchorOffsetX="0" anchorOffsetY="0" x="174.5" y="49.400000000000006" text="57421" font="fightValue_fnt"/>
+		<e:Image id="roleHead" width="80" height="90" x="11.099999999999994" y="14.5" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label id="level" text="199" anchorOffsetX="0" width="22.8" anchorOffsetY="0" height="14" fontFamily="SimHei" size="14" textAlign="center" textColor="0xfefefe" x="84" y="91"/>
+		<e:Image width="25" height="25" x="83.38" y="85.53" source="role_levelBox_png"/>
+		<e:Image width="85" height="85" x="9.5" y="17.599999999999994" source="role_head_light_png"/>
+		<e:BitmapLabel width="37" anchorOffsetX="0" anchorOffsetY="0" height="18.5" y="93.30000000000001" text="v" x="122" font="vipFont_fnt" textAlign="center" verticalAlign="middle"/>
+		<e:Group id="rankBtn" x="190" y="87">
+			<e:Image source="vip_icon_png" x="0" y="0"/>
+			<e:Image source="title_rank_png" x="5" y="3" touchEnabled="false"/>
+		</e:Group>
+		<e:BitmapLabel id="vipNum" width="23" height="17.5" x="155" y="94" font="vipFont_fnt" text="0" verticalAlign="middle" textAlign="center" anchorOffsetY="0" anchorOffsetX="0"/>
+		<e:BitmapLabel width="68.5" height="31" x="102" y="43" font="fightValue_fnt" text="z" anchorOffsetX="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>

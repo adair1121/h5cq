@@ -1,0 +1,1 @@
+module data{	export interface InitializeTemple{		/**		* 编号		*/		ID:number;		/**		* 初始化数据类型		*/		Type:number;		/**		* 枚举编号		*/		num:number;		/**		* 初始值		*/		Value1:number;		/**		* 属性名称		*/		AttrName:string;		/**		* 描述		*/		Name:string;	}}

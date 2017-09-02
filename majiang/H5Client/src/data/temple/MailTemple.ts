@@ -1,0 +1,1 @@
+module data{	export interface MailTemple{		/**		* ID		*/		id:number;		/**		* 类型		*/		Type:number;		/**		* 标题		*/		title:string;		/**		* 邮件内容		*/		content:string;		/**		* 邮件有效时间		*/		validHour:number;		/**		* 附件奖励掉落ID		*/		adjunctDrop:number;	}}

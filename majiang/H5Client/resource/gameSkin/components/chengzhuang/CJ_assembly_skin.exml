@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CJ_assembly_skin" width="400" height="551.97" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="cmmon_box_png" scale9Grid="14,48,317,164" left="0" right="0" top="0" bottom="0"/>
+	
+	<e:Scroller id="scroller" width="370" height="290" x="15" y="81">
+        <e:List id="equipList" width="370" height="290" x="1" y="-1" itemRendererSkinName="CJ_assembly_item_skin">
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object test="null"/>
+                    <e:Object test="null"/>
+                    <e:Object test="null"/>
+                </e:Array>
+            </e:ArrayCollection>
+            <e:layout>
+                <e:VerticalLayout gap="2" horizontalAlign="left" verticalAlign="top"/>
+            </e:layout>
+        </e:List>
+	</e:Scroller>
+	<e:Group y="54.86" horizontalCenter="0">
+		<e:Label text="分解装备" size="16" textColor="0xEAE2D1" horizontalCenter="0" verticalCenter="0" fontFamily="SimHei"/>
+		<e:Image source="popup_line1_l_png" verticalCenter="0" horizontalCenter="-65"/>
+		<e:Image source="popup_line1_r_png" verticalCenter="0" horizontalCenter="65"/>
+	</e:Group>
+	<ns1:Way_other_item id="otherItem" width="346" height="38" skinName="Way_other_item_skin" y="383" horizontalCenter="0"/>
+	<e:Image id="returnBtn" source="bag_returnBtn_png" width="54" height="54" right="14" bottom="11.970000000000027"/>
+</e:Skin>

@@ -1,0 +1,1 @@
+module data{	export interface WordTemple{		/**		* 编号ID		*/		ID:number;		/**		* 枚举值		*/		enumValue:string;		/**		* 文字内容		*/		word:string;	}}

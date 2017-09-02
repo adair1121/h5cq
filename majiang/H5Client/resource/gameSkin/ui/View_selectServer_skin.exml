@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="View_selectServer_skin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="group" width="480" height="456" top="33" left="0" anchorOffsetY="0">
+		<e:RadioButton id="server0" label="127.0.0.1" y="40" skinName="skins.RadioButtonSkin" enabled="true" scaleX="1" scaleY="1" x="100"/>
+		<e:RadioButton id="server1" label="172.17.1.51" y="146" skinName="skins.RadioButtonSkin" enabled="true" scaleX="1" scaleY="1" groupName="radioGroupd" x="99"/>
+		<e:RadioButton id="server3" label="172.17.1.40" y="146" skinName="skins.RadioButtonSkin" enabled="true" scaleX="1" scaleY="1" groupName="radioGroupd" x="99"/>
+		<e:RadioButton id="server2" label="172.17.1.40" y="252" skinName="skins.RadioButtonSkin" enabled="true" scaleX="1" scaleY="1" x="100"/>
+		<e:layout>
+			<e:TileLayout orientation="columns" rowHeight="100" paddingLeft="100" requestedColumnCount="1" horizontalAlign="left" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Button id="startBtn" label="Button" x="95" y="581" skinName="BagBtn_skin"/>
+	<e:Button id="btn_clear" label="Button" x="296" y="581" skinName="BagBtn_skin"/>
+</e:Skin>

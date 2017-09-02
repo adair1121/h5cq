@@ -1,0 +1,46 @@
+日志格式=>	备注	第1列	第2列	第3列	第4列	第5列	第6列	第7列	第8列	第9列	第10列	第11列	第12列	第13列	
+ID	name	date	time	serverid	type	userID	charID	currencyType	num	otherID	count	onlyID	lev	desc	
+string	string	string	string	string	RecordType	string	string	string	string	string	string	string	string	string	
+sysstart	服务器启动	日期	时间	0	sysstart										
+sysstop	服务器关闭	日期	时间	0	sysstop										
+online	在线	日期	时间	0	online				在线人数						
+gm	GM指令	日期	时间	0	gm										
+createuser	创角事件	日期	时间	0	createuser	用户ID									
+login	登陆	日期	时间	0	login	用户ID									
+logout	登出	日期	时间	0	logout	用户ID									
+creatplayer	创角	日期	时间	0	creatplayer	用户ID	角色ID								
+delplayer	删除玩家	日期	时间	0	delplayer	用户ID	角色ID								
+enterworld	玩家进入世界	日期	时间	0	enterworld	用户ID	角色ID								
+exitworld	玩家离开世界	日期	时间	0	exitworld	用户ID	角色ID								
+entermap	玩家进入地图	日期	时间	0	entermap	用户ID	角色ID								
+exitmap	玩家离开地图	日期	时间	0	exitmap	用户ID	角色ID								
+level	玩家升级	日期	时间	0	level	用户ID	角色ID		新等级						
+speak	说话	日期	时间	0	speak	用户ID	角色ID								
+getskill	获得新技能	日期	时间	0	getskill	用户ID	角色ID			技能ID					
+useskill	使用技能	日期	时间	0	useskill	用户ID	角色ID			技能ID					
+dead	死亡killerkillerid	日期	时间	0	dead	用户ID	角色ID			杀人者ID					
+getmail	获取邮件附件	日期	时间	0	getmail	用户ID	角色ID			邮件ID					
+delmail	删除邮件	日期	时间	0	delmail	用户ID	角色ID			邮件ID					
+starttask	获得任务	日期	时间	0	starttask	用户ID	角色ID			任务ID					
+completetask	完成任务	日期	时间	0	completetask	用户ID	角色ID			任务ID					
+endtask	交接任务	日期	时间	0	endtask	用户ID	角色ID			任务ID					
+killtask	放弃任务	日期	时间	0	killtask	用户ID	角色ID			任务ID					
+charge	充值	日期	时间	0	charge	用户ID			充值金额						
+buy	购买系统物品	日期	时间	0	buy	用户ID	角色ID	货币类型	消费元宝数量	道具ID	道具数量	道具唯一ID		具体购买信息	
+salegoods	上架	日期	时间	0	salegoods	用户ID	角色ID			道具ID	道具数量	道具唯一ID			
+dropgoods	下架	日期	时间	0	dropgoods	用户ID	角色ID			道具ID	道具数量	道具唯一ID			
+buygoods	购买市场的一个物品	日期	时间	0	buygoods	用户ID	角色ID	货币类型	消费金额	道具ID	道具数量	道具唯一ID			
+getmoney	获取出售物品的回报	日期	时间	0	getmoney	用户ID	角色ID	货币类型	获得金额					获取来源	
+monsterdrop	怪物掉落	日期	时间	0	monsterdrop	怪物ID	怪物级别			道具ID	道具数量	道具唯一ID	道具级别		
+playerdrop	玩家掉落	日期	时间	0	playerdrop	用户ID	角色ID			道具ID	道具数量	道具唯一ID	道具级别		
+dropdisappear	掉落物消失	日期	时间	0	dropdisappear					道具ID	道具数量	道具唯一ID	道具级别		
+addMonster	添加新怪物	日期	时间	0	addMonster	怪物ID	怪物级别								
+removeMonster	移除怪物	日期	时间	0	removeMonster	怪物ID	怪物级别								
+newEquip	新装备生成	日期	时间	0	newEquip	用户ID	角色ID			道具ID	道具数量	道具唯一ID	道具级别		
+getgoods	获得物品	日期	时间	0	getgoods	用户ID	角色ID			道具ID	道具数量	道具唯一ID	道具级别	获取来源	
+usegoods	使用物品	日期	时间	0	usegoods	用户ID	角色ID			道具ID	道具数量	道具唯一ID	道具级别		
+destroygoods	摧毁回收物品	日期	时间	0	destroygoods	用户ID	角色ID			道具ID	道具数量	道具唯一ID	道具级别		
+xilian	洗练	日期	时间	0	xilian	用户ID	角色ID			道具ID		道具唯一ID	道具级别		
+stub	镶嵌	日期	时间	0	stub	用户ID	角色ID			道具ID		道具唯一ID	道具级别		
+improve	强化	日期	时间	0	improve	用户ID	角色ID			道具ID		道具唯一ID	道具级别		
+maximprove	提高强化上限	日期	时间	0	maximprove	用户ID	角色ID			道具ID		道具唯一ID	道具级别		

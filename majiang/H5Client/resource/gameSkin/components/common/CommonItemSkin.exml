@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemSkin" width="66" height="82" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group anchorOffsetY="0" left="0" top="0" right="0" bottom="0">
+		<e:Image id="equipBox" source="bag_1_box_png" width="66" height="66" scale9Grid="8,8,60,60" x="0" y="0"/>
+		<e:Image id="equipImg" width="56" height="56" source="" x="5" y="4.88" />
+		<e:Label id="rightLabel" text="" anchorOffsetX="0" width="27" anchorOffsetY="0" height="12.4" fontFamily="SimHei" size="16" verticalAlign="justify" textAlign="right" backgroundColor="0x000000" textColor="0xE5B347" x="32.11" y="44.43"/>
+		<e:Label id="leftLabel" text="" x="6.82" y="43.84" size="16" anchorOffsetX="0" width="13" fontFamily="SimHei" textColor="0x0BA7EA" height="12.4"/>
+		<e:Label id="itemName" text="" size="14" fontFamily="SimHei" horizontalCenter="0" bottom="2" verticalAlign="bottom"/>
+	</e:Group>
+</e:Skin>

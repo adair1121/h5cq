@@ -1,0 +1,1 @@
+module data{	export interface CheatsTemple{		/**		* ID		*/		id:number;		/**		* 物品ID		*/		itemid:number;		/**		* 秘籍名称		*/		cheatsName:string;		/**		* 秘籍图标		*/		iconID:number;		/**		* 秘籍等级		*/		cheatsLevel:number;		/**		* 秘籍描述		*/		cheatsInformation:string;		/**		* 秘籍评分		*/		cheatsGrade:number;		/**		* 秘籍技能		*/		cheatsSkill:number;	}}

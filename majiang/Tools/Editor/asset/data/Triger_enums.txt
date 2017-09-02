@@ -1,0 +1,20 @@
+﻿{
+    "PAttr": [
+        "lev", 
+        "HP", 
+        "MP", 
+        "bindgold", 
+        "bindmoney"
+    ], 
+    "MonsterID": [
+        "gw1", 
+        "gw2", 
+        "gw3"
+    ]
+    , 
+    "ItemID": [
+        "item1", 
+        "item2", 
+        "item3"
+    ]
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="System_notice_skin" width="520" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tips_png" left="0" top="0" bottom="0" right="0" scale9Grid="14,14,48,48"/>
+</e:Skin>

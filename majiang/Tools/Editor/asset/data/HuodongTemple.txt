@@ -1,0 +1,6 @@
+序号	活动名	需要帮会	参加等级	活动日期	活动预告时间	活动开始时间	活动结束时间	入口类型	入口参数	活动显示图标	活动显示面板	消耗货币类型	货币数量	消耗物品ID	消耗物品数量	活动推送
+ID	name	needguild	needlev	date	readytime	starttime	endtime	entertype	enterargs	showIcon	showUI	goldType	count	needItem	itemcount	activityPush
+string	string	bool	int	string	string	string	string	int	string	string	string	string	int	string	int	string
+1	劫杀圣地	0	60		11:50	12:00	12:30	4	17	jieshashengdi		bindMoney	100		0	<green>劫杀圣地</green>已经开启，请各位勇士前往击杀<br>奖励：<green>装备</green>、<green>金币</green>、<green>礼券</green>
+2	劫杀圣地	0	60		20:50	21:00	21:30	4	17	jieshashengdi		bindMoney	100		0	<green>劫杀圣地</green>已经开启，请各位勇士前往击杀<br>奖励：<green>装备</green>、<green>金币</green>、<green>礼券</green>
+3	帮会副本	1	60					3	212,renwuchushengdian	banghuifuben			0		0	<green>帮会副本</green>已经开启，请各位勇士前往保护帮会守护兽<br>奖励：<green>装备</green>、<green>金币</green>、<green>礼券</green>

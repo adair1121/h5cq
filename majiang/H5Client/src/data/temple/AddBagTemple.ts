@@ -1,0 +1,1 @@
+module data{	export interface AddBagTemple{		/**		* ID		*/		ID:number;		/**		* 扩充个数		*/		addNumber:number;		/**		* 消耗元宝		*/		yuanbaoNumber:number;	}}

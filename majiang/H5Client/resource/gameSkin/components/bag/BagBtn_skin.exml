@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagBtn_skin" width="92" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Button id="button" width="92" height="41" left="0" top="0" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source.up="bag_btn2_png" source.down="bag_btn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="labelTxt" text="角色" anchorOffsetX="0" width="82" horizontalCenter="0" verticalCenter="0" size="20" textColor="0xeaddbf" textAlign="center" verticalAlign="middle" fontFamily="SimHei" touchEnabled="false" wordWrap="false"/>
+</e:Skin>
